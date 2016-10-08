@@ -1,0 +1,25 @@
+<div ng-include="'side-menu.html'"></div>
+<div ng-controller="myProfileController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <div class="pocket-guide-wrapper">
+      <h3 class="subHeadingForm">My Page Preference</h3>
+
+      <div class="form-group labelInput clearfix">
+        <img src="images/custSegIcon.png" ng-model="segIcon" class="labelImg"/>
+        <select id="pagePreference" ng-model="pagePreference" class="form-control" ng-required="true">
+          <option value="">Please Select</option>
+          <option value="home">My Worklist</option>
+          <option value="lead">Lead Creation</option>
+          <!-- <option value="">Opportunity Creation</option> -->
+          <option value="reports">Reports</option>
+          <option value="calculate-emi">EMI Calculator</option>
+          <option value="pocket-guide">Pocket Guide</option>
+          <option value="my-profile">My Profile</option>
+        </select>
+      </div>
+        <div class="preference-btn-wrapper">
+          <span class="btn btn-primary" ng-click="setPreference()">Submit</span>
+        </div>
+      
+    </div>
+</div>

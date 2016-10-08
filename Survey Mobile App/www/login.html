@@ -1,0 +1,56 @@
+<div ng-controller="loginController" class="login-wrapper">
+  <loading></loading>
+    <div class="loginpage clearfix">
+        <div class="col-sm-6 col-sm-offset-3 loginBox">
+            <div class="loginLogo">
+                <img src="images/survey-logo.png" width="200"/>
+            </div>
+            <form name="loginForm" class="loginForm" novalidate ng-submit="loginSubmit(loginForm.$valid)">
+                <div class="form-group clearfix" ng-class="{ 'has-error' : (loginForm.userName.$invalid && submitted && !userNamefocused)}">
+                    <span class="username-icon"></span>
+                    <input class="form-control" type="text" id="username" name="userName" placeholder="Username" ng-model="userName" ng-required="true" ng-focus="userNamefocused=true" ng-blur="userNamefocused=false"/>
+                    <p class="error validationError" ng-show="loginForm.userName.$error.required && submitted && !userNamefocused" class="help-block error">Please enter Username.</p>
+                </div>
+                <div class="form-group clearfix" ng-class="{ 'has-error' : (loginForm.password.$invalid && submitted && !pwdfocused)}">
+                    <span class="password-icon"></span>
+                    <input class="form-control" type="password" id="password" name="password" placeholder="Password" ng-model="password" ng-required="true" ng-focus="pwdfocused=true" ng-blur="pwdfocused=false"/>
+                    <p class="error validationError" ng-show="loginForm.password.$error.required && submitted && !pwdfocused" class="help-block error">Please enter Password.</p>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block loginBtn">LOGIN</button>
+            </form>
+
+            <!-- <div class="forget-pwd-wrapper clearfix">
+              <a href="#/register" class="register">Register</a>
+              <a href="#/forgot-password" class="forget-pwd">Forgot Password</a>
+            </div> -->
+        </div>
+    </div>
+    <div class="login-page-tag-line tag-line">
+        <span class="copyright-text">Copyright @ 2016</span>
+        <img src="images/tmf-tag-line.png" width="200" />
+    </div>
+
+</div>
+
+<script>
+      $( document ).ready(function() {
+        setHeight();
+       });
+
+
+      window.onresize = function(event) {
+        setHeight();
+      }
+
+      function setHeight() {
+        var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+        if(height < 480) {
+          height = 480;
+        }
+        $('.login-wrapper').css('min-height', height);
+        
+      }
+
+  </script>
+

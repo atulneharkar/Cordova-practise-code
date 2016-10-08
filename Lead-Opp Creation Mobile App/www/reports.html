@@ -1,0 +1,87 @@
+<div ng-include="'side-menu.html'"></div>
+<div ng-controller="reportsController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <script src="Chart.js"></script>
+    <div class="reports-wrapper">
+        <ul id="myTabs" class="nav nav-tabs row" role="tablist"> 
+            <li role="presentation" class="active col-xs-6 col-md-6">
+                <a href="#stage" id="stage-tab" role="tab" data-toggle="tab" aria-controls="stage" aria-expanded="true" ng-click="toggleReports($event)">Stage</a>
+            </li>
+            <li role="presentation" class="col-xs-6 col-md-6">
+                <a href="#product" role="tab" id="product-tab" data-toggle="tab" aria-controls="product" aria-expanded="false" ng-click="toggleReports($event)">Product</a>
+            </li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content"> 
+            <div role="tabpanel" class="tab-pane fade active in" id="stage" aria-labelledby="stage-tab">
+
+            <div class="select-box-wrapper">
+                <select ng-change="toggleDataDisplay('stage')" ng-model="selectedStageType" class="form-control">
+                    <option value="">Count</option>
+                    <option value="show-stage-percentage">Percentage</option>
+                </select>
+            </div>
+            
+                <div id="canvas-holder">
+                    <canvas id="chart-area1" width="100" height="100"/>
+                </div>
+
+                <div id="stage-legend">
+                	<ul class="pie-legend show-stage-count">
+                      <li ng-repeat="data in stageData">
+                        <span class="pie-legend-icon"></span>
+                        <p class="pie-legend-text">{{data.label}} <span class="bold">({{data.value}})</span></p>
+                      </li>
+                    </ul>
+
+                    <ul class="pie-legend show-stage-percentage">
+                      <li ng-repeat="data in stageData">
+                        <span class="pie-legend-icon"></span>
+                        <p class="pie-legend-text">{{data.label}} <span class="bold">({{data.percentage}}%)</span></p>
+                      </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="product" aria-labelledby="product-tab">
+
+                <div class="select-box-wrapper">
+                    <select ng-change="toggleDataDisplay('product')" ng-model="selectedProductType" class="form-control">
+                        <option value="">Count</option>
+                        <option value="show-product-percentage">Percentage</option>
+                    </select>
+                </div>
+            
+            	<div id="canvas-holder">
+                    <canvas id="chart-area2" width="100" height="100"/>
+                </div>
+
+                <div id="product-legend">
+                	<ul class="pie-legend show-product-count">
+                      <li ng-repeat="data in productData">
+                        <span class="pie-legend-icon"></span>
+                        <p class="pie-legend-text">{{data.label}} <span class="bold">({{data.value}})</span></p>
+                      </li>
+                    </ul>
+
+                    <ul class="pie-legend show-product-percentage">
+                      <li ng-repeat="data in productData">
+                        <span class="pie-legend-icon"></span>
+                        <p class="pie-legend-text">{{data.label}} <span class="bold">({{data.percentage}}%)</span></p>
+                      </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+	<script>
+
+		
+
+	</script>
+</div>
+

@@ -1,0 +1,26 @@
+<div ng-include="'side-menu.html'"></div>
+<div ng-controller="pocketGuideController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <div class="pocket-guide-wrapper">
+        <div class="schemeRefresh-wrapper">
+            <img src="images/refreshButton.png" width="30" height="30" ng-click="pocketGuideUpdate()"/>
+            <p class="last-updated-text"><span class="schemeRefr">Last updated at:</span>{{refreshTime}}</p>
+        </div>
+        <h3 class="subHeadingForm">Current Schemes</h3>
+        <div class="search-field">
+            <input class="form-control" type="text" ng-model="schemeName" placeholder="Search by Scheme Name, Product..." />
+            <span class="clear-input" ng-click="clearInput()"></span>
+        </div>
+        <div class="scheme-wrapper" ng-repeat="dat in schemes.senddata | filter: schemeName">
+            <div class="name-product-wrapper" ng-click="showSchemeDetails($event)">
+                {{dat.schemeName}} ({{dat.product}})
+            </div>
+            <div class="scheme-details">
+                <p class="irr"><span class="item-heading">IRR: </span><span class="item-content">{{dat.irr}}</span></p>
+                <p class="irr"><span class="item-heading">Doc Charges: </span><span class="item-content">{{dat.docCharges}}</span></p>
+                <p class="irr"><span class="item-heading">Valid upto: </span><span class="item-content">{{dat.validUpTo | setDateFormat}}</span></p>
+            </div>
+        </div>
+    </div>
+    <loading></loading>
+</div>

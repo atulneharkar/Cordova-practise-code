@@ -1,0 +1,6214 @@
+[{
+	"value": "32-031",
+	"label": "Dera Baba Nanak"
+}, {
+	"value": "32-032",
+	"label": "Dera Bassi"
+}, {
+	"value": "32-033",
+	"label": "Dhanaula"
+}, {
+	"value": "32-034",
+	"label": "Dharamkot"
+}, {
+	"value": "32-035",
+	"label": "Dhariwal"
+}, {
+	"value": "32-036",
+	"label": "Dhilwan"
+}, {
+	"value": "32-037",
+	"label": "Dhuri"
+}, {
+	"value": "32-038",
+	"label": "Dinanagar"
+}, {
+	"value": "32-039",
+	"label": "Dirba"
+}, {
+	"value": "32-040",
+	"label": "Doraha"
+}, {
+	"value": "32-041",
+	"label": "Faridkot"
+}, {
+	"value": "32-042",
+	"label": "Fatehgarh Churian"
+}, {
+	"value": "32-043",
+	"label": "Fazilka"
+}, {
+	"value": "32-044",
+	"label": "Firozpur"
+}, {
+	"value": "32-045",
+	"label": "Firozpur Cantt"
+}, {
+	"value": "32-046",
+	"label": "Gardhiwala"
+}, {
+	"value": "32-047",
+	"label": "Garhshankar"
+}, {
+	"value": "32-048",
+	"label": "Ghagga"
+}, {
+	"value": "32-049",
+	"label": "Ghanaur"
+}, {
+	"value": "32-050",
+	"label": "Giddarbaha"
+}, {
+	"value": "32-051",
+	"label": "Gobindgarh"
+}, {
+	"value": "32-052",
+	"label": "Goniana"
+}, {
+	"value": "32-053",
+	"label": "Goraya"
+}, {
+	"value": "32-054",
+	"label": "Gurdaspur"
+}, {
+	"value": "32-055",
+	"label": "Guru Har Sahai"
+}, {
+	"value": "32-056",
+	"label": "Hajipur"
+}, {
+	"value": "32-057",
+	"label": "Handiaya"
+}, {
+	"value": "32-058",
+	"label": "Hariana"
+}, {
+	"value": "32-059",
+	"label": "Hoshiarpur"
+}, {
+	"value": "32-060",
+	"label": "Hussainpur"
+}, {
+	"value": "32-061",
+	"label": "Jagraon"
+}, {
+	"value": "32-062",
+	"label": "Jaitu"
+}, {
+	"value": "32-063",
+	"label": "Jalalabad"
+}, {
+	"value": "32-064",
+	"label": "Jalandhar"
+}, {
+	"value": "32-065",
+	"label": "Jalandhar Cantt"
+}, {
+	"value": "32-066",
+	"label": "Jandiala"
+}, {
+	"value": "32-068",
+	"label": "Jugial"
+}, {
+	"value": "32-069",
+	"label": "Kalanaur"
+}, {
+	"value": "32-070",
+	"label": "Kapurthala"
+}, {
+	"value": "32-071",
+	"label": "Karoran"
+}, {
+	"value": "32-072",
+	"label": "Kartarpur"
+}, {
+	"value": "32-073",
+	"label": "Khamanon"
+}, {
+	"value": "32-074",
+	"label": "Khanauri"
+}, {
+	"value": "32-075",
+	"label": "Khanna"
+}, {
+	"value": "32-076",
+	"label": "Kharar"
+}, {
+	"value": "32-077",
+	"label": "Khemkaran"
+}, {
+	"value": "32-078",
+	"label": "Kot Fatta"
+}, {
+	"value": "32-079",
+	"label": "Kot Kapura"
+}, {
+	"value": "32-080",
+	"label": "Kurali"
+}, {
+	"value": "32-081",
+	"label": "Lehragaga"
+}, {
+	"value": "32-082",
+	"label": "Lohian Khas"
+}, {
+	"value": "32-083",
+	"label": "Longowal"
+}, {
+	"value": "32-084",
+	"label": "Ludhiana"
+}, {
+	"value": "32-085",
+	"label": "Machhiwara"
+}, {
+	"value": "32-086",
+	"label": "Mahilpur"
+}, {
+	"value": "32-087",
+	"label": "Majitha"
+}, {
+	"value": "32-088",
+	"label": "Makhu"
+}, {
+	"value": "32-089",
+	"label": "Malerkotla"
+}, {
+	"value": "32-090",
+	"label": "Maloud"
+}, {
+	"value": "32-091",
+	"label": "Malout"
+}, {
+	"value": "32-092",
+	"label": "Nabha"
+}, {
+	"value": "32-093",
+	"label": "Payal"
+}, {
+	"value": "32-094",
+	"label": "Rampura Phul"
+}, {
+	"value": "32-095",
+	"label": "Sangrur"
+}, {
+	"value": "32-096",
+	"label": "Sunam"
+}, {
+	"value": "32-097",
+	"label": "MANSA(PB)"
+}, {
+	"value": "32-098",
+	"label": "Nakodar"
+}, {
+	"value": "32-099",
+	"label": "Phagwara"
+}, {
+	"value": "32-100",
+	"label": "Rayya"
+}, {
+	"value": "32-101",
+	"label": "Sansarpur"
+}, {
+	"value": "32-102",
+	"label": "Talwandi Bhai"
+}, {
+	"value": "32-103",
+	"label": "Maur"
+}, {
+	"value": "32-104",
+	"label": "Nangal"
+}, {
+	"value": "32-105",
+	"label": "Phillaur"
+}, {
+	"value": "32-106",
+	"label": "Rupnagar"
+}, {
+	"value": "32-107",
+	"label": "Sardulgarh"
+}, {
+	"value": "32-108",
+	"label": "Talwara"
+}, {
+	"value": "32-109",
+	"label": "Moga"
+}, {
+	"value": "32-110",
+	"label": "Nawanshahr"
+}, {
+	"value": "32-111",
+	"label": "Qadian"
+}, {
+	"value": "32-112",
+	"label": "Rurki Kasba"
+}, {
+	"value": "32-113",
+	"label": "Shahkot"
+}, {
+	"value": "32-114",
+	"label": "Tapa"
+}, {
+	"value": "32-115",
+	"label": "Moonak"
+}, {
+	"value": "32-116",
+	"label": "Nehon"
+}, {
+	"value": "32-117",
+	"label": "Rahon"
+}, {
+	"value": "32-118",
+	"label": "S.A.S.Nagar"
+}, {
+	"value": "32-119",
+	"label": "Sham ChaurasI"
+}, {
+	"value": "32-120",
+	"label": "Tarn-Taran"
+}, {
+	"value": "32-121",
+	"label": "Morinda"
+}, {
+	"value": "32-122",
+	"label": "Nurmahal"
+}, {
+	"value": "32-123",
+	"label": "Raikot"
+}, {
+	"value": "32-124",
+	"label": "Sahnewal"
+}, {
+	"value": "32-125",
+	"label": "Shekhpura"
+}, {
+	"value": "32-126",
+	"label": "Urmar Tanda"
+}, {
+	"value": "32-127",
+	"label": "Mukerian"
+}, {
+	"value": "32-128",
+	"label": "Pathankot"
+}, {
+	"value": "32-129",
+	"label": "Raja Sansi"
+}, {
+	"value": "32-130",
+	"label": "Samana"
+}, {
+	"value": "32-131",
+	"label": "Sirhind Fatehgarh S"
+}, {
+	"value": "32-132",
+	"label": "Zira"
+}, {
+	"value": "32-133",
+	"label": "Muktsar"
+}, {
+	"value": "32-134",
+	"label": "Patiala"
+}, {
+	"value": "32-135",
+	"label": "Rajpura"
+}, {
+	"value": "32-136",
+	"label": "Samrala"
+}, {
+	"value": "32-137",
+	"label": "Sri Hargobindpur"
+}, {
+	"value": "32-138",
+	"label": "Zirakpur"
+}, {
+	"value": "32-139",
+	"label": "Mullanpur Dakha"
+}, {
+	"value": "32-140",
+	"label": "Patran"
+}, {
+	"value": "32-141",
+	"label": "Raman"
+}, {
+	"value": "32-142",
+	"label": "Sanaur"
+}, {
+	"value": "32-143",
+	"label": "Sujanpur"
+}, {
+	"value": "32-144",
+	"label": "Mullanpur Garib Das"
+}, {
+	"value": "32-145",
+	"label": "Patti"
+}, {
+	"value": "32-146",
+	"label": "Ramdas"
+}, {
+	"value": "32-147",
+	"label": "Sangat"
+}, {
+	"value": "32-148",
+	"label": "SULTANPUR(PB)"
+}, {
+	"value": "32-149",
+	"label": "Abohar"
+}, {
+	"value": "32-150",
+	"label": "Adampur"
+}, {
+	"value": "32-151",
+	"label": "Ahmedgarh"
+}, {
+	"value": "32-152",
+	"label": "Ajnala"
+}, {
+	"value": "32-153",
+	"label": "Akalgarh"
+}, {
+	"value": "32-154",
+	"label": "Alawalpur"
+}, {
+	"value": "32-155",
+	"label": "Amloh"
+}, {
+	"value": "32-156",
+	"label": "Amritsar"
+}, {
+	"value": "32-157",
+	"label": "Amritsar Cantt"
+}, {
+	"value": "34-001",
+	"label": "Asind"
+}, {
+	"value": "34-002",
+	"label": "Baggar"
+}, {
+	"value": "34-003",
+	"label": "Bagru"
+}, {
+	"value": "34-004",
+	"label": "Bakani"
+}, {
+	"value": "34-005",
+	"label": "Bali"
+}, {
+	"value": "34-006",
+	"label": "Balotra"
+}, {
+	"value": "34-007",
+	"label": "Banasthali"
+}, {
+	"value": "34-008",
+	"label": "Bandikui"
+}, {
+	"value": "34-009",
+	"label": "Banswara"
+}, {
+	"value": "34-010",
+	"label": "Baran"
+}, {
+	"value": "34-011",
+	"label": "Bari"
+}, {
+	"value": "34-012",
+	"label": "Bari Sadri"
+}, {
+	"value": "34-013",
+	"label": "Barmer"
+}, {
+	"value": "34-014",
+	"label": "Basni Belima"
+}, {
+	"value": "34-015",
+	"label": "Bayana"
+}, {
+	"value": "34-016",
+	"label": "Beawar"
+}, {
+	"value": "34-017",
+	"label": "Beejoliya Kalan"
+}, {
+	"value": "34-018",
+	"label": "Begun"
+}, {
+	"value": "34-019",
+	"label": "Behror"
+}, {
+	"value": "34-020",
+	"label": "Bhadra"
+}, {
+	"value": "34-021",
+	"label": "Bhalariya"
+}, {
+	"value": "34-022",
+	"label": "Bharatpur"
+}, {
+	"value": "34-023",
+	"label": "Bhawani Mandi"
+}, {
+	"value": "34-024",
+	"label": "Bhilwara"
+}, {
+	"value": "34-025",
+	"label": "Bhinder"
+}, {
+	"value": "34-026",
+	"label": "Bhinmal"
+}, {
+	"value": "34-027",
+	"label": "Bhiwadi"
+}, {
+	"value": "34-028",
+	"label": "Bhusawar"
+}, {
+	"value": "34-029",
+	"label": "Bidasar"
+}, {
+	"value": "34-030",
+	"label": "Bikaner"
+}, {
+	"value": "34-031",
+	"label": "Bilara"
+}, {
+	"value": "34-032",
+	"label": "Bissau"
+}, {
+	"value": "34-033",
+	"label": "Budhpura"
+}, {
+	"value": "34-034",
+	"label": "Bundi"
+}, {
+	"value": "34-035",
+	"label": "Chaksu"
+}, {
+	"value": "34-036",
+	"label": "Chechat"
+}, {
+	"value": "34-037",
+	"label": "Chhabra"
+}, {
+	"value": "34-038",
+	"label": "Chhapar"
+}, {
+	"value": "34-039",
+	"label": "Chhipabarod"
+}, {
+	"value": "34-040",
+	"label": "Chhoti Sadri"
+}, {
+	"value": "34-041",
+	"label": "Chirawa"
+}, {
+	"value": "34-042",
+	"label": "CHITTORGARH"
+}, {
+	"value": "34-043",
+	"label": "Chomu"
+}, {
+	"value": "34-044",
+	"label": "Churu"
+}, {
+	"value": "34-045",
+	"label": "Dariba"
+}, {
+	"value": "34-046",
+	"label": "Dausa"
+}, {
+	"value": "34-047",
+	"label": "Deeg"
+}, {
+	"value": "34-048",
+	"label": "Deogarh"
+}, {
+	"value": "34-049",
+	"label": "Deoli"
+}, {
+	"value": "34-050",
+	"label": "Deshnoke"
+}, {
+	"value": "34-051",
+	"label": "Dhariawad"
+}, {
+	"value": "34-052",
+	"label": "Dhaulpur"
+}, {
+	"value": "34-053",
+	"label": "Didwana"
+}, {
+	"value": "34-054",
+	"label": "Dungargarh"
+}, {
+	"value": "34-055",
+	"label": "Dungarpur"
+}, {
+	"value": "34-056",
+	"label": "Falna"
+}, {
+	"value": "34-057",
+	"label": "Fatehnagar"
+}, {
+	"value": "34-058",
+	"label": "Fatehpur"
+}, {
+	"value": "34-059",
+	"label": "Gajsinghpur"
+}, {
+	"value": "34-060",
+	"label": "Galiakot"
+}, {
+	"value": "34-061",
+	"label": "Ganganagar"
+}, {
+	"value": "34-062",
+	"label": "Gangapur"
+}, {
+	"value": "34-063",
+	"label": "Gangapur City"
+}, {
+	"value": "34-064",
+	"label": "Goredi Chancha"
+}, {
+	"value": "34-065",
+	"label": "Govindgarh"
+}, {
+	"value": "34-066",
+	"label": "Gulabpura"
+}, {
+	"value": "34-067",
+	"label": "Hanumangarh"
+}, {
+	"value": "34-068",
+	"label": "Hindaun"
+}, {
+	"value": "34-069",
+	"label": "Jahazpur"
+}, {
+	"value": "34-070",
+	"label": "Jaipur"
+}, {
+	"value": "34-071",
+	"label": "Jaisalmer"
+}, {
+	"value": "34-072",
+	"label": "Jaitaran"
+}, {
+	"value": "34-073",
+	"label": "Jalor"
+}, {
+	"value": "34-074",
+	"label": "Jhalawar"
+}, {
+	"value": "34-075",
+	"label": "Jhalrapatan"
+}, {
+	"value": "34-076",
+	"label": "JHUJHUNU"
+}, {
+	"value": "34-077",
+	"label": "Jobner"
+}, {
+	"value": "34-078",
+	"label": "Jodhpur"
+}, {
+	"value": "34-079",
+	"label": "Kaithoon"
+}, {
+	"value": "34-080",
+	"label": "Kaman"
+}, {
+	"value": "34-081",
+	"label": "Kanor"
+}, {
+	"value": "34-082",
+	"label": "Kapasan"
+}, {
+	"value": "34-083",
+	"label": "Kaprain"
+}, {
+	"value": "34-084",
+	"label": "Karanpur"
+}, {
+	"value": "34-085",
+	"label": "Karauli"
+}, {
+	"value": "34-086",
+	"label": "Kekri"
+}, {
+	"value": "34-087",
+	"label": "Keshoraipatan"
+}, {
+	"value": "34-088",
+	"label": "Kesrisinghpur"
+}, {
+	"value": "34-089",
+	"label": "Khairthal"
+}, {
+	"value": "34-090",
+	"label": "Khandela"
+}, {
+	"value": "34-091",
+	"label": "Kherli"
+}, {
+	"value": "34-092",
+	"label": "Kuchaman City"
+}, {
+	"value": "34-093",
+	"label": "Mahwa"
+}, {
+	"value": "34-094",
+	"label": "Modak"
+}, {
+	"value": "34-095",
+	"label": "Nawa"
+}, {
+	"value": "34-096",
+	"label": "Parbatsar"
+}, {
+	"value": "34-097",
+	"label": "PRATAPGARH(RJ)"
+}, {
+	"value": "34-098",
+	"label": "Rani"
+}, {
+	"value": "34-099",
+	"label": "Salumbar"
+}, {
+	"value": "34-100",
+	"label": "Shahpura"
+}, {
+	"value": "34-101",
+	"label": "Surajgarh"
+}, {
+	"value": "34-102",
+	"label": "Udaipurwati"
+}, {
+	"value": "34-103",
+	"label": "Kherliganj"
+}, {
+	"value": "34-104",
+	"label": "Kuchera"
+}, {
+	"value": "34-105",
+	"label": "Makrana"
+}, {
+	"value": "34-106",
+	"label": "Mount Abu"
+}, {
+	"value": "34-107",
+	"label": "Nawalgarh"
+}, {
+	"value": "34-108",
+	"label": "Partapur"
+}, {
+	"value": "34-109",
+	"label": "Pushkar"
+}, {
+	"value": "34-110",
+	"label": "Ratangarh"
+}, {
+	"value": "34-111",
+	"label": "Sambhar"
+}, {
+	"value": "34-112",
+	"label": "Sheoganj"
+}, {
+	"value": "34-113",
+	"label": "Suratgarh"
+}, {
+	"value": "34-114",
+	"label": "Udpura"
+}, {
+	"value": "34-115",
+	"label": "Kherwara Chhaoni"
+}, {
+	"value": "34-116",
+	"label": "Kumbhkot"
+}, {
+	"value": "34-117",
+	"label": "Malpura"
+}, {
+	"value": "34-118",
+	"label": "Mukandgarh"
+}, {
+	"value": "34-119",
+	"label": "Neem-Ka-Thana"
+}, {
+	"value": "34-120",
+	"label": "Phalodi"
+}, {
+	"value": "34-121",
+	"label": "Raisinghnagar"
+}, {
+	"value": "34-122",
+	"label": "Ratannagar"
+}, {
+	"value": "34-123",
+	"label": "Sanchore"
+}, {
+	"value": "34-124",
+	"label": "Sikar"
+}, {
+	"value": "34-125",
+	"label": "Takhatgarh"
+}, {
+	"value": "34-126",
+	"label": "Uniara"
+}, {
+	"value": "34-127",
+	"label": "Khetri"
+}, {
+	"value": "34-128",
+	"label": "Kumher"
+}, {
+	"value": "34-129",
+	"label": "Mandalgarh"
+}, {
+	"value": "34-130",
+	"label": "Mundwá"
+}, {
+	"value": "34-131",
+	"label": "Newa Talai"
+}, {
+	"value": "34-132",
+	"label": "Phulera"
+}, {
+	"value": "34-133",
+	"label": "Rajakhera"
+}, {
+	"value": "34-134",
+	"label": "Rawatbhata"
+}, {
+	"value": "34-135",
+	"label": "Sangaria"
+}, {
+	"value": "34-136",
+	"label": "Sirohi"
+}, {
+	"value": "34-137",
+	"label": "Taranagar"
+}, {
+	"value": "34-138",
+	"label": "Vijainagar"
+}, {
+	"value": "34-139",
+	"label": "Kishangarh"
+}, {
+	"value": "34-140",
+	"label": "Kushalgarh"
+}, {
+	"value": "34-141",
+	"label": "Mandawa"
+}, {
+	"value": "34-142",
+	"label": "Nadbai"
+}, {
+	"value": "34-143",
+	"label": "Nimbahera"
+}, {
+	"value": "34-144",
+	"label": "Pilani"
+}, {
+	"value": "34-145",
+	"label": "Rajaldesar"
+}, {
+	"value": "34-146",
+	"label": "Rawatsar"
+}, {
+	"value": "34-147",
+	"label": "Sangod"
+}, {
+	"value": "34-148",
+	"label": "Sojat"
+}, {
+	"value": "34-149",
+	"label": "Tijara"
+}, {
+	"value": "34-152",
+	"label": "Lachhmangarh"
+}, {
+	"value": "34-153",
+	"label": "Mandawar"
+}, {
+	"value": "34-154",
+	"label": "Nagar"
+}, {
+	"value": "34-155",
+	"label": "Niwai"
+}, {
+	"value": "34-156",
+	"label": "Pilibanga"
+}, {
+	"value": "34-157",
+	"label": "RAJGARH(RJ)"
+}, {
+	"value": "34-158",
+	"label": "Reengus"
+}, {
+	"value": "34-159",
+	"label": "Sardarshahar"
+}, {
+	"value": "34-160",
+	"label": "Sojat Road"
+}, {
+	"value": "34-161",
+	"label": "Todabhim"
+}, {
+	"value": "34-162",
+	"label": "Viratnagar"
+}, {
+	"value": "34-163",
+	"label": "Kishangarh Renwal"
+}, {
+	"value": "34-164",
+	"label": "Ladnu"
+}, {
+	"value": "34-165",
+	"label": "Mangrol"
+}, {
+	"value": "34-166",
+	"label": "Nagaur"
+}, {
+	"value": "34-167",
+	"label": "Nohar"
+}, {
+	"value": "34-168",
+	"label": "Pindwara"
+}, {
+	"value": "34-170",
+	"label": "Rikhabdeo"
+}, {
+	"value": "34-171",
+	"label": "Sarwar"
+}, {
+	"value": "34-172",
+	"label": "Sri Madhopur"
+}, {
+	"value": "34-173",
+	"label": "Todaraisingh"
+}, {
+	"value": "34-174",
+	"label": "Weir"
+}, {
+	"value": "34-175",
+	"label": "Kolvi @ Mandi Rajen"
+}, {
+	"value": "34-176",
+	"label": "Lakheri"
+}, {
+	"value": "34-177",
+	"label": "Manoharthana"
+}, {
+	"value": "34-178",
+	"label": "Nainwa"
+}, {
+	"value": "34-179",
+	"label": "Nokha"
+}, {
+	"value": "34-180",
+	"label": "Pipar City"
+}, {
+	"value": "34-181",
+	"label": "Rajsamand"
+}, {
+	"value": "34-182",
+	"label": "Sadri"
+}, {
+	"value": "34-183",
+	"label": "Satalkheri"
+}, {
+	"value": "34-184",
+	"label": "Sujangarh"
+}, {
+	"value": "34-185",
+	"label": "Todra"
+}, {
+	"value": "34-186",
+	"label": "Kota"
+}, {
+	"value": "34-187",
+	"label": "Lalsot"
+}, {
+	"value": "34-188",
+	"label": "Marwar Junion"
+}, {
+	"value": "34-189",
+	"label": "Nasirabad"
+}, {
+	"value": "34-190",
+	"label": "Padampur"
+}, {
+	"value": "34-191",
+	"label": "Pirawa"
+}, {
+	"value": "34-192",
+	"label": "Ramganj Mandi"
+}, {
+	"value": "34-193",
+	"label": "Sadulshahar"
+}, {
+	"value": "34-194",
+	"label": "Sawai Madhopur"
+}, {
+	"value": "34-195",
+	"label": "Suket"
+}, {
+	"value": "34-196",
+	"label": "Tonk"
+}, {
+	"value": "34-197",
+	"label": "Kotputli"
+}, {
+	"value": "34-198",
+	"label": "Losal"
+}, {
+	"value": "34-199",
+	"label": "Merta City"
+}, {
+	"value": "34-200",
+	"label": "Nathdwara"
+}, {
+	"value": "34-201",
+	"label": "PALI(RJ)"
+}, {
+	"value": "34-202",
+	"label": "Pokaran"
+}, {
+	"value": "34-203",
+	"label": "Ramgarh"
+}, {
+	"value": "34-204",
+	"label": "Sagwara"
+}, {
+	"value": "34-206",
+	"label": "Sumerpur"
+}, {
+	"value": "34-207",
+	"label": "UDAIPUR(RJ)"
+}, {
+	"value": "34-208",
+	"label": "Abu Road"
+}, {
+	"value": "34-209",
+	"label": "Ajmer"
+}, {
+	"value": "34-210",
+	"label": "Aklera"
+}, {
+	"value": "34-211",
+	"label": "Alwar"
+}, {
+	"value": "34-212",
+	"label": "Amet"
+}, {
+	"value": "34-213",
+	"label": "Antah"
+}, {
+	"value": "34-214",
+	"label": "Anupgarh"
+}, {
+	"value": "36-001",
+	"label": "Gangtok"
+}, {
+	"value": "36-002",
+	"label": "Gyalshing"
+}, {
+	"value": "36-003",
+	"label": "Jorethang"
+}, {
+	"value": "36-004",
+	"label": "Mangan"
+}, {
+	"value": "36-005",
+	"label": "Namchi"
+}, {
+	"value": "36-006",
+	"label": "Nayabazar"
+}, {
+	"value": "36-007",
+	"label": "Rangpo"
+}, {
+	"value": "36-008",
+	"label": "Singtam"
+}, {
+	"value": "36-009",
+	"label": "Upper Tadong"
+}, {
+	"value": "38-001",
+	"label": "Agaram"
+}, {
+	"value": "38-002",
+	"label": "Agastheeswaram"
+}, {
+	"value": "38-003",
+	"label": "Alagappapuram"
+}, {
+	"value": "38-004",
+	"label": "Alanganallur"
+}, {
+	"value": "38-005",
+	"label": "Alangayam"
+}, {
+	"value": "38-006",
+	"label": "Alangudi"
+}, {
+	"value": "38-007",
+	"label": "Alangulam"
+}, {
+	"value": "38-009",
+	"label": "Alanthurai"
+}, {
+	"value": "38-010",
+	"label": "Alapakkam"
+}, {
+	"value": "38-011",
+	"label": "Alur"
+}, {
+	"value": "38-012",
+	"label": "Alwarkurichi"
+}, {
+	"value": "38-013",
+	"label": "Alwarthirunagiri"
+}, {
+	"value": "38-014",
+	"label": "Ambasamudram"
+}, {
+	"value": "38-015",
+	"label": "Ambur"
+}, {
+	"value": "38-016",
+	"label": "Ammainaickanur"
+}, {
+	"value": "38-017",
+	"label": "Ammapettai"
+}, {
+	"value": "38-019",
+	"label": "Ammavarikuppam"
+}, {
+	"value": "38-020",
+	"label": "Ammoor"
+}, {
+	"value": "38-021",
+	"label": "Anaimalai"
+}, {
+	"value": "38-022",
+	"label": "Anaiyur"
+}, {
+	"value": "38-023",
+	"label": "Ananthapuram"
+}, {
+	"value": "38-024",
+	"label": "Andipatti Jakkampatt"
+}, {
+	"value": "38-025",
+	"label": "Anjugramam"
+}, {
+	"value": "38-026",
+	"label": "Annavasal"
+}, {
+	"value": "38-027",
+	"label": "Annur"
+}, {
+	"value": "38-028",
+	"label": "Anthiyur"
+}, {
+	"value": "38-029",
+	"label": "Appakudal"
+}, {
+	"value": "38-030",
+	"label": "Arachalur"
+}, {
+	"value": "38-031",
+	"label": "Arakandanallur"
+}, {
+	"value": "38-032",
+	"label": "Arakonam"
+}, {
+	"value": "38-033",
+	"label": "Aralvaimozhi"
+}, {
+	"value": "38-034",
+	"label": "Arani"
+}, {
+	"value": "38-036",
+	"label": "Aranthangi"
+}, {
+	"value": "38-037",
+	"label": "Arasiramani"
+}, {
+	"value": "38-038",
+	"label": "Aravakurichi"
+}, {
+	"value": "38-039",
+	"label": "Arcot"
+}, {
+	"value": "38-040",
+	"label": "Arimalam"
+}, {
+	"value": "38-041",
+	"label": "Ariyalur"
+}, {
+	"value": "38-042",
+	"label": "Ariyappampalayam"
+}, {
+	"value": "38-043",
+	"label": "Ariyur"
+}, {
+	"value": "38-044",
+	"label": "Arumanai"
+}, {
+	"value": "38-045",
+	"label": "Arumbavur"
+}, {
+	"value": "38-046",
+	"label": "Aruppukkottai"
+}, {
+	"value": "38-047",
+	"label": "Athani"
+}, {
+	"value": "38-048",
+	"label": "Athanur"
+}, {
+	"value": "38-049",
+	"label": "Athimarapatti"
+}, {
+	"value": "38-050",
+	"label": "Athipattu"
+}, {
+	"value": "38-051",
+	"label": "Athur"
+}, {
+	"value": "38-053",
+	"label": "Attur"
+}, {
+	"value": "38-054",
+	"label": "Avadattur"
+}, {
+	"value": "38-055",
+	"label": "Avalpoondurai"
+}, {
+	"value": "38-056",
+	"label": "Ayakudi"
+}, {
+	"value": "38-057",
+	"label": "Aygudi"
+}, {
+	"value": "38-058",
+	"label": "Ayothiapattinam"
+}, {
+	"value": "38-059",
+	"label": "Ayyalur"
+}, {
+	"value": "38-060",
+	"label": "Ayyampalayam"
+}, {
+	"value": "38-061",
+	"label": "Ayyampettai"
+}, {
+	"value": "38-063",
+	"label": "Azhagiapandiapuram"
+}, {
+	"value": "38-064",
+	"label": "B. Meenakshipuram"
+}, {
+	"value": "38-065",
+	"label": "B.Mallapuram"
+}, {
+	"value": "38-066",
+	"label": "Balakrishnampatti"
+}, {
+	"value": "38-067",
+	"label": "Balakrishnapuram"
+}, {
+	"value": "38-068",
+	"label": "Balapallam"
+}, {
+	"value": "38-069",
+	"label": "Balasamudram"
+}, {
+	"value": "38-070",
+	"label": "Bargur"
+}, {
+	"value": "38-071",
+	"label": "Batlagundu"
+}, {
+	"value": "38-072",
+	"label": "Belur"
+}, {
+	"value": "38-073",
+	"label": "Bhavani"
+}, {
+	"value": "38-074",
+	"label": "Bhavanisagar"
+}, {
+	"value": "38-075",
+	"label": "Bhuvanagiri"
+}, {
+	"value": "38-076",
+	"label": "Bikketti"
+}, {
+	"value": "38-077",
+	"label": "Bodinayakanur"
+}, {
+	"value": "38-078",
+	"label": "Boothapandi"
+}, {
+	"value": "38-079",
+	"label": "Boothipuram"
+}, {
+	"value": "38-080",
+	"label": "Chengalpattu"
+}, {
+	"value": "38-081",
+	"label": "Chengam"
+}, {
+	"value": "38-082",
+	"label": "Chennai"
+}, {
+	"value": "38-083",
+	"label": "Chennasamudram"
+}, {
+	"value": "38-084",
+	"label": "Chennimalai"
+}, {
+	"value": "38-085",
+	"label": "Cheranmadevi"
+}, {
+	"value": "38-086",
+	"label": "Chetpet"
+}, {
+	"value": "38-087",
+	"label": "Chettiarpatti"
+}, {
+	"value": "38-088",
+	"label": "Chettipalayam"
+}, {
+	"value": "38-089",
+	"label": "Chettithangal"
+}, {
+	"value": "38-090",
+	"label": "Chidambaram"
+}, {
+	"value": "38-091",
+	"label": "Chinnakkampalayam"
+}, {
+	"value": "38-092",
+	"label": "Denkanikottai"
+}, {
+	"value": "38-093",
+	"label": "Dharmapuri"
+}, {
+	"value": "38-094",
+	"label": "Eral"
+}, {
+	"value": "38-095",
+	"label": "Gangavalli"
+}, {
+	"value": "38-096",
+	"label": "Hanumanthampatti"
+}, {
+	"value": "38-097",
+	"label": "Jalakandapuram"
+}, {
+	"value": "38-098",
+	"label": "Kalambur"
+}, {
+	"value": "38-099",
+	"label": "Kambam"
+}, {
+	"value": "38-100",
+	"label": "Kannivadi"
+}, {
+	"value": "38-101",
+	"label": "Karumandi Chellipal"
+}, {
+	"value": "38-102",
+	"label": "Kaveripakkam"
+}, {
+	"value": "38-103",
+	"label": "Kembainaickenpalaya"
+}, {
+	"value": "38-104",
+	"label": "Kodaikanal"
+}, {
+	"value": "38-105",
+	"label": "Kombai"
+}, {
+	"value": "38-106",
+	"label": "Krishnagiri"
+}, {
+	"value": "38-107",
+	"label": "Kurumbalur"
+}, {
+	"value": "38-108",
+	"label": "Madurai"
+}, {
+	"value": "38-109",
+	"label": "Manamadurai"
+}, {
+	"value": "38-110",
+	"label": "Maramangalathupatti"
+}, {
+	"value": "38-111",
+	"label": "Melagaram"
+}, {
+	"value": "38-112",
+	"label": "Minjur"
+}, {
+	"value": "38-113",
+	"label": "Muruganpalayam"
+}, {
+	"value": "38-114",
+	"label": "Nagojanahalli"
+}, {
+	"value": "38-115",
+	"label": "Nanjikottai"
+}, {
+	"value": "38-116",
+	"label": "Nazerath"
+}, {
+	"value": "38-117",
+	"label": "Neyveli"
+}, {
+	"value": "38-118",
+	"label": "Othakadai"
+}, {
+	"value": "38-119",
+	"label": "Palaganangudy"
+}, {
+	"value": "38-120",
+	"label": "Pallapatti"
+}, {
+	"value": "38-121",
+	"label": "Panruti"
+}, {
+	"value": "38-122",
+	"label": "Pattiveeranpatti"
+}, {
+	"value": "38-123",
+	"label": "Peravurani"
+}, {
+	"value": "38-124",
+	"label": "Perundurai"
+}, {
+	"value": "38-125",
+	"label": "Ponneri"
+}, {
+	"value": "38-126",
+	"label": "Pudupalayam Agrahar"
+}, {
+	"value": "38-127",
+	"label": "Puthalam"
+}, {
+	"value": "38-128",
+	"label": "Rosalpatti"
+}, {
+	"value": "38-129",
+	"label": "Sankarankoil"
+}, {
+	"value": "38-130",
+	"label": "Seerapalli"
+}, {
+	"value": "38-131",
+	"label": "Sholingur"
+}, {
+	"value": "38-132",
+	"label": "Sivagiri"
+}, {
+	"value": "38-133",
+	"label": "Sundarapandiam"
+}, {
+	"value": "38-134",
+	"label": "Thalainayar"
+}, {
+	"value": "38-135",
+	"label": "THENI"
+}, {
+	"value": "38-136",
+	"label": "Thirukarungudi"
+}, {
+	"value": "38-137",
+	"label": "Thirupuvanam"
+}, {
+	"value": "38-138",
+	"label": "Thiruvithankodu"
+}, {
+	"value": "38-139",
+	"label": "Timiri"
+}, {
+	"value": "38-140",
+	"label": "Tiruppur"
+}, {
+	"value": "38-141",
+	"label": "Ulundurpettai"
+}, {
+	"value": "38-142",
+	"label": "Uthukkottai"
+}, {
+	"value": "38-143",
+	"label": "Vadugapatti"
+}, {
+	"value": "38-144",
+	"label": "Vaniputhur"
+}, {
+	"value": "38-145",
+	"label": "Veerapandi"
+}, {
+	"value": "38-146",
+	"label": "Venkarai"
+}, {
+	"value": "38-147",
+	"label": "Vilathikulam"
+}, {
+	"value": "38-148",
+	"label": "Chinnalapatti"
+}, {
+	"value": "38-149",
+	"label": "Desur"
+}, {
+	"value": "38-150",
+	"label": "Dindigul"
+}, {
+	"value": "38-151",
+	"label": "Eraniel"
+}, {
+	"value": "38-152",
+	"label": "Ganguvarpatti"
+}, {
+	"value": "38-153",
+	"label": "Harur"
+}, {
+	"value": "38-154",
+	"label": "Jambai"
+}, {
+	"value": "38-155",
+	"label": "Kalappanaickenpatti"
+}, {
+	"value": "38-156",
+	"label": "Kamuthi"
+}, {
+	"value": "38-158",
+	"label": "Karumathampatti"
+}, {
+	"value": "38-597",
+	"label": "Uthangarai"
+}, {
+	"value": "38-598",
+	"label": "Vadamadurai"
+}, {
+	"value": "38-599",
+	"label": "Vanavasi"
+}, {
+	"value": "38-600",
+	"label": "Veeraganur"
+}, {
+	"value": "38-601",
+	"label": "Vengampudur"
+}, {
+	"value": "38-602",
+	"label": "Vikravandi"
+}, {
+	"value": "38-603",
+	"label": "Walajabad"
+}, {
+	"value": "38-604",
+	"label": "Cuddalore"
+}, {
+	"value": "38-605",
+	"label": "Dharapuram"
+}, {
+	"value": "38-606",
+	"label": "Elumalai"
+}, {
+	"value": "38-607",
+	"label": "Ganapathipuram"
+}, {
+	"value": "38-608",
+	"label": "Gummidipoondi"
+}, {
+	"value": "38-609",
+	"label": "Iluppur"
+}, {
+	"value": "38-610",
+	"label": "Kalakkad"
+}, {
+	"value": "38-611",
+	"label": "Kambainallur"
+}, {
+	"value": "38-612",
+	"label": "Kannamangalam"
+}, {
+	"value": "38-613",
+	"label": "Karugampattur"
+}, {
+	"value": "38-614",
+	"label": "Kattuputhur"
+}, {
+	"value": "38-615",
+	"label": "Kelamangalam"
+}, {
+	"value": "38-616",
+	"label": "Kinathukadavu"
+}, {
+	"value": "38-617",
+	"label": "Komaralingam"
+}, {
+	"value": "38-618",
+	"label": "Kovilpatti"
+}, {
+	"value": "38-619",
+	"label": "Kurinjipadi"
+}, {
+	"value": "38-620",
+	"label": "Madukkur"
+}, {
+	"value": "38-621",
+	"label": "Manalurpet"
+}, {
+	"value": "38-622",
+	"label": "Marakkanam"
+}, {
+	"value": "38-623",
+	"label": "Melachokkanathapura"
+}, {
+	"value": "38-624",
+	"label": "Mettur"
+}, {
+	"value": "38-625",
+	"label": "Mulanur"
+}, {
+	"value": "38-626",
+	"label": "Nagercoil"
+}, {
+	"value": "38-627",
+	"label": "Nanguneri"
+}, {
+	"value": "38-628",
+	"label": "Nattarasankottai"
+}, {
+	"value": "38-629",
+	"label": "Nerunjipettai"
+}, {
+	"value": "38-630",
+	"label": "Orathanadu"
+}, {
+	"value": "38-631",
+	"label": "Padmanabhapuram"
+}, {
+	"value": "38-633",
+	"label": "Pannaipuram"
+}, {
+	"value": "38-634",
+	"label": "Pattinam"
+}, {
+	"value": "38-635",
+	"label": "Peranamallur"
+}, {
+	"value": "38-636",
+	"label": "Perumuchi"
+}, {
+	"value": "38-637",
+	"label": "Ponnampatti"
+}, {
+	"value": "38-638",
+	"label": "Pudupalayam"
+}, {
+	"value": "38-639",
+	"label": "Punjaipuliampatti"
+}, {
+	"value": "38-640",
+	"label": "Reethapuram"
+}, {
+	"value": "38-641",
+	"label": "Sankaramanallur"
+}, {
+	"value": "38-642",
+	"label": "Sayapuram"
+}, {
+	"value": "38-643",
+	"label": "Sholavandan"
+}, {
+	"value": "38-644",
+	"label": "Sivaganga"
+}, {
+	"value": "38-645",
+	"label": "Suchindram"
+}, {
+	"value": "38-646",
+	"label": "Thakkolam"
+}, {
+	"value": "38-647",
+	"label": "Thengampudur"
+}, {
+	"value": "38-648",
+	"label": "Thingalnagar"
+}, {
+	"value": "38-650",
+	"label": "Thiruvidaimarudur"
+}, {
+	"value": "38-651",
+	"label": "Thuthipattu"
+}, {
+	"value": "38-653",
+	"label": "Udumalaipettai"
+}, {
+	"value": "38-654",
+	"label": "Uthiramerur"
+}, {
+	"value": "38-655",
+	"label": "Vadipatti"
+}, {
+	"value": "38-656",
+	"label": "Vandavasi"
+}, {
+	"value": "38-657",
+	"label": "Veerakkalpudur"
+}, {
+	"value": "38-658",
+	"label": "Vengathur"
+}, {
+	"value": "38-659",
+	"label": "Vilapakkam"
+}, {
+	"value": "38-660",
+	"label": "A.Vellalapatti"
+}, {
+	"value": "38-661",
+	"label": "Abiramam"
+}, {
+	"value": "38-662",
+	"label": "Achampudur"
+}, {
+	"value": "38-663",
+	"label": "Acharapakkam"
+}, {
+	"value": "38-664",
+	"label": "Acharipallam"
+}, {
+	"value": "38-665",
+	"label": "Achipatti"
+}, {
+	"value": "38-666",
+	"label": "Adikaratti"
+}, {
+	"value": "38-667",
+	"label": "Adiramapattinam"
+}, {
+	"value": "38-668",
+	"label": "Aduthurai alias Marut"
+}, {
+	"value": "40-001",
+	"label": "Jogendranagar"
+}, {
+	"value": "40-002",
+	"label": "Kailasahar"
+}, {
+	"value": "40-003",
+	"label": "Kamalpur"
+}, {
+	"value": "40-004",
+	"label": "Kanchanpur"
+}, {
+	"value": "40-005",
+	"label": "Khowai"
+}, {
+	"value": "40-006",
+	"label": "Kumarghat"
+}, {
+	"value": "40-007",
+	"label": "Kunjaban"
+}, {
+	"value": "40-008",
+	"label": "Narsingarh"
+}, {
+	"value": "40-009",
+	"label": "PRATAPGARH(TR)"
+}, {
+	"value": "40-010",
+	"label": "Ranirbazar"
+}, {
+	"value": "40-011",
+	"label": "Sabroom"
+}, {
+	"value": "40-012",
+	"label": "Sonamura"
+}, {
+	"value": "40-013",
+	"label": "Teliamura"
+}, {
+	"value": "40-014",
+	"label": "UDAIPUR(TR)"
+}, {
+	"value": "40-015",
+	"label": "Agartala"
+}, {
+	"value": "40-016",
+	"label": "Amarpur"
+}, {
+	"value": "40-017",
+	"label": "Ambassa"
+}, {
+	"value": "40-018",
+	"label": "Badharghat"
+}, {
+	"value": "40-019",
+	"label": "Belonia"
+}, {
+	"value": "40-020",
+	"label": "Dharmanagar"
+}, {
+	"value": "40-021",
+	"label": "Gakulnagar"
+}, {
+	"value": "40-022",
+	"label": "Gandhigram"
+}, {
+	"value": "40-023",
+	"label": "Indranagar"
+}, {
+	"value": "42-001",
+	"label": "Ajhuwa"
+}, {
+	"value": "42-002",
+	"label": "Akbarpur"
+}, {
+	"value": "42-004",
+	"label": "Aliganj"
+}, {
+	"value": "42-005",
+	"label": "Aligarh"
+}, {
+	"value": "42-006",
+	"label": "Allahabad"
+}, {
+	"value": "42-007",
+	"label": "Allahganj"
+}, {
+	"value": "42-008",
+	"label": "Allapur"
+}, {
+	"value": "42-009",
+	"label": "Amanpur"
+}, {
+	"value": "42-010",
+	"label": "Ambehta"
+}, {
+	"value": "42-011",
+	"label": "Amethi"
+}, {
+	"value": "42-013",
+	"label": "Amila"
+}, {
+	"value": "42-014",
+	"label": "Aminagar Sarai"
+}, {
+	"value": "42-015",
+	"label": "Aminagar urf Bhurbar"
+}, {
+	"value": "42-016",
+	"label": "Amraudha"
+}, {
+	"value": "42-017",
+	"label": "Amroha"
+}, {
+	"value": "42-018",
+	"label": "Anandnagar"
+}, {
+	"value": "42-019",
+	"label": "Anpara"
+}, {
+	"value": "42-020",
+	"label": "Antu"
+}, {
+	"value": "42-021",
+	"label": "Anupshahr"
+}, {
+	"value": "42-022",
+	"label": "Aonla"
+}, {
+	"value": "42-023",
+	"label": "Ashrafpur Kichhauchh"
+}, {
+	"value": "42-024",
+	"label": "Atarra"
+}, {
+	"value": "42-025",
+	"label": "Atasu"
+}, {
+	"value": "42-026",
+	"label": "Atrauli"
+}, {
+	"value": "42-027",
+	"label": "Atraulia"
+}, {
+	"value": "42-028",
+	"label": "Auraiya"
+}, {
+	"value": "42-029",
+	"label": "AURANGABAD(UP)"
+}, {
+	"value": "42-030",
+	"label": "Aurangabad Bangar"
+}, {
+	"value": "42-031",
+	"label": "Auras"
+}, {
+	"value": "42-032",
+	"label": "Awagarh"
+}, {
+	"value": "42-033",
+	"label": "Azamgarh"
+}, {
+	"value": "42-034",
+	"label": "Azizpur"
+}, {
+	"value": "42-035",
+	"label": "Azmatgarh"
+}, {
+	"value": "42-036",
+	"label": "Babarpur Ajitmal"
+}, {
+	"value": "42-037",
+	"label": "Baberu"
+}, {
+	"value": "42-038",
+	"label": "Babina"
+}, {
+	"value": "42-039",
+	"label": "Babrala"
+}, {
+	"value": "42-040",
+	"label": "Babugarh"
+}, {
+	"value": "42-041",
+	"label": "Bachhraon"
+}, {
+	"value": "42-042",
+	"label": "Bachhrawan"
+}, {
+	"value": "42-043",
+	"label": "Bad"
+}, {
+	"value": "42-044",
+	"label": "Baghpat"
+}, {
+	"value": "42-045",
+	"label": "Bah"
+}, {
+	"value": "42-046",
+	"label": "Bahadurganj"
+}, {
+	"value": "42-047",
+	"label": "Baheri"
+}, {
+	"value": "42-048",
+	"label": "Bahjoi"
+}, {
+	"value": "42-049",
+	"label": "Bahraich"
+}, {
+	"value": "42-050",
+	"label": "Bahsuma"
+}, {
+	"value": "42-051",
+	"label": "Bahuwa"
+}, {
+	"value": "42-052",
+	"label": "Bajna"
+}, {
+	"value": "42-053",
+	"label": "Bakewar"
+}, {
+	"value": "42-054",
+	"label": "Bakiabad"
+}, {
+	"value": "38-159",
+	"label": "Kaveripattinam"
+}, {
+	"value": "38-160",
+	"label": "Kethi"
+}, {
+	"value": "38-161",
+	"label": "Kodavasal"
+}, {
+	"value": "38-162",
+	"label": "Konganapuram"
+}, {
+	"value": "38-163",
+	"label": "Krishnarayapuram"
+}, {
+	"value": "38-164",
+	"label": "Kuthalam"
+}, {
+	"value": "38-165",
+	"label": "Maduranthakam"
+}, {
+	"value": "38-166",
+	"label": "Manapparai"
+}, {
+	"value": "38-167",
+	"label": "Marandahalli"
+}, {
+	"value": "38-168",
+	"label": "Melamaiyur"
+}, {
+	"value": "38-169",
+	"label": "Modakurichi"
+}, {
+	"value": "38-170",
+	"label": "Musiri"
+}, {
+	"value": "38-171",
+	"label": "Nallampatti"
+}, {
+	"value": "38-172",
+	"label": "Nannilam"
+}, {
+	"value": "38-173",
+	"label": "Needamangalam"
+}, {
+	"value": "38-174",
+	"label": "Nilakkottai"
+}, {
+	"value": "38-175",
+	"label": "Othakalmandapam"
+}, {
+	"value": "38-176",
+	"label": "Palakkodu"
+}, {
+	"value": "38-177",
+	"label": "Pallikonda"
+}, {
+	"value": "38-178",
+	"label": "Papanasam"
+}, {
+	"value": "38-179",
+	"label": "Pattukkottai"
+}, {
+	"value": "38-180",
+	"label": "Periya Negamam"
+}, {
+	"value": "38-181",
+	"label": "Perungulam"
+}, {
+	"value": "38-182",
+	"label": "Poolambadi"
+}, {
+	"value": "38-183",
+	"label": "Pudupatti"
+}, {
+	"value": "38-184",
+	"label": "Puvalur"
+}, {
+	"value": "38-185",
+	"label": "Rudravathi"
+}, {
+	"value": "38-186",
+	"label": "Sankarapuram"
+}, {
+	"value": "38-187",
+	"label": "Seithur"
+}, {
+	"value": "38-188",
+	"label": "Sholur"
+}, {
+	"value": "38-190",
+	"label": "Sundarapandiapuram"
+}, {
+	"value": "38-191",
+	"label": "Thalakudi"
+}, {
+	"value": "38-192",
+	"label": "Thenkarai"
+}, {
+	"value": "38-193",
+	"label": "Thirukkattupalli"
+}, {
+	"value": "38-194",
+	"label": "Thiruthuraipoondi"
+}, {
+	"value": "38-195",
+	"label": "Thisayanvilai"
+}, {
+	"value": "38-196",
+	"label": "Tindivanam"
+}, {
+	"value": "38-197",
+	"label": "Tiruttani"
+}, {
+	"value": "38-198",
+	"label": "Unjalur"
+}, {
+	"value": "38-199",
+	"label": "Uthukuli"
+}, {
+	"value": "38-201",
+	"label": "Vaniyambadi"
+}, {
+	"value": "38-202",
+	"label": "Veeravanallur"
+}, {
+	"value": "38-203",
+	"label": "Vennanthur"
+}, {
+	"value": "38-204",
+	"label": "Vilavur"
+}, {
+	"value": "38-205",
+	"label": "Chinnamanur"
+}, {
+	"value": "38-206",
+	"label": "Devadanapatti"
+}, {
+	"value": "38-207",
+	"label": "Dusi"
+}, {
+	"value": "38-208",
+	"label": "Eriodu"
+}, {
+	"value": "38-209",
+	"label": "Gingee"
+}, {
+	"value": "38-210",
+	"label": "Highways"
+}, {
+	"value": "38-211",
+	"label": "Jayankondam"
+}, {
+	"value": "38-212",
+	"label": "Kalavai"
+}, {
+	"value": "38-213",
+	"label": "Kanakkampalayam"
+}, {
+	"value": "38-214",
+	"label": "KANYAKUMARI"
+}, {
+	"value": "38-215",
+	"label": "Karungal"
+}, {
+	"value": "38-216",
+	"label": "Kayatharu"
+}, {
+	"value": "38-217",
+	"label": "Kilampadi"
+}, {
+	"value": "38-218",
+	"label": "Kodumudi"
+}, {
+	"value": "38-219",
+	"label": "Kooraikundu"
+}, {
+	"value": "38-220",
+	"label": "Kuchanur"
+}, {
+	"value": "38-221",
+	"label": "Kuthanallur"
+}, {
+	"value": "38-222",
+	"label": "Mallankinaru"
+}, {
+	"value": "38-223",
+	"label": "Manavalakurichi"
+}, {
+	"value": "38-224",
+	"label": "Markayankottai"
+}, {
+	"value": "38-225",
+	"label": "Melathiruppanthurut"
+}, {
+	"value": "38-226",
+	"label": "Mohanur"
+}, {
+	"value": "38-227",
+	"label": "Muthupet"
+}, {
+	"value": "38-228",
+	"label": "Nallur"
+}, {
+	"value": "38-229",
+	"label": "Naranapuram"
+}, {
+	"value": "38-230",
+	"label": "Neelagiri"
+}, {
+	"value": "38-231",
+	"label": "O Valley"
+}, {
+	"value": "38-232",
+	"label": "Ottapparai"
+}, {
+	"value": "38-233",
+	"label": "Palamedu"
+}, {
+	"value": "38-234",
+	"label": "Pallipattu"
+}, {
+	"value": "38-235",
+	"label": "Papparapatti"
+}, {
+	"value": "38-236",
+	"label": "Pazhugal"
+}, {
+	"value": "38-237",
+	"label": "Periyakodiveri"
+}, {
+	"value": "38-238",
+	"label": "Pethampalayam"
+}, {
+	"value": "38-239",
+	"label": "Poolampatti"
+}, {
+	"value": "38-240",
+	"label": "Pudupattinam"
+}, {
+	"value": "38-241",
+	"label": "R.Pudupatti"
+}, {
+	"value": "38-242",
+	"label": "S. Kannanur"
+}, {
+	"value": "38-243",
+	"label": "Sankari"
+}, {
+	"value": "38-244",
+	"label": "Semmipalayam"
+}, {
+	"value": "38-245",
+	"label": "Singampuneri"
+}, {
+	"value": "38-246",
+	"label": "Sivakasi"
+}, {
+	"value": "38-247",
+	"label": "Surandai"
+}, {
+	"value": "38-248",
+	"label": "Thamaraikulam"
+}, {
+	"value": "38-250",
+	"label": "Thirumalayampalayam"
+}, {
+	"value": "38-251",
+	"label": "Thiruvaiyaru"
+}, {
+	"value": "38-252",
+	"label": "Thittacheri"
+}, {
+	"value": "38-253",
+	"label": "Tiruchendur"
+}, {
+	"value": "38-254",
+	"label": "Tiruvannamalai"
+}, {
+	"value": "38-255",
+	"label": "Unnamalaikadai"
+}, {
+	"value": "38-256",
+	"label": "V. Pudur"
+}, {
+	"value": "38-257",
+	"label": "Vaitheeswarankoil"
+}, {
+	"value": "38-258",
+	"label": "Varadarajanpettai"
+}, {
+	"value": "38-259",
+	"label": "Velankanni"
+}, {
+	"value": "38-260",
+	"label": "Veppathur"
+}, {
+	"value": "38-261",
+	"label": "Villukuri"
+}, {
+	"value": "38-262",
+	"label": "Chinnasalem"
+}, {
+	"value": "38-263",
+	"label": "Devakottai"
+}, {
+	"value": "38-264",
+	"label": "Edaganasalai"
+}, {
+	"value": "38-265",
+	"label": "Erode"
+}, {
+	"value": "38-266",
+	"label": "Gobichettipalayam"
+}, {
+	"value": "38-267",
+	"label": "Hosur"
+}, {
+	"value": "38-268",
+	"label": "Jolarpet"
+}, {
+	"value": "38-269",
+	"label": "Kaliyakkavilai"
+}, {
+	"value": "38-270",
+	"label": "Kanam"
+}, {
+	"value": "38-271",
+	"label": "Kappiyarai"
+}, {
+	"value": "38-272",
+	"label": "Karunguzhi"
+}, {
+	"value": "38-273",
+	"label": "Keelakarai"
+}, {
+	"value": "38-274",
+	"label": "Kilkulam"
+}, {
+	"value": "38-275",
+	"label": "Kolachal"
+}, {
+	"value": "38-276",
+	"label": "Koradacheri"
+}, {
+	"value": "38-277",
+	"label": "Kuhalur"
+}, {
+	"value": "38-278",
+	"label": "Kuzhithurai"
+}, {
+	"value": "38-279",
+	"label": "Mallasamudram"
+}, {
+	"value": "38-280",
+	"label": "Mandaikadu"
+}, {
+	"value": "38-281",
+	"label": "Marudur"
+}, {
+	"value": "38-282",
+	"label": "Melattur"
+}, {
+	"value": "38-283",
+	"label": "Moolakaraipatti"
+}, {
+	"value": "38-284",
+	"label": "Muthur"
+}, {
+	"value": "38-285",
+	"label": "Namagiripettai"
+}, {
+	"value": "38-286",
+	"label": "NARSINGHPUR(TN)"
+}, {
+	"value": "38-287",
+	"label": "Neikkarapatti"
+}, {
+	"value": "38-288",
+	"label": "Odaipatti"
+}, {
+	"value": "38-289",
+	"label": "P.J. Cholapuram"
+}, {
+	"value": "38-290",
+	"label": "Palani"
+}, {
+	"value": "38-291",
+	"label": "Panagudi"
+}, {
+	"value": "38-292",
+	"label": "Pappireddipatti"
+}, {
+	"value": "38-293",
+	"label": "Pennadam"
+}, {
+	"value": "38-294",
+	"label": "Periyakulam"
+}, {
+	"value": "38-295",
+	"label": "Pethanaickenpalayam"
+}, {
+	"value": "38-296",
+	"label": "Pooluvapatti"
+}, {
+	"value": "38-297",
+	"label": "Pudur"
+}, {
+	"value": "38-298",
+	"label": "R.S.Mangalam"
+}, {
+	"value": "38-299",
+	"label": "S.Kodikulam"
+}, {
+	"value": "38-300",
+	"label": "Sarcarsamakulam"
+}, {
+	"value": "38-301",
+	"label": "Senthamangalam"
+}, {
+	"value": "38-302",
+	"label": "Singaperumalkoil"
+}, {
+	"value": "38-303",
+	"label": "Sivanthipuram"
+}, {
+	"value": "38-304",
+	"label": "Suriyampalayam"
+}, {
+	"value": "38-305",
+	"label": "Thammampatti"
+}, {
+	"value": "38-306",
+	"label": "Thenthamaraikulam"
+}, {
+	"value": "38-307",
+	"label": "Thirumangalam"
+}, {
+	"value": "38-308",
+	"label": "Thiruvalam"
+}, {
+	"value": "38-309",
+	"label": "Thondamuthur"
+}, {
+	"value": "38-310",
+	"label": "Tiruchengode"
+}, {
+	"value": "38-311",
+	"label": "Tiruvethipuram"
+}, {
+	"value": "38-312",
+	"label": "Uppidamangalam"
+}, {
+	"value": "38-313",
+	"label": "V.Pudupatti"
+}, {
+	"value": "38-314",
+	"label": "Valangaiman"
+}, {
+	"value": "38-315",
+	"label": "Vasudevanallur"
+}, {
+	"value": "38-316",
+	"label": "Vellakoil"
+}, {
+	"value": "38-317",
+	"label": "Verkilambi"
+}, {
+	"value": "38-318",
+	"label": "VILLUPURAM"
+}, {
+	"value": "38-319",
+	"label": "Chithode"
+}, {
+	"value": "38-320",
+	"label": "Devanangurichi"
+}, {
+	"value": "38-321",
+	"label": "Edaikodu"
+}, {
+	"value": "38-322",
+	"label": "Erumaipatti"
+}, {
+	"value": "38-323",
+	"label": "Gopalasamudram"
+}, {
+	"value": "38-324",
+	"label": "Huligal"
+}, {
+	"value": "38-325",
+	"label": "Kadambur"
+}, {
+	"value": "38-326",
+	"label": "Kallakkurichi"
+}, {
+	"value": "38-327",
+	"label": "Kancheepuram"
+}, {
+	"value": "38-328",
+	"label": "Karaikkudi"
+}, {
+	"value": "38-329",
+	"label": "Karuppur"
+}, {
+	"value": "38-330",
+	"label": "Keeramangalam"
+}, {
+	"value": "38-331",
+	"label": "Kilkunda"
+}, {
+	"value": "38-332",
+	"label": "Kolappalur"
+}, {
+	"value": "38-333",
+	"label": "Kotagiri"
+}, {
+	"value": "38-334",
+	"label": "Kulasekarapuram"
+}, {
+	"value": "38-335",
+	"label": "Labbaikudikadu"
+}, {
+	"value": "38-336",
+	"label": "Mallur"
+}, {
+	"value": "38-337",
+	"label": "Mandapam"
+}, {
+	"value": "38-338",
+	"label": "Marungur"
+}, {
+	"value": "38-339",
+	"label": "Melpattampakkam"
+}, {
+	"value": "38-340",
+	"label": "Mopperipalayam"
+}, {
+	"value": "38-341",
+	"label": "Muttayyapuram"
+}, {
+	"value": "38-342",
+	"label": "Namakkal"
+}, {
+	"value": "38-344",
+	"label": "Neiyyur"
+}, {
+	"value": "38-345",
+	"label": "Odaiyakulam"
+}, {
+	"value": "38-346",
+	"label": "P.Mettupalayam"
+}, {
+	"value": "38-347",
+	"label": "Palani Chettipatti"
+}, {
+	"value": "38-348",
+	"label": "Panaimarathupatti"
+}, {
+	"value": "38-349",
+	"label": "Paramakudi"
+}, {
+	"value": "38-350",
+	"label": "Pennagaram"
+}, {
+	"value": "38-351",
+	"label": "Periyapatti"
+}, {
+	"value": "38-352",
+	"label": "Pillanallur"
+}, {
+	"value": "38-353",
+	"label": "Pothanur"
+}, {
+	"value": "38-354",
+	"label": "Puliyankudi"
+}, {
+	"value": "38-355",
+	"label": "Rajapalayam"
+}, {
+	"value": "38-356",
+	"label": "Salangapalayam"
+}, {
+	"value": "38-357",
+	"label": "Sathankulam"
+}, {
+	"value": "38-358",
+	"label": "Sentharapatti"
+}, {
+	"value": "38-359",
+	"label": "Sirkali"
+}, {
+	"value": "38-360",
+	"label": "Srimushnam"
+}, {
+	"value": "38-361",
+	"label": "Swamimalai"
+}, {
+	"value": "38-362",
+	"label": "Thanjavur"
+}, {
+	"value": "38-363",
+	"label": "Thenthiruperai"
+}, {
+	"value": "38-364",
+	"label": "Thirunageswaram"
+}, {
+	"value": "38-365",
+	"label": "TIRUVALLUR"
+}, {
+	"value": "38-366",
+	"label": "Thondi"
+}, {
+	"value": "38-367",
+	"label": "TIRUCHIRAPALLI"
+}, {
+	"value": "38-368",
+	"label": "Tittakudi"
+}, {
+	"value": "38-369",
+	"label": "Uppiliapuram"
+}, {
+	"value": "38-370",
+	"label": "Vadakarai Keezhpadu"
+}, {
+	"value": "38-371",
+	"label": "Valavanur"
+}, {
+	"value": "38-372",
+	"label": "Vathirairuppu"
+}, {
+	"value": "38-373",
+	"label": "Vellimalai"
+}, {
+	"value": "38-374",
+	"label": "Vettaikaranpudur"
+}, {
+	"value": "38-375",
+	"label": "Virudhachalam"
+}, {
+	"value": "38-376",
+	"label": "Cholapuram"
+}, {
+	"value": "38-377",
+	"label": "Devarshola"
+}, {
+	"value": "38-378",
+	"label": "Edakalinadu"
+}, {
+	"value": "38-379",
+	"label": "Eruvadi"
+}, {
+	"value": "38-380",
+	"label": "Gudalur"
+}, {
+	"value": "38-381",
+	"label": "Ilampillai"
+}, {
+	"value": "38-382",
+	"label": "Kadathur"
+}, {
+	"value": "38-383",
+	"label": "Kallakudi"
+}, {
+	"value": "38-384",
+	"label": "Kangayampalayam"
+}, {
+	"value": "38-385",
+	"label": "Karamadai"
+}, {
+	"value": "38-386",
+	"label": "Karur"
+}, {
+	"value": "38-387",
+	"label": "Keeranur"
+}, {
+	"value": "38-388",
+	"label": "Killai"
+}, {
+	"value": "38-389",
+	"label": "Kolathupalayam"
+}, {
+	"value": "38-390",
+	"label": "Kothinallur"
+}, {
+	"value": "38-391",
+	"label": "Kulithalai"
+}, {
+	"value": "38-392",
+	"label": "Lakkampatti"
+}, {
+	"value": "38-393",
+	"label": "Mamallapuram"
+}, {
+	"value": "38-394",
+	"label": "Mangalampet"
+}, {
+	"value": "38-395",
+	"label": "Mathigiri"
+}, {
+	"value": "38-396",
+	"label": "Melur"
+}, {
+	"value": "38-397",
+	"label": "Mudukulathur"
+}, {
+	"value": "38-398",
+	"label": "Myladi"
+}, {
+	"value": "38-399",
+	"label": "Nambiyur"
+}, {
+	"value": "38-400",
+	"label": "Nasiyanur"
+}, {
+	"value": "38-401",
+	"label": "Nellikuppam"
+}, {
+	"value": "38-402",
+	"label": "Oddanchatram"
+}, {
+	"value": "38-403",
+	"label": "P.N.Patti"
+}, {
+	"value": "38-404",
+	"label": "Palayam"
+}, {
+	"value": "38-405",
+	"label": "Panapakkam"
+}, {
+	"value": "38-406",
+	"label": "Paramathi"
+}, {
+	"value": "38-407",
+	"label": "Pennathur"
+}, {
+	"value": "38-408",
+	"label": "Periyasemur"
+}, {
+	"value": "38-409",
+	"label": "Pollachi"
+}, {
+	"value": "38-410",
+	"label": "Pothatturpettai"
+}, {
+	"value": "38-411",
+	"label": "Puliyur"
+}, {
+	"value": "38-412",
+	"label": "Ramanathapuram"
+}, {
+	"value": "38-413",
+	"label": "Salem"
+}, {
+	"value": "38-414",
+	"label": "Sathiyavijayanagara"
+}, {
+	"value": "38-415",
+	"label": "Senur"
+}, {
+	"value": "38-416",
+	"label": "Sirugamani"
+}, {
+	"value": "38-417",
+	"label": "Sriperumbudur"
+}, {
+	"value": "38-418",
+	"label": "T.Kallupatti"
+}, {
+	"value": "38-419",
+	"label": "Tharamangalam"
+}, {
+	"value": "38-420",
+	"label": "Thesur"
+}, {
+	"value": "38-421",
+	"label": "Thirunindravur"
+}, {
+	"value": "38-422",
+	"label": "TIRUVARUR"
+}, {
+	"value": "38-423",
+	"label": "Thoothukkudi"
+}, {
+	"value": "38-424",
+	"label": "Tirukalukundram"
+}, {
+	"value": "38-425",
+	"label": "TNPL Pugalur"
+}, {
+	"value": "38-426",
+	"label": "Urapakkam"
+}, {
+	"value": "38-427",
+	"label": "Vadakkanandal"
+}, {
+	"value": "38-428",
+	"label": "Vallam"
+}, {
+	"value": "38-429",
+	"label": "Vazhapadi"
+}, {
+	"value": "38-430",
+	"label": "Vellore"
+}, {
+	"value": "38-431",
+	"label": "Vettavalam"
+}, {
+	"value": "38-432",
+	"label": "Virudhunagar"
+}, {
+	"value": "38-433",
+	"label": "Coimbatore"
+}, {
+	"value": "38-434",
+	"label": "Dhalavoipuram"
+}, {
+	"value": "38-435",
+	"label": "Edappadi"
+}, {
+	"value": "38-436",
+	"label": "Ethapur"
+}, {
+	"value": "38-438",
+	"label": "Ilanji"
+}, {
+	"value": "38-439",
+	"label": "Kadayal"
+}, {
+	"value": "38-440",
+	"label": "Kallukuttam"
+}, {
+	"value": "38-441",
+	"label": "Kangeyam"
+}, {
+	"value": "38-442",
+	"label": "Karambakkudi"
+}, {
+	"value": "38-443",
+	"label": "Kasipalayam"
+}, {
+	"value": "38-445",
+	"label": "Killiyur"
+}, {
+	"value": "38-446",
+	"label": "Kolathur"
+}, {
+	"value": "38-447",
+	"label": "Kottakuppam"
+}, {
+	"value": "38-448",
+	"label": "Kumarapuram"
+}, {
+	"value": "38-449",
+	"label": "Lalgudi"
+}, {
+	"value": "38-450",
+	"label": "Mamsapuram"
+}, {
+	"value": "38-451",
+	"label": "Manimutharu"
+}, {
+	"value": "38-452",
+	"label": "Mayiladuthurai"
+}, {
+	"value": "38-453",
+	"label": "Melvisharam"
+}, {
+	"value": "38-454",
+	"label": "Mukasipidariyur"
+}, {
+	"value": "38-455",
+	"label": "Naduvattam"
+}, {
+	"value": "38-456",
+	"label": "Nandivaram - Guduva"
+}, {
+	"value": "38-457",
+	"label": "Natham"
+}, {
+	"value": "38-458",
+	"label": "Nemili"
+}, {
+	"value": "38-459",
+	"label": "Odugathur"
+}, {
+	"value": "38-460",
+	"label": "Pacode"
+}, {
+	"value": "38-461",
+	"label": "Palladam"
+}, {
+	"value": "38-462",
+	"label": "Panboli"
+}, {
+	"value": "38-463",
+	"label": "Parangipettai"
+}, {
+	"value": "38-464",
+	"label": "Peraiyur"
+}, {
+	"value": "38-465",
+	"label": "Pernampattu"
+}, {
+	"value": "38-466",
+	"label": "Polur"
+}, {
+	"value": "38-467",
+	"label": "Pudukadai"
+}, {
+	"value": "38-468",
+	"label": "Pullampadi"
+}, {
+	"value": "38-469",
+	"label": "Rameswaram"
+}, {
+	"value": "38-470",
+	"label": "Samalapuram"
+}, {
+	"value": "38-471",
+	"label": "Sathyamangalam"
+}, {
+	"value": "38-472",
+	"label": "Sethiathoppu"
+}, {
+	"value": "38-473",
+	"label": "Sirumugai"
+}, {
+	"value": "38-474",
+	"label": "Sriramapuram"
+}, {
+	"value": "38-475",
+	"label": "Tayilupatti"
+}, {
+	"value": "38-476",
+	"label": "Tharangambadi"
+}, {
+	"value": "38-477",
+	"label": "Thevaram"
+}, {
+	"value": "38-478",
+	"label": "Thiruparappu"
+}, {
+	"value": "38-479",
+	"label": "Thiruvattaru"
+}, {
+	"value": "38-480",
+	"label": "Thorapadi"
+}, {
+	"value": "38-481",
+	"label": "Tirukkoyilur"
+}, {
+	"value": "38-482",
+	"label": "Udangudi"
+}, {
+	"value": "38-483",
+	"label": "Usilampatti"
+}, {
+	"value": "38-484",
+	"label": "Vadakkuvalliyur"
+}, {
+	"value": "38-485",
+	"label": "Valparai"
+}, {
+	"value": "38-486",
+	"label": "Vedaranyam"
+}, {
+	"value": "38-487",
+	"label": "Vellottamparappu"
+}, {
+	"value": "38-488",
+	"label": "Vijayapuri"
+}, {
+	"value": "42-247",
+	"label": "Pilkhana"
+}, {
+	"value": "42-248",
+	"label": "Purdilnagar"
+}, {
+	"value": "42-249",
+	"label": "Ramnagar"
+}, {
+	"value": "42-250",
+	"label": "Rath"
+}, {
+	"value": "42-251",
+	"label": "Rudayan"
+}, {
+	"value": "42-252",
+	"label": "Sahatwar"
+}, {
+	"value": "42-253",
+	"label": "Salarpur Khadar"
+}, {
+	"value": "42-254",
+	"label": "Sardhana"
+}, {
+	"value": "42-255",
+	"label": "Shahabad"
+}, {
+	"value": "42-256",
+	"label": "Shergarh"
+}, {
+	"value": "42-257",
+	"label": "Sidhauli"
+}, {
+	"value": "42-258",
+	"label": "SIRSA(UP)"
+}, {
+	"value": "42-259",
+	"label": "Sumerpur"
+}, {
+	"value": "42-260",
+	"label": "Thana Bhawan"
+}, {
+	"value": "42-261",
+	"label": "Tundla"
+}, {
+	"value": "42-262",
+	"label": "Usehat"
+}, {
+	"value": "42-263",
+	"label": "Bhinga"
+}, {
+	"value": "42-264",
+	"label": "Bilari"
+}, {
+	"value": "42-265",
+	"label": "Bisalpur"
+}, {
+	"value": "42-266",
+	"label": "Chail"
+}, {
+	"value": "42-267",
+	"label": "Chharra Rafatpur"
+}, {
+	"value": "42-268",
+	"label": "Choubepur Kalan"
+}, {
+	"value": "42-269",
+	"label": "Daurala"
+}, {
+	"value": "42-270",
+	"label": "Dharoti Khurd"
+}, {
+	"value": "42-271",
+	"label": "Ekdil"
+}, {
+	"value": "42-273",
+	"label": "Firozabad"
+}, {
+	"value": "42-274",
+	"label": "Gaura Barhaj"
+}, {
+	"value": "42-275",
+	"label": "Ghosia Bazar"
+}, {
+	"value": "42-276",
+	"label": "Gosainganj"
+}, {
+	"value": "42-277",
+	"label": "Hafizpur"
+}, {
+	"value": "42-278",
+	"label": "Harraiya"
+}, {
+	"value": "42-279",
+	"label": "Iltifatganj Bazar"
+}, {
+	"value": "42-280",
+	"label": "Jaithara"
+}, {
+	"value": "42-281",
+	"label": "Jansath"
+}, {
+	"value": "42-282",
+	"label": "Jhinjhana"
+}, {
+	"value": "42-283",
+	"label": "Kadaura"
+}, {
+	"value": "42-284",
+	"label": "Kalpi"
+}, {
+	"value": "42-285",
+	"label": "Karari"
+}, {
+	"value": "42-286",
+	"label": "Kauria-ganj"
+}, {
+	"value": "42-287",
+	"label": "Khamaria"
+}, {
+	"value": "42-288",
+	"label": "Kheri"
+}, {
+	"value": "42-289",
+	"label": "Koeripur"
+}, {
+	"value": "42-290",
+	"label": "Kulpahar"
+}, {
+	"value": "42-291",
+	"label": "Kusmara"
+}, {
+	"value": "42-292",
+	"label": "Lohta"
+}, {
+	"value": "42-293",
+	"label": "Mahoba"
+}, {
+	"value": "42-294",
+	"label": "Malihabad"
+}, {
+	"value": "42-295",
+	"label": "Maswasi"
+}, {
+	"value": "42-296",
+	"label": "Mehdawal"
+}, {
+	"value": "42-297",
+	"label": "Mohammadabad"
+}, {
+	"value": "42-298",
+	"label": "Muhammadabad Gohna"
+}, {
+	"value": "42-299",
+	"label": "Nai Bazar"
+}, {
+	"value": "42-300",
+	"label": "Naugawan Sadat"
+}, {
+	"value": "42-301",
+	"label": "Noida"
+}, {
+	"value": "42-302",
+	"label": "Padrauna"
+}, {
+	"value": "42-303",
+	"label": "Patala"
+}, {
+	"value": "42-304",
+	"label": "Pilkhuwa"
+}, {
+	"value": "42-305",
+	"label": "Purqzi"
+}, {
+	"value": "42-306",
+	"label": "RAMPUR(UP)"
+}, {
+	"value": "42-307",
+	"label": "Raya"
+}, {
+	"value": "42-308",
+	"label": "Rudrapur"
+}, {
+	"value": "42-309",
+	"label": "Sahawar"
+}, {
+	"value": "42-310",
+	"label": "Salempur"
+}, {
+	"value": "42-311",
+	"label": "Sarila"
+}, {
+	"value": "42-313",
+	"label": "Sherkot"
+}, {
+	"value": "42-314",
+	"label": "Sidhpura"
+}, {
+	"value": "42-315",
+	"label": "Sirsaganj"
+}, {
+	"value": "42-316",
+	"label": "Suriyawan"
+}, {
+	"value": "42-317",
+	"label": "Thiriya Nizamat Kha"
+}, {
+	"value": "42-318",
+	"label": "Ugu"
+}, {
+	"value": "42-319",
+	"label": "Utraula"
+}, {
+	"value": "42-320",
+	"label": "Bhogaon"
+}, {
+	"value": "42-321",
+	"label": "Bilariaganj"
+}, {
+	"value": "42-322",
+	"label": "Bisanda Buzurg"
+}, {
+	"value": "42-323",
+	"label": "Chak Imam Ali"
+}, {
+	"value": "42-324",
+	"label": "Chhata"
+}, {
+	"value": "42-325",
+	"label": "Chunar"
+}, {
+	"value": "42-326",
+	"label": "Debai"
+}, {
+	"value": "42-327",
+	"label": "Dhaura Tanda"
+}, {
+	"value": "42-328",
+	"label": "Erich"
+}, {
+	"value": "42-329",
+	"label": "Fariha"
+}, {
+	"value": "42-330",
+	"label": "Gajraula"
+}, {
+	"value": "42-331",
+	"label": "Gauri Bazar"
+}, {
+	"value": "42-332",
+	"label": "Ghughuli"
+}, {
+	"value": "42-334",
+	"label": "Haidergarh"
+}, {
+	"value": "42-335",
+	"label": "Hasanpur"
+}, {
+	"value": "42-336",
+	"label": "Indian Telephone In"
+}, {
+	"value": "42-337",
+	"label": "Jalalabad"
+}, {
+	"value": "42-338",
+	"label": "Jarwal"
+}, {
+	"value": "42-339",
+	"label": "Jhusi Kohna"
+}, {
+	"value": "42-340",
+	"label": "Kadipur"
+}, {
+	"value": "42-341",
+	"label": "Kamalganj"
+}, {
+	"value": "42-342",
+	"label": "Karhal"
+}, {
+	"value": "42-343",
+	"label": "Kemri"
+}, {
+	"value": "42-344",
+	"label": "Khanpur"
+}, {
+	"value": "42-345",
+	"label": "Kheta Sarai"
+}, {
+	"value": "42-346",
+	"label": "Konch"
+}, {
+	"value": "42-347",
+	"label": "Kunda"
+}, {
+	"value": "42-348",
+	"label": "Laharpur"
+}, {
+	"value": "42-349",
+	"label": "Loni"
+}, {
+	"value": "42-350",
+	"label": "Maholi"
+}, {
+	"value": "42-351",
+	"label": "Mallawan"
+}, {
+	"value": "42-352",
+	"label": "Mataundh"
+}, {
+	"value": "42-353",
+	"label": "Mehnagar"
+}, {
+	"value": "42-355",
+	"label": "Mundera Bazar"
+}, {
+	"value": "42-356",
+	"label": "Nainana Jat"
+}, {
+	"value": "42-357",
+	"label": "Nautanwa"
+}, {
+	"value": "42-358",
+	"label": "Noorpur"
+}, {
+	"value": "42-359",
+	"label": "Pahasu"
+}, {
+	"value": "42-360",
+	"label": "Patiyali"
+}, {
+	"value": "42-361",
+	"label": "Pinahat"
+}, {
+	"value": "42-362",
+	"label": "Purwa"
+}, {
+	"value": "42-363",
+	"label": "Rampur Bhawanipur"
+}, {
+	"value": "42-364",
+	"label": "Renukoot"
+}, {
+	"value": "42-365",
+	"label": "Rura"
+}, {
+	"value": "42-366",
+	"label": "Sahjanwa"
+}, {
+	"value": "42-367",
+	"label": "Salon"
+}, {
+	"value": "42-368",
+	"label": "Sarsawan"
+}, {
+	"value": "42-369",
+	"label": "Shahganj"
+}, {
+	"value": "42-370",
+	"label": "Shikarpur"
+}, {
+	"value": "42-371",
+	"label": "Sikanderpur"
+}, {
+	"value": "42-372",
+	"label": "Sirsi"
+}, {
+	"value": "42-373",
+	"label": "Talbehat"
+}, {
+	"value": "42-374",
+	"label": "Tikait Nagar"
+}, {
+	"value": "42-375",
+	"label": "Ujhani"
+}, {
+	"value": "42-376",
+	"label": "Varanasi"
+}, {
+	"value": "42-377",
+	"label": "BHOJPUR"
+}, {
+	"value": "42-378",
+	"label": "BILASPUR(UP)"
+}, {
+	"value": "42-379",
+	"label": "Bisauli"
+}, {
+	"value": "42-380",
+	"label": "Chakia"
+}, {
+	"value": "42-381",
+	"label": "Chhatari"
+}, {
+	"value": "42-382",
+	"label": "Churk Ghurma"
+}, {
+	"value": "42-383",
+	"label": "Deoband"
+}, {
+	"value": "42-384",
+	"label": "Dhaurahara"
+}, {
+	"value": "42-385",
+	"label": "Etah"
+}, {
+	"value": "42-386",
+	"label": "FARUKHABAD"
+}, {
+	"value": "42-387",
+	"label": "Gangaghat"
+}, {
+	"value": "42-388",
+	"label": "Gausganj"
+}, {
+	"value": "42-389",
+	"label": "Gohand"
+}, {
+	"value": "42-390",
+	"label": "Govardhan"
+}, {
+	"value": "42-391",
+	"label": "Haldaur"
+}, {
+	"value": "42-392",
+	"label": "Hasayan"
+}, {
+	"value": "42-393",
+	"label": "Islamnagar"
+}, {
+	"value": "42-395",
+	"label": "Jasrana"
+}, {
+	"value": "42-396",
+	"label": "Jhusi"
+}, {
+	"value": "42-397",
+	"label": "Kailashpur"
+}, {
+	"value": "42-398",
+	"label": "Kampil"
+}, {
+	"value": "42-399",
+	"label": "Karnawal"
+}, {
+	"value": "42-400",
+	"label": "Kerakat"
+}, {
+	"value": "42-401",
+	"label": "Kharela"
+}, {
+	"value": "42-402",
+	"label": "Khudaganj"
+}, {
+	"value": "42-403",
+	"label": "Kopaganj"
+}, {
+	"value": "42-404",
+	"label": "Kundarki"
+}, {
+	"value": "42-405",
+	"label": "Lakhimpur"
+}, {
+	"value": "42-406",
+	"label": "Lucknow"
+}, {
+	"value": "42-407",
+	"label": "Mahona"
+}, {
+	"value": "42-408",
+	"label": "Mandawar"
+}, {
+	"value": "42-409",
+	"label": "Mathura"
+}, {
+	"value": "42-410",
+	"label": "Mendu"
+}, {
+	"value": "42-411",
+	"label": "Mohammadi"
+}, {
+	"value": "42-412",
+	"label": "Mundia"
+}, {
+	"value": "42-413",
+	"label": "Najibabad"
+}, {
+	"value": "42-414",
+	"label": "Nawabganj"
+}, {
+	"value": "42-415",
+	"label": "Nyoria Husainpur"
+}, {
+	"value": "42-416",
+	"label": "Paintepur"
+}, {
+	"value": "42-417",
+	"label": "Patti"
+}, {
+	"value": "42-418",
+	"label": "Pipalsana Chaudhari"
+}, {
+	"value": "42-419",
+	"label": "Qasimpur Power Hous"
+}, {
+	"value": "42-420",
+	"label": "Rampur Karkhana"
+}, {
+	"value": "42-421",
+	"label": "Reoti"
+}, {
+	"value": "42-422",
+	"label": "Sadabad"
+}, {
+	"value": "42-423",
+	"label": "Sahpau"
+}, {
+	"value": "42-424",
+	"label": "Sambhal"
+}, {
+	"value": "42-425",
+	"label": "Sasni"
+}, {
+	"value": "42-426",
+	"label": "Shahi"
+}, {
+	"value": "42-427",
+	"label": "Shikohabad"
+}, {
+	"value": "42-429",
+	"label": "Sisauli"
+}, {
+	"value": "42-430",
+	"label": "Talgram"
+}, {
+	"value": "42-431",
+	"label": "Tikri"
+}, {
+	"value": "42-432",
+	"label": "Ujhari"
+}, {
+	"value": "42-433",
+	"label": "Vijaigarh"
+}, {
+	"value": "42-434",
+	"label": "Bhokarhedi"
+}, {
+	"value": "42-436",
+	"label": "Bisharatganj"
+}, {
+	"value": "42-437",
+	"label": "Chandauli"
+}, {
+	"value": "42-438",
+	"label": "Chhibramau"
+}, {
+	"value": "42-439",
+	"label": "Colonelganj"
+}, {
+	"value": "42-440",
+	"label": "Deoranian"
+}, {
+	"value": "42-441",
+	"label": "Dibiyapur"
+}, {
+	"value": "42-442",
+	"label": "Etawah"
+}, {
+	"value": "42-443",
+	"label": "FATEHABAD(UP)"
+}, {
+	"value": "42-444",
+	"label": "Gangapur"
+}, {
+	"value": "42-445",
+	"label": "Gawan"
+}, {
+	"value": "42-446",
+	"label": "Gokul"
+}, {
+	"value": "42-447",
+	"label": "Gulaothi"
+}, {
+	"value": "42-448",
+	"label": "HAMIRPUR(UP)"
+}, {
+	"value": "42-449",
+	"label": "Hastinapur"
+}, {
+	"value": "42-450",
+	"label": "Itaunja"
+}, {
+	"value": "42-452",
+	"label": "Jaswantnagar"
+}, {
+	"value": "42-453",
+	"label": "Jiyanpur"
+}, {
+	"value": "42-454",
+	"label": "Kaimganj"
+}, {
+	"value": "42-455",
+	"label": "Kandhla"
+}, {
+	"value": "42-456",
+	"label": "Kasganj"
+}, {
+	"value": "42-457",
+	"label": "Khadda"
+}, {
+	"value": "42-458",
+	"label": "Khargupur"
+}, {
+	"value": "42-459",
+	"label": "Khurja"
+}, {
+	"value": "42-460",
+	"label": "Kora Jahanabad"
+}, {
+	"value": "42-461",
+	"label": "Kunwargaon"
+}, {
+	"value": "42-462",
+	"label": "Lakhna"
+}, {
+	"value": "42-463",
+	"label": "Machhlishahr"
+}, {
+	"value": "42-464",
+	"label": "Mahrajganj"
+}, {
+	"value": "42-465",
+	"label": "Manikpur"
+}, {
+	"value": "42-466",
+	"label": "Mau Aima"
+}, {
+	"value": "42-467",
+	"label": "Milak"
+}, {
+	"value": "42-468",
+	"label": "Mohan"
+}, {
+	"value": "42-469",
+	"label": "Muradnagar"
+}, {
+	"value": "42-470",
+	"label": "Nakur"
+}, {
+	"value": "42-472",
+	"label": "Nyotini"
+}, {
+	"value": "42-473",
+	"label": "PALI(UP)"
+}, {
+	"value": "42-474",
+	"label": "Phalauda"
+}, {
+	"value": "42-475",
+	"label": "Pipiganj"
+}, {
+	"value": "42-476",
+	"label": "Rabupura"
+}, {
+	"value": "42-477",
+	"label": "Rampur Maniharan"
+}, {
+	"value": "42-478",
+	"label": "Richha"
+}, {
+	"value": "42-479",
+	"label": "Sadat"
+}, {
+	"value": "42-480",
+	"label": "Saidpur"
+}, {
+	"value": "42-481",
+	"label": "Samdhan"
+}, {
+	"value": "42-482",
+	"label": "Satrikh"
+}, {
+	"value": "42-483",
+	"label": "Shahjahanpur"
+}, {
+	"value": "42-484",
+	"label": "Shishgarh"
+}, {
+	"value": "42-485",
+	"label": "Sikandra Rao"
+}, {
+	"value": "42-486",
+	"label": "Siswa Bazar"
+}, {
+	"value": "42-487",
+	"label": "Tambaur Cum Ahmadab"
+}, {
+	"value": "42-488",
+	"label": "Tilhar"
+}, {
+	"value": "42-489",
+	"label": "Umri"
+}, {
+	"value": "42-490",
+	"label": "Vrindavan"
+}, {
+	"value": "42-491",
+	"label": "Bhulepur"
+}, {
+	"value": "42-492",
+	"label": "Bilgram"
+}, {
+	"value": "42-493",
+	"label": "Biswan"
+}, {
+	"value": "42-494",
+	"label": "Chandausi"
+}, {
+	"value": "42-495",
+	"label": "Chhutmalpur"
+}, {
+	"value": "42-496",
+	"label": "Dadri"
+}, {
+	"value": "42-497",
+	"label": "Deoria"
+}, {
+	"value": "42-498",
+	"label": "Dildarnagar Fatehpu"
+}, {
+	"value": "42-499",
+	"label": "Etmadpur"
+}, {
+	"value": "42-500",
+	"label": "Fatehganj Pashchimi"
+}, {
+	"value": "42-501",
+	"label": "Gangoh"
+}, {
+	"value": "42-502",
+	"label": "Ghatampur"
+}, {
+	"value": "42-503",
+	"label": "Gola Bazar"
+}, {
+	"value": "42-504",
+	"label": "Gularia Bhindara"
+}, {
+	"value": "42-505",
+	"label": "Handia"
+}, {
+	"value": "42-506",
+	"label": "Hata"
+}, {
+	"value": "42-507",
+	"label": "Jafarabad"
+}, {
+	"value": "42-508",
+	"label": "Jalali"
+}, {
+	"value": "42-509",
+	"label": "Jatari"
+}, {
+	"value": "42-510",
+	"label": "Joya"
+}, {
+	"value": "42-511",
+	"label": "Kairana"
+}, {
+	"value": "42-512",
+	"label": "Kandwa"
+}, {
+	"value": "30-065",
+	"label": "Kavisurjyanagar"
+}, {
+	"value": "30-066",
+	"label": "Kendrapara"
+}, {
+	"value": "30-067",
+	"label": "Kendujhar"
+}, {
+	"value": "30-068",
+	"label": "Kesinga"
+}, {
+	"value": "30-069",
+	"label": "Khaliapali"
+}, {
+	"value": "30-070",
+	"label": "Khalikote"
+}, {
+	"value": "30-071",
+	"label": "Khandapada"
+}, {
+	"value": "30-072",
+	"label": "Khariar"
+}, {
+	"value": "30-073",
+	"label": "Khariar Road"
+}, {
+	"value": "30-074",
+	"label": "Khatiguda"
+}, {
+	"value": "30-075",
+	"label": "Khordha"
+}, {
+	"value": "30-076",
+	"label": "Kochinda"
+}, {
+	"value": "30-077",
+	"label": "Kodala"
+}, {
+	"value": "30-078",
+	"label": "Konark"
+}, {
+	"value": "30-079",
+	"label": "Koraput"
+}, {
+	"value": "30-080",
+	"label": "Kotpad"
+}, {
+	"value": "30-081",
+	"label": "Lathikata"
+}, {
+	"value": "30-082",
+	"label": "Makundapur"
+}, {
+	"value": "30-083",
+	"label": "Malkangiri"
+}, {
+	"value": "30-084",
+	"label": "Mukhiguda"
+}, {
+	"value": "30-085",
+	"label": "Nabarangapur"
+}, {
+	"value": "30-086",
+	"label": "Nalco"
+}, {
+	"value": "30-087",
+	"label": "Nayagarh"
+}, {
+	"value": "30-088",
+	"label": "Nilagiri"
+}, {
+	"value": "30-089",
+	"label": "Nimapada"
+}, {
+	"value": "30-090",
+	"label": "Npatna"
+}, {
+	"value": "30-091",
+	"label": "O.C.L Industrial To"
+}, {
+	"value": "30-092",
+	"label": "Pratapsasan"
+}, {
+	"value": "30-093",
+	"label": "SAMBHALPUR"
+}, {
+	"value": "30-094",
+	"label": "Titlagarh"
+}, {
+	"value": "30-095",
+	"label": "Padmapur"
+}, {
+	"value": "30-096",
+	"label": "Puri"
+}, {
+	"value": "30-097",
+	"label": "Sonapur"
+}, {
+	"value": "30-098",
+	"label": "Udala"
+}, {
+	"value": "30-099",
+	"label": "Panposh"
+}, {
+	"value": "30-100",
+	"label": "Purusottampur"
+}, {
+	"value": "30-101",
+	"label": "Soro"
+}, {
+	"value": "30-102",
+	"label": "Umarkote"
+}, {
+	"value": "30-103",
+	"label": "Paradip"
+}, {
+	"value": "42-513",
+	"label": "Kataria"
+}, {
+	"value": "42-514",
+	"label": "Khaga"
+}, {
+	"value": "42-515",
+	"label": "Khariya"
+}, {
+	"value": "42-516",
+	"label": "Khutar"
+}, {
+	"value": "42-517",
+	"label": "Koraon"
+}, {
+	"value": "42-518",
+	"label": "Kuraoli"
+}, {
+	"value": "42-519",
+	"label": "Lal Gopalganj Ninda"
+}, {
+	"value": "42-520",
+	"label": "Madhoganj"
+}, {
+	"value": "42-522",
+	"label": "Manikpur Sarhat"
+}, {
+	"value": "42-523",
+	"label": "Maudaha"
+}, {
+	"value": "42-524",
+	"label": "Miranpur"
+}, {
+	"value": "42-525",
+	"label": "Mohanpur"
+}, {
+	"value": "42-526",
+	"label": "Mursan"
+}, {
+	"value": "42-527",
+	"label": "Nanauta"
+}, {
+	"value": "42-529",
+	"label": "Obra"
+}, {
+	"value": "42-531",
+	"label": "Phaphund"
+}, {
+	"value": "42-532",
+	"label": "Pipraich"
+}, {
+	"value": "42-533",
+	"label": "Radhakund"
+}, {
+	"value": "42-534",
+	"label": "Rampura"
+}, {
+	"value": "42-535",
+	"label": "Risia Bazar"
+}, {
+	"value": "42-536",
+	"label": "Safipur"
+}, {
+	"value": "42-538",
+	"label": "Samthar"
+}, {
+	"value": "42-539",
+	"label": "Saunkh"
+}, {
+	"value": "42-540",
+	"label": "Shahpur"
+}, {
+	"value": "42-541",
+	"label": "Shivli"
+}, {
+	"value": "42-542",
+	"label": "Sikandrabad"
+}, {
+	"value": "42-543",
+	"label": "Sitapur"
+}, {
+	"value": "42-544",
+	"label": "Tanda"
+}, {
+	"value": "42-545",
+	"label": "Tindwari"
+}, {
+	"value": "42-546",
+	"label": "Umri Kalan"
+}, {
+	"value": "42-547",
+	"label": "Warhapur"
+}, {
+	"value": "42-548",
+	"label": "Bidhuna"
+}, {
+	"value": "42-549",
+	"label": "Bilhaur"
+}, {
+	"value": "42-550",
+	"label": "Bithoor"
+}, {
+	"value": "42-551",
+	"label": "Chandpur"
+}, {
+	"value": "42-552",
+	"label": "Chilkana Sultanpur"
+}, {
+	"value": "42-553",
+	"label": "Dalmau"
+}, {
+	"value": "42-554",
+	"label": "Dewa"
+}, {
+	"value": "42-555",
+	"label": "Doghat"
+}, {
+	"value": "42-556",
+	"label": "Faizabad"
+}, {
+	"value": "42-557",
+	"label": "Fatehganj Purvi"
+}, {
+	"value": "42-558",
+	"label": "Ganj Dundwara"
+}, {
+	"value": "42-559",
+	"label": "Ghaziabad"
+}, {
+	"value": "42-560",
+	"label": "Gola Gokarannath"
+}, {
+	"value": "42-561",
+	"label": "Gulariya"
+}, {
+	"value": "42-562",
+	"label": "Hapur"
+}, {
+	"value": "42-563",
+	"label": "Hathras"
+}, {
+	"value": "42-564",
+	"label": "Jagner"
+}, {
+	"value": "42-565",
+	"label": "Jalalpur"
+}, {
+	"value": "42-566",
+	"label": "Jaunpur"
+}, {
+	"value": "42-567",
+	"label": "Jyoti Khuria"
+}, {
+	"value": "42-568",
+	"label": "Kakgaina"
+}, {
+	"value": "42-569",
+	"label": "Kannauj"
+}, {
+	"value": "42-570",
+	"label": "Katghar Lalganj"
+}, {
+	"value": "42-571",
+	"label": "Khailar"
+}, {
+	"value": "42-572",
+	"label": "Kharkhoda"
+}, {
+	"value": "42-573",
+	"label": "Kiraoli"
+}, {
+	"value": "42-574",
+	"label": "Korwa"
+}, {
+	"value": "42-575",
+	"label": "Kurara"
+}, {
+	"value": "42-576",
+	"label": "Lalganj"
+}, {
+	"value": "42-577",
+	"label": "Madhogarh"
+}, {
+	"value": "42-578",
+	"label": "Mahroni"
+}, {
+	"value": "42-579",
+	"label": "Maniyar"
+}, {
+	"value": "42-580",
+	"label": "Maunath Bhanjan"
+}, {
+	"value": "42-581",
+	"label": "Mirganj"
+}, {
+	"value": "42-582",
+	"label": "Mohiuddinpur"
+}, {
+	"value": "42-583",
+	"label": "Musafirkhana"
+}, {
+	"value": "42-584",
+	"label": "Nandgaon"
+}, {
+	"value": "42-585",
+	"label": "Nehtaur"
+}, {
+	"value": "42-586",
+	"label": "Oel Dhakwa"
+}, {
+	"value": "42-587",
+	"label": "Palia Kalan"
+}, {
+	"value": "42-588",
+	"label": "Phulpur"
+}, {
+	"value": "42-589",
+	"label": "Powayan"
+}, {
+	"value": "42-590",
+	"label": "Rae Bareli"
+}, {
+	"value": "42-591",
+	"label": "Ranipur"
+}, {
+	"value": "42-592",
+	"label": "Rithora"
+}, {
+	"value": "42-593",
+	"label": "Sahanpur"
+}, {
+	"value": "42-594",
+	"label": "Sainthal"
+}, {
+	"value": "42-595",
+	"label": "Sandi"
+}, {
+	"value": "42-596",
+	"label": "Saurikh"
+}, {
+	"value": "42-597",
+	"label": "Shamli"
+}, {
+	"value": "42-598",
+	"label": "Shivrajpur"
+}, {
+	"value": "42-599",
+	"label": "Sikindra"
+}, {
+	"value": "42-600",
+	"label": "Som"
+}, {
+	"value": "42-602",
+	"label": "Tirwaganj"
+}, {
+	"value": "42-603",
+	"label": "Un"
+}, {
+	"value": "42-604",
+	"label": "Wazirganj"
+}, {
+	"value": "42-605",
+	"label": "Bighapur"
+}, {
+	"value": "42-606",
+	"label": "Bilram"
+}, {
+	"value": "42-607",
+	"label": "Budaun"
+}, {
+	"value": "42-608",
+	"label": "Charkhari"
+}, {
+	"value": "42-609",
+	"label": "Chirgaon"
+}, {
+	"value": "42-610",
+	"label": "Dankaur"
+}, {
+	"value": "42-611",
+	"label": "Dhampur"
+}, {
+	"value": "42-612",
+	"label": "Dohrighat"
+}, {
+	"value": "42-613",
+	"label": "Faizganj"
+}, {
+	"value": "42-615",
+	"label": "Ganj Muradabad"
+}, {
+	"value": "42-616",
+	"label": "Ghazipur"
+}, {
+	"value": "42-617",
+	"label": "Gonda"
+}, {
+	"value": "42-618",
+	"label": "Gunnaur"
+}, {
+	"value": "42-619",
+	"label": "Hardoi"
+}, {
+	"value": "42-620",
+	"label": "HYDERABAD(UP)"
+}, {
+	"value": "42-621",
+	"label": "Jahanabad"
+}, {
+	"value": "42-622",
+	"label": "Jalaun"
+}, {
+	"value": "42-623",
+	"label": "Jewar"
+}, {
+	"value": "42-624",
+	"label": "Kabrai"
+}, {
+	"value": "42-625",
+	"label": "Kakod"
+}, {
+	"value": "42-626",
+	"label": "Kanpur"
+}, {
+	"value": "42-627",
+	"label": "Kathera"
+}, {
+	"value": "42-628",
+	"label": "Khair"
+}, {
+	"value": "42-629",
+	"label": "Khatauli"
+}, {
+	"value": "42-630",
+	"label": "Kiratpur"
+}, {
+	"value": "42-631",
+	"label": "Kosi Kalan"
+}, {
+	"value": "42-633",
+	"label": "Lalitpur"
+}, {
+	"value": "42-634",
+	"label": "Maghar"
+}, {
+	"value": "42-635",
+	"label": "Mailani"
+}, {
+	"value": "42-636",
+	"label": "Manjhanpur"
+}, {
+	"value": "42-637",
+	"label": "Mauranipur"
+}, {
+	"value": "42-638",
+	"label": "MIRZAPUR"
+}, {
+	"value": "42-639",
+	"label": "Moradabad"
+}, {
+	"value": "42-640",
+	"label": "Muzaffarnagar"
+}, {
+	"value": "42-641",
+	"label": "Nanpara"
+}, {
+	"value": "42-642",
+	"label": "Nichlaul"
+}, {
+	"value": "42-643",
+	"label": "Orai"
+}, {
+	"value": "42-644",
+	"label": "Parasi"
+}, {
+	"value": "42-646",
+	"label": "Pratapgarh City"
+}, {
+	"value": "42-647",
+	"label": "Raja ka Rampur"
+}, {
+	"value": "42-648",
+	"label": "Rashidpur Garhi"
+}, {
+	"value": "42-649",
+	"label": "Rly. Settlement Roz"
+}, {
+	"value": "42-650",
+	"label": "Saharanpur"
+}, {
+	"value": "42-651",
+	"label": "Saiyad Raja"
+}, {
+	"value": "42-652",
+	"label": "Sandila"
+}, {
+	"value": "42-653",
+	"label": "Seohara"
+}, {
+	"value": "42-655",
+	"label": "Shohratgarh"
+}, {
+	"value": "42-656",
+	"label": "Singahi Bhiraura"
+}, {
+	"value": "42-657",
+	"label": "Soron"
+}, {
+	"value": "42-658",
+	"label": "Tatarpur Lallu"
+}, {
+	"value": "42-659",
+	"label": "Titron"
+}, {
+	"value": "42-660",
+	"label": "Unchahar"
+}, {
+	"value": "42-661",
+	"label": "Zaidpur"
+}, {
+	"value": "42-662",
+	"label": "Achhalda"
+}, {
+	"value": "42-663",
+	"label": "Achhnera"
+}, {
+	"value": "42-664",
+	"label": "Adari"
+}, {
+	"value": "42-665",
+	"label": "Afzalgarh"
+}, {
+	"value": "42-666",
+	"label": "Agarwal Mandi"
+}, {
+	"value": "42-667",
+	"label": "Agra"
+}, {
+	"value": "42-668",
+	"label": "Ahraura"
+}, {
+	"value": "42-669",
+	"label": "Ailum"
+}, {
+	"value": "42-670",
+	"label": "Air Force Area"
+}, {
+	"value": "43-001",
+	"label": "Chakrata"
+}, {
+	"value": "43-002",
+	"label": "CHAMBA(UP)"
+}, {
+	"value": "43-003",
+	"label": "CHAMOLI"
+}, {
+	"value": "43-004",
+	"label": "Champawat"
+}, {
+	"value": "43-005",
+	"label": "Dehradun"
+}, {
+	"value": "43-006",
+	"label": "Devaprayag"
+}, {
+	"value": "43-007",
+	"label": "Dhaluwala"
+}, {
+	"value": "43-008",
+	"label": "Dhandera"
+}, {
+	"value": "43-009",
+	"label": "Dharchula"
+}, {
+	"value": "43-010",
+	"label": "Dharchula Dehat"
+}, {
+	"value": "43-011",
+	"label": "Didihat"
+}, {
+	"value": "43-012",
+	"label": "Dineshpur"
+}, {
+	"value": "43-013",
+	"label": "Dogadda"
+}, {
+	"value": "43-014",
+	"label": "Doiwala"
+}, {
+	"value": "43-015",
+	"label": "Dwarahat"
+}, {
+	"value": "43-016",
+	"label": "Gadarpur"
+}, {
+	"value": "43-017",
+	"label": "Gangotri"
+}, {
+	"value": "43-018",
+	"label": "Gochar"
+}, {
+	"value": "43-019",
+	"label": "HALDWANI"
+}, {
+	"value": "43-020",
+	"label": "HARIDWAR"
+}, {
+	"value": "43-021",
+	"label": "Herbertpur"
+}, {
+	"value": "43-022",
+	"label": "Jaspur"
+}, {
+	"value": "43-023",
+	"label": "Jhabrera"
+}, {
+	"value": "43-024",
+	"label": "Joshimath"
+}, {
+	"value": "43-025",
+	"label": "Kachnal Gosain"
+}, {
+	"value": "43-026",
+	"label": "Kaladhungi"
+}, {
+	"value": "43-027",
+	"label": "Karnaprayag"
+}, {
+	"value": "43-028",
+	"label": "Kashipur"
+}, {
+	"value": "43-029",
+	"label": "Kashirampur"
+}, {
+	"value": "43-030",
+	"label": "Kedarnath"
+}, {
+	"value": "43-031",
+	"label": "Kela Khera"
+}, {
+	"value": "43-032",
+	"label": "Khatima"
+}, {
+	"value": "43-033",
+	"label": "Kichha"
+}, {
+	"value": "43-034",
+	"label": "Kirtinagar"
+}, {
+	"value": "43-035",
+	"label": "Kotdwara"
+}, {
+	"value": "43-036",
+	"label": "Laksar"
+}, {
+	"value": "43-037",
+	"label": "Lalkn"
+}, {
+	"value": "43-038",
+	"label": "Landhaura"
+}, {
+	"value": "43-039",
+	"label": "Lansdowne"
+}, {
+	"value": "43-040",
+	"label": "Lohaghat"
+}, {
+	"value": "43-041",
+	"label": "Mah Dabra Haripura"
+}, {
+	"value": "43-042",
+	"label": "Mah Kheraganj"
+}, {
+	"value": "43-043",
+	"label": "Manglaur"
+}, {
+	"value": "43-044",
+	"label": "Mohanpur Mohammadpur"
+}, {
+	"value": "43-045",
+	"label": "Muni Ki Reti"
+}, {
+	"value": "43-046",
+	"label": "Mussoorie"
+}, {
+	"value": "43-047",
+	"label": "Nagla"
+}, {
+	"value": "43-048",
+	"label": "NAINITAL"
+}, {
+	"value": "43-049",
+	"label": "Nandprayag"
+}, {
+	"value": "43-050",
+	"label": "Narendranagar"
+}, {
+	"value": "43-051",
+	"label": "Pauri"
+}, {
+	"value": "43-052",
+	"label": "Pithoragarh"
+}, {
+	"value": "43-053",
+	"label": "Pratitnagar"
+}, {
+	"value": "43-054",
+	"label": "Ramnagar"
+}, {
+	"value": "43-055",
+	"label": "Ranikhet"
+}, {
+	"value": "43-056",
+	"label": "Rishikesh"
+}, {
+	"value": "43-057",
+	"label": "Roorkee"
+}, {
+	"value": "43-058",
+	"label": "Rudraprayag"
+}, {
+	"value": "43-059",
+	"label": "Rudrapur"
+}, {
+	"value": "43-060",
+	"label": "Shaktigarh"
+}, {
+	"value": "43-061",
+	"label": "Sitarganj"
+}, {
+	"value": "43-062",
+	"label": "SRINAGAR(UP)"
+}, {
+	"value": "43-063",
+	"label": "Sultanpur"
+}, {
+	"value": "43-064",
+	"label": "Tanakpur"
+}, {
+	"value": "43-065",
+	"label": "Tehri"
+}, {
+	"value": "43-066",
+	"label": "Uttarkashi"
+}, {
+	"value": "43-067",
+	"label": "Vikasnagar"
+}, {
+	"value": "43-068",
+	"label": "Almora"
+}, {
+	"value": "43-069",
+	"label": "Badrinathpuri"
+}, {
+	"value": "43-070",
+	"label": "Bageshwar"
+}, {
+	"value": "43-071",
+	"label": "Banbasa"
+}, {
+	"value": "43-072",
+	"label": "Bandia"
+}, {
+	"value": "43-073",
+	"label": "Barkot"
+}, {
+	"value": "43-074",
+	"label": "Bazpur"
+}, {
+	"value": "43-075",
+	"label": "Bhimtal"
+}, {
+	"value": "43-076",
+	"label": "Bhowali"
+}, {
+	"value": "44-001",
+	"label": "AURANGABAD(WB)"
+}, {
+	"value": "44-002",
+	"label": "Bablari Dewanganj"
+}, {
+	"value": "44-003",
+	"label": "Badhagachhi"
+}, {
+	"value": "44-004",
+	"label": "Baduria"
+}, {
+	"value": "44-005",
+	"label": "Bagnan"
+}, {
+	"value": "44-006",
+	"label": "Baharampur"
+}, {
+	"value": "44-007",
+	"label": "Bahirgram"
+}, {
+	"value": "44-008",
+	"label": "Bahula"
+}, {
+	"value": "44-009",
+	"label": "Bairatisal"
+}, {
+	"value": "44-010",
+	"label": "Balarampur"
+}, {
+	"value": "44-011",
+	"label": "Balichak"
+}, {
+	"value": "44-012",
+	"label": "KATHUA"
+}, {
+	"value": "44-013",
+	"label": "Banarhat Tea Garden"
+}, {
+	"value": "44-014",
+	"label": "Bangaon"
+}, {
+	"value": "44-015",
+	"label": "Bankura"
+}, {
+	"value": "44-016",
+	"label": "Banshra"
+}, {
+	"value": "44-017",
+	"label": "Bara Bamonia"
+}, {
+	"value": "44-018",
+	"label": "Barabazar"
+}, {
+	"value": "44-019",
+	"label": "Barddhaman"
+}, {
+	"value": "44-020",
+	"label": "Barijhati"
+}, {
+	"value": "44-021",
+	"label": "Barjora"
+}, {
+	"value": "44-022",
+	"label": "Baruipur"
+}, {
+	"value": "44-023",
+	"label": "Basirhat"
+}, {
+	"value": "44-024",
+	"label": "Baska"
+}, {
+	"value": "44-025",
+	"label": "Begampur"
+}, {
+	"value": "44-026",
+	"label": "Beldanga"
+}, {
+	"value": "44-027",
+	"label": "Beldubi"
+}, {
+	"value": "44-028",
+	"label": "Belebathan"
+}, {
+	"value": "44-029",
+	"label": "Beliatore"
+}, {
+	"value": "44-030",
+	"label": "Bhandardaha"
+}, {
+	"value": "44-031",
+	"label": "Bhangar Raghunathpur"
+}, {
+	"value": "44-032",
+	"label": "Bholar Dabri"
+}, {
+	"value": "44-033",
+	"label": "Bikihakola"
+}, {
+	"value": "44-034",
+	"label": "Bilandapur"
+}, {
+	"value": "44-035",
+	"label": "Bilpahari"
+}, {
+	"value": "44-036",
+	"label": "Birlapur"
+}, {
+	"value": "44-037",
+	"label": "Birnagar"
+}, {
+	"value": "44-038",
+	"label": "BISHNUPUR(WB)"
+}, {
+	"value": "44-040",
+	"label": "Bolpur"
+}, {
+	"value": "44-041",
+	"label": "Bowali"
+}, {
+	"value": "44-042",
+	"label": "Cart Road"
+}, {
+	"value": "44-043",
+	"label": "Chachanda"
+}, {
+	"value": "44-044",
+	"label": "Chak Bankola"
+}, {
+	"value": "44-045",
+	"label": "Chak Enayetnagar"
+}, {
+	"value": "44-046",
+	"label": "Chak Kashipur"
+}, {
+	"value": "44-047",
+	"label": "Chakdaha"
+}, {
+	"value": "44-048",
+	"label": "Chandrakona"
+}, {
+	"value": "44-049",
+	"label": "Chapari"
+}, {
+	"value": "44-050",
+	"label": "Chapui"
+}, {
+	"value": "44-051",
+	"label": "Charka"
+}, {
+	"value": "44-052",
+	"label": "Chelad"
+}, {
+	"value": "44-053",
+	"label": "Chhora"
+}, {
+	"value": "44-054",
+	"label": "Chikrand"
+}, {
+	"value": "44-055",
+	"label": "Chittaranjan"
+}, {
+	"value": "44-056",
+	"label": "Contai"
+}, {
+	"value": "44-057",
+	"label": "Dafahat"
+}, {
+	"value": "44-058",
+	"label": "Dainhat"
+}, {
+	"value": "44-059",
+	"label": "Dakshin Bagn"
+}, {
+	"value": "44-060",
+	"label": "Dakshin Jhapardaha"
+}, {
+	"value": "44-061",
+	"label": "Dalkhola"
+}, {
+	"value": "44-062",
+	"label": "Dalurband"
+}, {
+	"value": "44-063",
+	"label": "Darappur"
+}, {
+	"value": "44-064",
+	"label": "Darjiling"
+}, {
+	"value": "44-065",
+	"label": "Debipur"
+}, {
+	"value": "44-066",
+	"label": "Deuli"
+}, {
+	"value": "44-067",
+	"label": "Dhakuria"
+}, {
+	"value": "44-068",
+	"label": "Dhandadihi"
+}, {
+	"value": "44-069",
+	"label": "Dhanyakuria"
+}, {
+	"value": "44-070",
+	"label": "Dhatrigram"
+}, {
+	"value": "44-071",
+	"label": "Dhulian"
+}, {
+	"value": "44-072",
+	"label": "Dhupguri"
+}, {
+	"value": "44-073",
+	"label": "Dhusaripara"
+}, {
+	"value": "44-074",
+	"label": "Diamond Harbour"
+}, {
+	"value": "44-075",
+	"label": "Dignala"
+}, {
+	"value": "44-076",
+	"label": "Dinhata"
+}, {
+	"value": "44-077",
+	"label": "Domjur"
+}, {
+	"value": "44-078",
+	"label": "Dubrajpur"
+}, {
+	"value": "44-079",
+	"label": "DURGAPUR(WB)"
+}, {
+	"value": "44-080",
+	"label": "Durllabhganj"
+}, {
+	"value": "44-081",
+	"label": "Egra"
+}, {
+	"value": "44-082",
+	"label": "English Bazar"
+}, {
+	"value": "44-083",
+	"label": "Falakata"
+}, {
+	"value": "44-084",
+	"label": "Farakka Barrage Town"
+}, {
+	"value": "44-085",
+	"label": "Fatellapur"
+}, {
+	"value": "44-086",
+	"label": "Gabberia"
+}, {
+	"value": "44-087",
+	"label": "Gairkata"
+}, {
+	"value": "44-088",
+	"label": "Gangarampur"
+}, {
+	"value": "44-089",
+	"label": "Garalgachha"
+}, {
+	"value": "44-090",
+	"label": "Ghatal"
+}, {
+	"value": "44-091",
+	"label": "Ghorsala"
+}, {
+	"value": "44-092",
+	"label": "Haldibari"
+}, {
+	"value": "44-093",
+	"label": "Jala Kend"
+}, {
+	"value": "44-094",
+	"label": "Kachu Pukur"
+}, {
+	"value": "44-095",
+	"label": "Kanyanagar"
+}, {
+	"value": "44-096",
+	"label": "Khantora"
+}, {
+	"value": "44-097",
+	"label": "Krishnapur"
+}, {
+	"value": "44-098",
+	"label": "Mal"
+}, {
+	"value": "44-099",
+	"label": "Murshidabad"
+}, {
+	"value": "44-100",
+	"label": "Pairagachha"
+}, {
+	"value": "44-101",
+	"label": "Patuli"
+}, {
+	"value": "44-102",
+	"label": "Ranaghat"
+}, {
+	"value": "44-103",
+	"label": "Siduli"
+}, {
+	"value": "44-104",
+	"label": "Taki"
+}, {
+	"value": "44-105",
+	"label": "Goaljan"
+}, {
+	"value": "44-106",
+	"label": "Harharia Chak"
+}, {
+	"value": "44-107",
+	"label": "Jalpaiguri"
+}, {
+	"value": "44-108",
+	"label": "Kajora"
+}, {
+	"value": "44-109",
+	"label": "Karimpur"
+}, {
+	"value": "44-110",
+	"label": "Kharagpur"
+}, {
+	"value": "44-111",
+	"label": "Kshidirpur"
+}, {
+	"value": "44-112",
+	"label": "Mandarbani"
+}, {
+	"value": "44-113",
+	"label": "Nabadwip"
+}, {
+	"value": "44-114",
+	"label": "Palashban"
+}, {
+	"value": "44-115",
+	"label": "Prayagpur"
+}, {
+	"value": "44-116",
+	"label": "Ratibati"
+}, {
+	"value": "44-117",
+	"label": "Siliguri"
+}, {
+	"value": "44-118",
+	"label": "Tamluk"
+}, {
+	"value": "44-119",
+	"label": "Goasafat"
+}, {
+	"value": "44-120",
+	"label": "Haripur"
+}, {
+	"value": "44-121",
+	"label": "Jangipur"
+}, {
+	"value": "44-122",
+	"label": "Kakdihi"
+}, {
+	"value": "44-123",
+	"label": "Katwa"
+}, {
+	"value": "44-124",
+	"label": "Kharar"
+}, {
+	"value": "44-125",
+	"label": "Kshirpai"
+}, {
+	"value": "44-126",
+	"label": "Mansinhapur"
+}, {
+	"value": "44-127",
+	"label": "Nabagram"
+}, {
+	"value": "44-128",
+	"label": "Panchla"
+}, {
+	"value": "44-129",
+	"label": "Purbba Tajpur"
+}, {
+	"value": "44-130",
+	"label": "Sahajadpur"
+}, {
+	"value": "44-131",
+	"label": "Singur"
+}, {
+	"value": "44-132",
+	"label": "Tarakeswar"
+}, {
+	"value": "44-133",
+	"label": "Gobardanga"
+}, {
+	"value": "44-134",
+	"label": "Harishpur"
+}, {
+	"value": "44-135",
+	"label": "Jaygaon"
+}, {
+	"value": "44-136",
+	"label": "Kalara"
+}, {
+	"value": "44-137",
+	"label": "Kenda"
+}, {
+	"value": "44-138",
+	"label": "Kharsarai"
+}, {
+	"value": "44-139",
+	"label": "Kunustara"
+}, {
+	"value": "44-140",
+	"label": "Mathabhanga"
+}, {
+	"value": "44-141",
+	"label": "Nabgram"
+}, {
+	"value": "44-142",
+	"label": "Pand"
+}, {
+	"value": "44-143",
+	"label": "Puruliya"
+}, {
+	"value": "44-144",
+	"label": "Sahapur"
+}, {
+	"value": "44-145",
+	"label": "Sirsha"
+}, {
+	"value": "44-146",
+	"label": "Tufanganj"
+}, {
+	"value": "44-147",
+	"label": "Gopinathpur"
+}, {
+	"value": "44-148",
+	"label": "Hatsimla"
+}, {
+	"value": "44-149",
+	"label": "Jaynagar Mazilpur U"
+}, {
+	"value": "44-150",
+	"label": "Kaliaganj"
+}, {
+	"value": "44-151",
+	"label": "Kendra Khottamdi"
+}, {
+	"value": "44-152",
+	"label": "Khodarampur"
+}, {
+	"value": "44-153",
+	"label": "Kurseong"
+}, {
+	"value": "44-154",
+	"label": "MIDNAPORE"
+}, {
+	"value": "44-155",
+	"label": "Nachhratpur Katabar"
+}, {
+	"value": "44-156",
+	"label": "Pangachhiya"
+}, {
+	"value": "44-157",
+	"label": "Raghunathpur"
+}, {
+	"value": "44-158",
+	"label": "Sainthia"
+}, {
+	"value": "44-159",
+	"label": "Sonamukhi"
+}, {
+	"value": "44-160",
+	"label": "Ukhra"
+}, {
+	"value": "44-161",
+	"label": "Gora Bazar"
+}, {
+	"value": "44-162",
+	"label": "Hijuli"
+}, {
+	"value": "44-163",
+	"label": "Jemari"
+}, {
+	"value": "44-164",
+	"label": "Kalimpong"
+}, {
+	"value": "44-165",
+	"label": "Kend"
+}, {
+	"value": "44-166",
+	"label": "COOCH BEHAR"
+}, {
+	"value": "44-167",
+	"label": "Madanpur"
+}, {
+	"value": "44-168",
+	"label": "Mekliganj"
+}, {
+	"value": "44-169",
+	"label": "Natibpur"
+}, {
+	"value": "44-170",
+	"label": "Paniara"
+}, {
+	"value": "44-172",
+	"label": "Sankarpur"
+}, {
+	"value": "44-173",
+	"label": "Sonatikiri"
+}, {
+	"value": "44-174",
+	"label": "Uttar Bagdogra"
+}, {
+	"value": "44-175",
+	"label": "Guma"
+}, {
+	"value": "44-176",
+	"label": "Hindusthan Cables T"
+}, {
+	"value": "44-177",
+	"label": "Jhalda"
+}, {
+	"value": "44-178",
+	"label": "Kalna"
+}, {
+	"value": "44-179",
+	"label": "Kesabpur"
+}, {
+	"value": "44-180",
+	"label": "Kolaghat"
+}, {
+	"value": "44-181",
+	"label": "Madhusudanpur"
+}, {
+	"value": "44-182",
+	"label": "Memari"
+}, {
+	"value": "44-183",
+	"label": "Naupala"
+}, {
+	"value": "44-184",
+	"label": "Par Beliya"
+}, {
+	"value": "44-185",
+	"label": "Raiganj"
+}, {
+	"value": "44-186",
+	"label": "Santaldih Thermal P"
+}, {
+	"value": "44-187",
+	"label": "Srikantabati"
+}, {
+	"value": "44-188",
+	"label": "Uttar Kalas"
+}, {
+	"value": "44-189",
+	"label": "Guskara"
+}, {
+	"value": "44-190",
+	"label": "Islampur"
+}, {
+	"value": "44-191",
+	"label": "Jhargram"
+}, {
+	"value": "44-192",
+	"label": "Kandi"
+}, {
+	"value": "44-193",
+	"label": "Khagrabari"
+}, {
+	"value": "44-194",
+	"label": "Kolkata"
+}, {
+	"value": "44-195",
+	"label": "Mahira"
+}, {
+	"value": "44-196",
+	"label": "Mirik"
+}, {
+	"value": "44-197",
+	"label": "Nebadhai Duttapukur"
+}, {
+	"value": "44-198",
+	"label": "Parashkol"
+}, {
+	"value": "44-199",
+	"label": "Ramjibanpur"
+}, {
+	"value": "44-200",
+	"label": "Santipur"
+}, {
+	"value": "44-201",
+	"label": "Srirampur"
+}, {
+	"value": "44-202",
+	"label": "Uttar Kamakhyaguri"
+}, {
+	"value": "44-203",
+	"label": "HOWRAH"
+}, {
+	"value": "44-204",
+	"label": "Jagadanandapur"
+}, {
+	"value": "44-205",
+	"label": "Jiaganj Azimganj"
+}, {
+	"value": "44-206",
+	"label": "Kanksa"
+}, {
+	"value": "44-207",
+	"label": "Khalor"
+}, {
+	"value": "44-208",
+	"label": "Konardihi"
+}, {
+	"value": "44-209",
+	"label": "Mainaguri"
+}, {
+	"value": "44-210",
+	"label": "Monoharpur"
+}, {
+	"value": "44-211",
+	"label": "Nokpul"
+}, {
+	"value": "44-212",
+	"label": "Parasia"
+}, {
+	"value": "44-213",
+	"label": "Ramnagar"
+}, {
+	"value": "44-214",
+	"label": "Sarpi"
+}, {
+	"value": "44-215",
+	"label": "Sukdal"
+}, {
+	"value": "44-216",
+	"label": "Uttar Latabari"
+}, {
+	"value": "44-217",
+	"label": "Haldia"
+}, {
+	"value": "44-218",
+	"label": "Jagtaj"
+}, {
+	"value": "44-219",
+	"label": "Jot Kamal"
+}, {
+	"value": "44-220",
+	"label": "Kankuria"
+}, {
+	"value": "44-221",
+	"label": "Khandra"
+}, {
+	"value": "44-222",
+	"label": "Krishnanagar"
+}, {
+	"value": "44-223",
+	"label": "Makardaha"
+}, {
+	"value": "44-224",
+	"label": "Mrigala"
+}, {
+	"value": "44-225",
+	"label": "Ondal"
+}, {
+	"value": "44-226",
+	"label": "Paschim Punropara"
+}, {
+	"value": "44-227",
+	"label": "Rampurhat"
+}, {
+	"value": "44-228",
+	"label": "Serpur"
+}, {
+	"value": "44-229",
+	"label": "Suri"
+}, {
+	"value": "44-230",
+	"label": "Uttar Mahammadpur"
+}, {
+	"value": "44-231",
+	"label": "Adra"
+}, {
+	"value": "44-232",
+	"label": "Ahmadpur"
+}, {
+	"value": "44-233",
+	"label": "Aiho"
+}, {
+	"value": "44-234",
+	"label": "Alipurdr"
+}, {
+	"value": "44-235",
+	"label": "Amtala"
+}, {
+	"value": "44-236",
+	"label": "Anup Nagar"
+}, {
+	"value": "44-237",
+	"label": "Arambag"
+}, {
+	"value": "44-238",
+	"label": "Arra"
+}, {
+	"value": "44-239",
+	"label": "Asansol"
+}, {
+	"value": "76-001",
+	"label": "Bambooflat"
+}, {
+	"value": "76-002",
+	"label": "Garacharma"
+}, {
+	"value": "76-003",
+	"label": "Port Blair"
+}, {
+	"value": "78-001",
+	"label": "Naharlagun"
+}, {
+	"value": "78-002",
+	"label": "Namsai"
+}, {
+	"value": "78-003",
+	"label": "Pasighat"
+}, {
+	"value": "78-004",
+	"label": "Roing"
+}, {
+	"value": "78-005",
+	"label": "Seppa"
+}, {
+	"value": "78-006",
+	"label": "Tawang"
+}, {
+	"value": "78-007",
+	"label": "Tezu"
+}, {
+	"value": "78-008",
+	"label": "Ziro"
+}, {
+	"value": "78-009",
+	"label": "Along"
+}, {
+	"value": "78-010",
+	"label": "Basar"
+}, {
+	"value": "78-011",
+	"label": "Bomdila"
+}, {
+	"value": "78-012",
+	"label": "Changlang"
+}, {
+	"value": "78-013",
+	"label": "Daporijo"
+}, {
+	"value": "78-014",
+	"label": "Deomali"
+}, {
+	"value": "78-015",
+	"label": "Itanagar"
+}, {
+	"value": "78-016",
+	"label": "Jairampur"
+}, {
+	"value": "78-017",
+	"label": "Khonsa"
+}, {
+	"value": "80-001",
+	"label": "Chandigarh"
+}, {
+	"value": "82-001",
+	"label": "Amli"
+}, {
+	"value": "82-002",
+	"label": "Silvassa"
+}, {
+	"value": "83-001",
+	"label": "Daman"
+}, {
+	"value": "83-002",
+	"label": "Diu"
+}, {
+	"value": "84-001",
+	"label": "Asola"
+}, {
+	"value": "84-002",
+	"label": "Bhati"
+}, {
+	"value": "84-003",
+	"label": "DELHI"
+}, {
+	"value": "84-004",
+	"label": "Jona Pur"
+}, {
+	"value": "86-001",
+	"label": "Colvale"
+}, {
+	"value": "86-002",
+	"label": "Cuncolim"
+}, {
+	"value": "86-003",
+	"label": "Curchorem Cacora"
+}, {
+	"value": "86-004",
+	"label": "Curti"
+}, {
+	"value": "86-005",
+	"label": "Davorlim"
+}, {
+	"value": "86-006",
+	"label": "Goa Velha"
+}, {
+	"value": "86-007",
+	"label": "Guirim"
+}, {
+	"value": "86-008",
+	"label": "Mapusa"
+}, {
+	"value": "86-009",
+	"label": "Margao"
+}, {
+	"value": "86-010",
+	"label": "Mormugao"
+}, {
+	"value": "86-011",
+	"label": "Pale"
+}, {
+	"value": "86-012",
+	"label": "Panaji"
+}, {
+	"value": "86-013",
+	"label": "Parcem"
+}, {
+	"value": "86-014",
+	"label": "Penha-de-Franca"
+}, {
+	"value": "86-015",
+	"label": "Pernem"
+}, {
+	"value": "86-016",
+	"label": "Ponda"
+}, {
+	"value": "86-017",
+	"label": "Quepem"
+}, {
+	"value": "86-018",
+	"label": "Queula"
+}, {
+	"value": "86-019",
+	"label": "Reis Magos"
+}, {
+	"value": "86-020",
+	"label": "Saligao"
+}, {
+	"value": "86-021",
+	"label": "Sancoale"
+}, {
+	"value": "86-022",
+	"label": "Sanguem"
+}, {
+	"value": "86-023",
+	"label": "Sanquelim"
+}, {
+	"value": "86-024",
+	"label": "Sanvordem"
+}, {
+	"value": "86-025",
+	"label": "Sao Jose de Areal"
+}, {
+	"value": "86-026",
+	"label": "Siolim"
+}, {
+	"value": "86-027",
+	"label": "Socorro"
+}, {
+	"value": "86-028",
+	"label": "Valpoi"
+}, {
+	"value": "86-029",
+	"label": "Varca"
+}, {
+	"value": "86-030",
+	"label": "Aldona"
+}, {
+	"value": "86-031",
+	"label": "Bandora"
+}, {
+	"value": "86-032",
+	"label": "Benaulim"
+}, {
+	"value": "86-033",
+	"label": "Bicholim"
+}, {
+	"value": "86-034",
+	"label": "Calangute"
+}, {
+	"value": "86-035",
+	"label": "Canacona"
+}, {
+	"value": "86-036",
+	"label": "Candolim"
+}, {
+	"value": "86-037",
+	"label": "Carapur"
+}, {
+	"value": "86-038",
+	"label": "Chinchinim"
+}, {
+	"value": "88-001",
+	"label": "Amini"
+}, {
+	"value": "88-002",
+	"label": "Kavaratti"
+}, {
+	"value": "88-003",
+	"label": "Minicoy"
+}, {
+	"value": "90-001",
+	"label": "Lengpui"
+}, {
+	"value": "90-002",
+	"label": "Lunglei"
+}, {
+	"value": "90-003",
+	"label": "Mamit"
+}, {
+	"value": "90-004",
+	"label": "N.Kawnpui"
+}, {
+	"value": "90-005",
+	"label": "N.Vanlaiphai"
+}, {
+	"value": "90-006",
+	"label": "Saiha"
+}, {
+	"value": "90-007",
+	"label": "Sairang"
+}, {
+	"value": "90-008",
+	"label": "Saitl"
+}, {
+	"value": "90-009",
+	"label": "Serchhip"
+}, {
+	"value": "90-010",
+	"label": "Thenzawl"
+}, {
+	"value": "90-011",
+	"label": "Tlabung"
+}, {
+	"value": "90-012",
+	"label": "Vairengte"
+}, {
+	"value": "90-013",
+	"label": "Zawlnm"
+}, {
+	"value": "90-014",
+	"label": "AIZWAL"
+}, {
+	"value": "90-015",
+	"label": "Bairabi"
+}, {
+	"value": "90-016",
+	"label": "Biate"
+}, {
+	"value": "90-017",
+	"label": "Champhai"
+}, {
+	"value": "90-018",
+	"label": "Darlawn"
+}, {
+	"value": "90-019",
+	"label": "Hnahthial"
+}, {
+	"value": "90-020",
+	"label": "Khawhai"
+}, {
+	"value": "90-021",
+	"label": "Khawzawl"
+}, {
+	"value": "90-022",
+	"label": "Kolasib"
+}, {
+	"value": "92-001",
+	"label": "Karaikal"
+}, {
+	"value": "92-002",
+	"label": "Mahe"
+}, {
+	"value": "92-003",
+	"label": "Pondicherry"
+}, {
+	"value": "92-004",
+	"label": "Yanam"
+}, {
+	"value": "42-055",
+	"label": "Baldeo"
+}, {
+	"value": "42-056",
+	"label": "Ballia"
+}, {
+	"value": "42-057",
+	"label": "Balrampur"
+}, {
+	"value": "42-058",
+	"label": "Banat"
+}, {
+	"value": "42-059",
+	"label": "BANDA(UP)"
+}, {
+	"value": "42-060",
+	"label": "Bangarmau"
+}, {
+	"value": "42-061",
+	"label": "Bansdih"
+}, {
+	"value": "42-062",
+	"label": "Bansgaon"
+}, {
+	"value": "42-063",
+	"label": "Bansi"
+}, {
+	"value": "42-064",
+	"label": "Bar Sagar"
+}, {
+	"value": "42-065",
+	"label": "Bara Gaon"
+}, {
+	"value": "42-066",
+	"label": "Barabanki"
+}, {
+	"value": "42-067",
+	"label": "Baragaon"
+}, {
+	"value": "42-068",
+	"label": "Baraut"
+}, {
+	"value": "42-069",
+	"label": "Bareilly"
+}, {
+	"value": "42-070",
+	"label": "Barhalganj"
+}, {
+	"value": "42-071",
+	"label": "Barhani Bazar"
+}, {
+	"value": "42-072",
+	"label": "Barkhera"
+}, {
+	"value": "42-073",
+	"label": "Barsana"
+}, {
+	"value": "42-074",
+	"label": "Barwar"
+}, {
+	"value": "42-075",
+	"label": "Basti"
+}, {
+	"value": "42-076",
+	"label": "Behat"
+}, {
+	"value": "42-077",
+	"label": "Behta Hajipur"
+}, {
+	"value": "42-078",
+	"label": "Bela Pratapgarh"
+}, {
+	"value": "42-079",
+	"label": "Belthara Road"
+}, {
+	"value": "42-080",
+	"label": "Beniganj"
+}, {
+	"value": "42-081",
+	"label": "Beswan"
+}, {
+	"value": "42-082",
+	"label": "Bewar"
+}, {
+	"value": "42-083",
+	"label": "Bhadarsa"
+}, {
+	"value": "42-084",
+	"label": "Bhadohi"
+}, {
+	"value": "42-085",
+	"label": "Bhagwant Nagar"
+}, {
+	"value": "42-086",
+	"label": "Bharatganj"
+}, {
+	"value": "42-087",
+	"label": "Bhargain"
+}, {
+	"value": "42-088",
+	"label": "Bharthana"
+}, {
+	"value": "42-089",
+	"label": "Bharuhana"
+}, {
+	"value": "42-090",
+	"label": "Bharwari"
+}, {
+	"value": "42-091",
+	"label": "Bhatni Bazar"
+}, {
+	"value": "42-092",
+	"label": "Bijnor"
+}, {
+	"value": "42-093",
+	"label": "Bilsanda"
+}, {
+	"value": "42-094",
+	"label": "Budhana"
+}, {
+	"value": "42-095",
+	"label": "Charthaval"
+}, {
+	"value": "42-096",
+	"label": "Chitbara Gaon"
+}, {
+	"value": "42-097",
+	"label": "Dariyabad"
+}, {
+	"value": "42-098",
+	"label": "Dhanauha"
+}, {
+	"value": "42-099",
+	"label": "Dostpur"
+}, {
+	"value": "42-100",
+	"label": "Farah"
+}, {
+	"value": "42-101",
+	"label": "Fatehpur"
+}, {
+	"value": "42-102",
+	"label": "Garautha"
+}, {
+	"value": "42-103",
+	"label": "Ghiraur"
+}, {
+	"value": "42-104",
+	"label": "Gopamau"
+}, {
+	"value": "42-105",
+	"label": "Gursahaiganj"
+}, {
+	"value": "42-106",
+	"label": "Hardganj"
+}, {
+	"value": "42-107",
+	"label": "Ibrahimpur"
+}, {
+	"value": "42-108",
+	"label": "Jahangirabad"
+}, {
+	"value": "42-109",
+	"label": "Jalesar"
+}, {
+	"value": "42-110",
+	"label": "Jhalu"
+}, {
+	"value": "42-111",
+	"label": "Kachhauna Patseni"
+}, {
+	"value": "42-112",
+	"label": "Kakori"
+}, {
+	"value": "42-113",
+	"label": "Kanth"
+}, {
+	"value": "42-114",
+	"label": "Katra"
+}, {
+	"value": "42-115",
+	"label": "Khairabad"
+}, {
+	"value": "42-116",
+	"label": "Khatauli Rural"
+}, {
+	"value": "42-117",
+	"label": "Kishni"
+}, {
+	"value": "42-118",
+	"label": "KOTA(UP)"
+}, {
+	"value": "42-119",
+	"label": "Kursath"
+}, {
+	"value": "42-120",
+	"label": "Lar"
+}, {
+	"value": "42-121",
+	"label": "Mahaban"
+}, {
+	"value": "42-122",
+	"label": "Mainpuri"
+}, {
+	"value": "42-123",
+	"label": "Mankapur"
+}, {
+	"value": "42-124",
+	"label": "Maurawan"
+}, {
+	"value": "42-125",
+	"label": "Misrikh Cum Neemsar"
+}, {
+	"value": "42-126",
+	"label": "Moth"
+}, {
+	"value": "42-127",
+	"label": "Nadigaon"
+}, {
+	"value": "42-128",
+	"label": "Naraini"
+}, {
+	"value": "42-129",
+	"label": "Nidhauli Kalan"
+}, {
+	"value": "42-130",
+	"label": "Oran"
+}, {
+	"value": "42-131",
+	"label": "Parichha"
+}, {
+	"value": "42-132",
+	"label": "Pihani"
+}, {
+	"value": "42-133",
+	"label": "Pukhrayan"
+}, {
+	"value": "42-134",
+	"label": "Rajapur"
+}, {
+	"value": "42-135",
+	"label": "Rasra"
+}, {
+	"value": "42-136",
+	"label": "Robertsganj"
+}, {
+	"value": "42-137",
+	"label": "Sahaspur"
+}, {
+	"value": "42-138",
+	"label": "Sakhanu"
+}, {
+	"value": "42-139",
+	"label": "Sarai Aquil"
+}, {
+	"value": "42-140",
+	"label": "Sewalkhas"
+}, {
+	"value": "42-141",
+	"label": "Shamsabad"
+}, {
+	"value": "42-142",
+	"label": "Siana"
+}, {
+	"value": "42-143",
+	"label": "Sirathu"
+}, {
+	"value": "42-144",
+	"label": "Sr"
+}, {
+	"value": "42-145",
+	"label": "Tetri Bazar"
+}, {
+	"value": "42-146",
+	"label": "Tondi Fatehpur"
+}, {
+	"value": "42-147",
+	"label": "Unnao"
+}, {
+	"value": "42-148",
+	"label": "Zamania"
+}, {
+	"value": "42-149",
+	"label": "Bhatpar Rani"
+}, {
+	"value": "42-150",
+	"label": "Bijpur"
+}, {
+	"value": "42-151",
+	"label": "Bilsi"
+}, {
+	"value": "42-152",
+	"label": "Bugrasi"
+}, {
+	"value": "42-153",
+	"label": "Chaumuhan"
+}, {
+	"value": "42-154",
+	"label": "Chitrakoot Dham"
+}, {
+	"value": "42-155",
+	"label": "Dasna"
+}, {
+	"value": "42-156",
+	"label": "Dhanauli"
+}, {
+	"value": "42-157",
+	"label": "Dudhi"
+}, {
+	"value": "42-158",
+	"label": "Faridnagar"
+}, {
+	"value": "42-159",
+	"label": "Fatehpur Chaurasi"
+}, {
+	"value": "42-160",
+	"label": "Garhi Pukhta"
+}, {
+	"value": "42-161",
+	"label": "Ghorawal"
+}, {
+	"value": "42-162",
+	"label": "Gopi Ganj"
+}, {
+	"value": "42-163",
+	"label": "Gursarai"
+}, {
+	"value": "42-164",
+	"label": "Hargaon"
+}, {
+	"value": "42-165",
+	"label": "Iglas"
+}, {
+	"value": "42-166",
+	"label": "Jahangirpur"
+}, {
+	"value": "42-167",
+	"label": "Jamshila"
+}, {
+	"value": "42-168",
+	"label": "Jhansi"
+}, {
+	"value": "42-169",
+	"label": "Kachhla"
+}, {
+	"value": "42-170",
+	"label": "Kakrala"
+}, {
+	"value": "42-174",
+	"label": "Khekada"
+}, {
+	"value": "42-175",
+	"label": "Kishunpur"
+}, {
+	"value": "42-176",
+	"label": "Kotra"
+}, {
+	"value": "42-177",
+	"label": "Kurthi Jafarpur"
+}, {
+	"value": "42-178",
+	"label": "Lawar"
+}, {
+	"value": "42-179",
+	"label": "MAHARAJGANJ(CG)"
+}, {
+	"value": "42-180",
+	"label": "Majhara Pipar Ehatm"
+}, {
+	"value": "42-181",
+	"label": "Marehra"
+}, {
+	"value": "42-182",
+	"label": "Mawana"
+}, {
+	"value": "42-183",
+	"label": "Modinagar"
+}, {
+	"value": "42-184",
+	"label": "Mubarakpur"
+}, {
+	"value": "42-185",
+	"label": "Nagina"
+}, {
+	"value": "42-186",
+	"label": "Narauli"
+}, {
+	"value": "42-187",
+	"label": "Niwari"
+}, {
+	"value": "42-188",
+	"label": "Ordinance Faory M"
+}, {
+	"value": "42-189",
+	"label": "Parikshitgarh"
+}, {
+	"value": "42-190",
+	"label": "Pilibhit"
+}, {
+	"value": "42-191",
+	"label": "Puranpur"
+}, {
+	"value": "42-192",
+	"label": "Ramkola"
+}, {
+	"value": "42-193",
+	"label": "Rasulabad"
+}, {
+	"value": "42-194",
+	"label": "Rudauli"
+}, {
+	"value": "42-195",
+	"label": "Sahaswan"
+}, {
+	"value": "42-196",
+	"label": "Sakit"
+}, {
+	"value": "42-197",
+	"label": "Sarai Mir"
+}, {
+	"value": "42-198",
+	"label": "Sewarhi"
+}, {
+	"value": "42-199",
+	"label": "Shankargarh"
+}, {
+	"value": "42-200",
+	"label": "Siddhaur"
+}, {
+	"value": "42-201",
+	"label": "Sirauli"
+}, {
+	"value": "42-202",
+	"label": "SULTANPUR(UP)"
+}, {
+	"value": "42-203",
+	"label": "Thakurdwara"
+}, {
+	"value": "42-204",
+	"label": "Tulsipur"
+}, {
+	"value": "42-205",
+	"label": "Usawan"
+}, {
+	"value": "42-206",
+	"label": "Bhawan Bahadur Naga"
+}, {
+	"value": "42-207",
+	"label": "Bikapur"
+}, {
+	"value": "42-208",
+	"label": "Bindki"
+}, {
+	"value": "42-209",
+	"label": "Bulandshahr"
+}, {
+	"value": "42-210",
+	"label": "Chhaprauli"
+}, {
+	"value": "42-211",
+	"label": "Chopan"
+}, {
+	"value": "42-212",
+	"label": "Dataganj"
+}, {
+	"value": "42-213",
+	"label": "Dhanaura"
+}, {
+	"value": "42-214",
+	"label": "Dulhipur"
+}, {
+	"value": "42-215",
+	"label": "Faridpur"
+}, {
+	"value": "42-216",
+	"label": "Fatehpur Sikri"
+}, {
+	"value": "42-217",
+	"label": "Garhmukteshwar"
+}, {
+	"value": "42-218",
+	"label": "Ghosi"
+}, {
+	"value": "42-219",
+	"label": "Gorakhpur"
+}, {
+	"value": "42-220",
+	"label": "Gyanpur"
+}, {
+	"value": "42-221",
+	"label": "Hariharpur"
+}, {
+	"value": "42-222",
+	"label": "Ikauna"
+}, {
+	"value": "42-223",
+	"label": "Jais"
+}, {
+	"value": "42-224",
+	"label": "Jangipur"
+}, {
+	"value": "42-225",
+	"label": "Jhinjhak"
+}, {
+	"value": "42-226",
+	"label": "Kachhwa"
+}, {
+	"value": "42-227",
+	"label": "Kalinagar"
+}, {
+	"value": "42-228",
+	"label": "Kaptanganj"
+}, {
+	"value": "42-229",
+	"label": "Katra Medniganj"
+}, {
+	"value": "42-230",
+	"label": "Khalilabad"
+}, {
+	"value": "42-231",
+	"label": "Kheragarh"
+}, {
+	"value": "42-232",
+	"label": "Kithaur"
+}, {
+	"value": "42-233",
+	"label": "Kotwa"
+}, {
+	"value": "42-234",
+	"label": "Kushinagar"
+}, {
+	"value": "42-235",
+	"label": "Ledwa Mah"
+}, {
+	"value": "42-236",
+	"label": "Mahmudabad"
+}, {
+	"value": "42-237",
+	"label": "Majhauliraj"
+}, {
+	"value": "42-238",
+	"label": "Mariahu"
+}, {
+	"value": "42-239",
+	"label": "Meerut"
+}, {
+	"value": "42-240",
+	"label": "Mogra Badshahpur"
+}, {
+	"value": "42-241",
+	"label": "Mughalsarai"
+}, {
+	"value": "42-242",
+	"label": "Nagram"
+}, {
+	"value": "42-243",
+	"label": "Naraura"
+}, {
+	"value": "42-244",
+	"label": "NIZAMABAD(UP)"
+}, {
+	"value": "42-245",
+	"label": "Pachperwa"
+}, {
+	"value": "42-246",
+	"label": "Parsadepur"
+}, {
+	"value": "03-015",
+	"label": "HYDERABAD(TL)"
+}, {
+	"value": "03-001",
+	"label": "Bellampalle"
+}, {
+	"value": "03-002",
+	"label": "Bhadrachalam"
+}, {
+	"value": "03-003",
+	"label": "Bhainsa"
+}, {
+	"value": "03-004",
+	"label": "Bhongir"
+}, {
+	"value": "03-005",
+	"label": "Bodhan"
+}, {
+	"value": "03-006",
+	"label": "Bollaram"
+}, {
+	"value": "03-007",
+	"label": "Chandur"
+}, {
+	"value": "03-008",
+	"label": "Chatakonda"
+}, {
+	"value": "03-009",
+	"label": "Choutuppal"
+}, {
+	"value": "03-010",
+	"label": "Devarakonda"
+}, {
+	"value": "03-011",
+	"label": "Eddumailaram"
+}, {
+	"value": "03-012",
+	"label": "Farooqnagar"
+}, {
+	"value": "03-013",
+	"label": "Gadwal"
+}, {
+	"value": "03-014",
+	"label": "Ghatkesar"
+}, {
+	"value": "03-016",
+	"label": "Isnapur"
+}, {
+	"value": "03-017",
+	"label": "Jagtial"
+}, {
+	"value": "03-018",
+	"label": "Jallaram"
+}, {
+	"value": "03-019",
+	"label": "Jangaon"
+}, {
+	"value": "03-020",
+	"label": "Kagaznagar"
+}, {
+	"value": "03-021",
+	"label": "Kamareddy"
+}, {
+	"value": "03-022",
+	"label": "Karimnagar"
+}, {
+	"value": "03-023",
+	"label": "Khammam"
+}, {
+	"value": "03-024",
+	"label": "Koratla"
+}, {
+	"value": "03-025",
+	"label": "Kothagudem"
+}, {
+	"value": "03-026",
+	"label": "Kyathampalle"
+}, {
+	"value": "03-027",
+	"label": "Madaram"
+}, {
+	"value": "03-028",
+	"label": "MAHABUB NAGAR"
+}, {
+	"value": "03-029",
+	"label": "Mancherial"
+}, {
+	"value": "03-030",
+	"label": "Mandamarri"
+}, {
+	"value": "03-031",
+	"label": "Manuguru"
+}, {
+	"value": "03-032",
+	"label": "Medak"
+}, {
+	"value": "03-033",
+	"label": "Miryalaguda"
+}, {
+	"value": "03-034",
+	"label": "Nagarkurnool"
+}, {
+	"value": "03-035",
+	"label": "Nalgonda"
+}, {
+	"value": "03-036",
+	"label": "Narasapur"
+}, {
+	"value": "03-037",
+	"label": "Narayanpet"
+}, {
+	"value": "03-038",
+	"label": "Narsingi"
+}, {
+	"value": "03-039",
+	"label": "Sircilla"
+}, {
+	"value": "03-040",
+	"label": "Tandur"
+}, {
+	"value": "03-041",
+	"label": "Yellandu"
+}, {
+	"value": "03-042",
+	"label": "Nirmal"
+}, {
+	"value": "03-043",
+	"label": "Sadasivpet"
+}, {
+	"value": "03-044",
+	"label": "Vicarabad"
+}, {
+	"value": "03-045",
+	"label": "NIZAMABAD(AP)"
+}, {
+	"value": "03-046",
+	"label": "Ramagundam"
+}, {
+	"value": "03-047",
+	"label": "Zahirabad"
+}, {
+	"value": "03-048",
+	"label": "Omerkhan Daira"
+}, {
+	"value": "03-049",
+	"label": "Sangareddy"
+}, {
+	"value": "03-050",
+	"label": "Sarapaka"
+}, {
+	"value": "03-051",
+	"label": "Palakurthy"
+}, {
+	"value": "03-052",
+	"label": "Siddipet"
+}, {
+	"value": "03-053",
+	"label": "Suryapet"
+}, {
+	"value": "03-054",
+	"label": "Wanaparthy"
+}, {
+	"value": "03-055",
+	"label": "Singapur"
+}, {
+	"value": "03-056",
+	"label": "Warangal"
+}, {
+	"value": "03-057",
+	"label": "Palwancha"
+}, {
+	"value": "03-058",
+	"label": "Yadagirigutta"
+}, {
+	"value": "03-059",
+	"label": "Adilabad"
+}, {
+	"value": "03-060",
+	"label": "Asifabad"
+}, {
+	"value": "03-061",
+	"label": "Badepalle"
+}, {
+	"value": "03-062",
+	"label": "K.V.RANGAREDDY"
+}, {
+	"value": "03-063",
+	"label": "SECUNDERABAD"
+}]

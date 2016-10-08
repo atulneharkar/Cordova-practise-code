@@ -1,0 +1,153 @@
+<div ng-include="'side-menu.html'"></div>
+
+<!-- home controller -->
+<div ng-controller="homeController" class="home main-page lateral-slide-menu-main-page">
+
+    <div class="content">
+        <div ng-include="'header.html'"></div>
+        <!-- tabs -->
+        <!-- <ul class="nav nav-tabs row clearfix" id="myTabs">
+        <li role="presentation" class="col-xs-6 col-md-6">
+          <div class="progress-bar progress-bar-striped active lead-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+          </div>
+          <span href="" aria-controls="lead" role="tab" class="lead-count">Lead ({{leadCount}})</span>
+        </li>
+        <li role="presentation" class="col-xs-6 col-md-6">
+          <div class="progress-bar progress-bar-success progress-bar-striped active opp-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+          </div>
+          <span href="" aria-controls="opportunity" role="tab" class="opp-count">Opportunity ({{opportunityCount}})</span>
+        </li>
+        </ul> -->
+
+        <div class="progress-bar-wrapper">
+          <div class="progress-bar active lead-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+          </div>
+          <div class="progress-bar progress-bar-success active opp-progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+          </div>
+          <div class="lead-opp-count-wrapper">
+            <span href="" aria-controls="lead" role="tab" class="lead-count">Lead ({{leadCount}})</span>
+            <span href="" aria-controls="opportunity" role="tab" class="opp-count">Opportunity ({{opportunityCount}})</span>
+          </div>
+        </div>
+        
+        <!-- search and sort -->
+        <div class="row search-panel">
+          <div class="col-xs-8 col-md-8 search-box">
+            <input class="form-control" type="text" ng-model="FName" placeholder="Search by Name, Add or Mb..." />
+            <span class="clear-input" ng-click="clearInput()"></span>
+          </div>
+          <div class="col-xs-4 col-md-4 sort-dropdown">
+            <select class="form-control" ng-model="categorySelected" ng-options="category.value for category in sortCategories track by category.key" ng-change="setOrder()">
+              <option value="">Sort By</option>
+            </select>
+          </div>
+        </div>
+      
+        <div class="content-wrapper">
+      
+          <div>
+            <div class="row emp-info" ng-repeat="dat in data.TransactionData | filter: FName | orderBy: order" repeat-complete="addEventsToMoreButton()" ng-click="redirectToExistingLead($event, dat.MetaData.Mobile_PK)">
+              <!-- <div class="col-xs-2 col-md-2 schedule">
+                <a href="#/schedule-meeting/{{dat.MetaData.Mobile_PK}}" tabindex="0" ng-click="showScheduleDetails(dat.MetaData.Mobile_PK)" role="button" data-toggle="popover" data-trigger="focus" data-content="{{dat.Lead.Meetinglocation}}, {{dat.Lead.MeetingTime}}"></a>
+              </div> -->
+
+              <div class="col-xs-2 col-md-2 sync-status-wrapper" ng-class="{moreMarginTop: dat.Opportunity.LoanAmount != ''}">
+                <!-- <p class="sync-status" ng-class="(dat.MetaData.Sync_Status == 'N')? 'purple-bg': ((dat.MetaData.Sync_Status == 'U')? 'sky-blue-bg': ((dat.MetaData.Sync_Status == 'L')? 'gold-bg': ((dat.MetaData.Sync_Status == 'O')? 'green-bg': 'default-bg')))">{{dat.MetaData.Sync_Status}}</p> -->
+
+                <p class="sync-status not-sync red-bg" ng-if="dat.MetaData.Sync_Status === 'N' || dat.MetaData.Sync_Status == 'U' || dat.MetaData.Sync_Status == 'O'">N</p>
+                <p class="sync-status not-sync green-bg" ng-if="!(dat.MetaData.Sync_Status === 'N' || dat.MetaData.Sync_Status == 'U' || dat.MetaData.Sync_Status == 'O')">S</p>
+              </div>
+        
+              <div class="col-xs-7 col-md-7 customer-details">
+                <p class="cust-name" ng-class="isCompleteLead(dat.Lead)">
+                {{dat.Lead.FName}} {{dat.Lead.LName}}
+                </p>
+                <p>{{dat.Lead.Product}}</p>
+                <p ng-show="dat.Opportunity.LoanAmount"><img src="images/loanAmtIcon.png" width="16" class="labelImg rupee-icon"><span class="loan-amount">{{dat.Opportunity.LoanAmount}}</span></p>
+                <div class="more-icons">
+                  <!-- <img class="dot-image" src="images/dots.png" width="30" height="20" /> -->
+                  <div class="icons-wrapper icons-wrapper-show">
+                    <a href="tel:{{dat.Lead.MobileNo}}" class="phone-icon do-not-redirect"></a>
+                    <!--<a href="sms:{{dat.Lead.MobileNo}}?body='Hello this is the agent.'" class="hangout-icon do-not-redirect"></a>-->
+                    <a class="hangout-icon do-not-redirect" ng-click="smsPop(dat.Lead.MobileNo)"></a>
+                    <a href="#/lead/{{dat.MetaData.Mobile_PK}}" class="edit do-not-redirect"></a>
+                    <a href="#/schedule-meeting/{{dat.MetaData.Mobile_PK}}" tabindex="0" ng-click="showScheduleDetails(dat.MetaData.Mobile_PK)" role="button" data-toggle="popover" data-trigger="focus" data-content="{{dat.Lead.Meetinglocation}}, {{dat.Lead.MeetingTime}}" class="schedule do-not-redirect"></a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-xs-3 col-md-3 fav-wrapper star-unselected" ng-class="{'star-selected' : addToFavorite(dat.MetaData.Mobile_PK)}">
+                <div><p class="creation-date-text">Creation Date</p><p class="creation-date-value">{{dat.Lead.CreationDate | setDateFormat}}</p></div>
+                <div class="lead-opp-id-wrapper" ng-if="dat.MetaData.LeadId && !dat.MetaData.OpportunityId || dat.MetaData.OpportunityId === 'undefined' && dat.MetaData.LeadId != 'undefined' "><p class="id-text">Lead Id</p><p class="creation-date-value">{{dat.MetaData.LeadId}}</p></div>
+                <div class="lead-opp-id-wrapper" ng-if="dat.MetaData.OpportunityId !== 'undefined' && dat.MetaData.OpportunityId"><p class="id-text">Opportunity Id</p><p class="creation-date-value">{{dat.MetaData.OpportunityId}}</p></div>
+                <span class="favorite-icon do-not-redirect" ng-click="addToFav(dat.MetaData.Mobile_PK)"></span>
+              </div>
+             
+            </div>
+
+            <p class="no-data-message">No Data Found</p>
+
+            <div class="tag-line">
+              <img src="images/tmf-tag-line.jpg" width="200" />
+            </div>
+            <a href="" class="add-btn" data-toggle="modal" data-target="#createButtonModal">Add</a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="createButtonModal" tabindex="-1" role="dialog" aria-labelledby="createButtonModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="create-lead-button">
+                      <a href="" ng-click="redirectToNewLead()">Create Lead</a>
+                    </div>
+                    <div class="create-opp-button">
+                      <a href="" ng-click="redirectToNewOpp()">Create Opportunity</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="alertBottom">
+                    <div class="alert alert-danger fade in alert-dismissable" id="syncFailAlert">
+                        <a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        Sync has failed. Please try again later.
+                    </div>
+                </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      $( document ).ready(function() {
+        $('.home').css('overflow', 'hidden');
+        setHeight(true);
+       });
+
+
+      window.onresize = function(event) {
+        $('.home').css('overflow', 'hidden');
+        setHeight(true);
+        showNoDataText();
+      }
+
+      function setHeight(documentReady) {
+        var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+        var calculatedHeight = (height - ($('header').outerHeight(true)) - ($('#myTabs').outerHeight(true))- ($('.search-panel').outerHeight(true)));
+
+        $('#createButtonModal .modal-dialog').css('margin-top', height/2);
+
+        if(documentReady) {
+          calculatedHeight = calculatedHeight - 80;
+        }
+      
+        $('.content-wrapper').css('height', calculatedHeight + "px");
+        
+      }
+
+  </script>
+

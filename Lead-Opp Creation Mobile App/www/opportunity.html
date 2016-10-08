@@ -1,0 +1,82 @@
+<div ng-include="'side-menu.html'"></div>
+
+<div ng-controller="oppController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <div class="page row">
+        <div class="col-sm-6 col-sm-offset-3 lead-wrapper">
+            <form name="oppForm" novalidate ng-submit="oppSubmit(oppForm.$valid)" class="opp-form">
+                <div>
+                    <h3 class="subHeadingForm">Lead Details</h3>
+                </div>
+                <div class="form-group labelInput lead-details">
+                    <!-- <img src="images/userIcon.png" ng-model="custNameIcon" class="labelImg"/> -->
+                    <p class="readInput" id="userName"></p>
+                   <!--  <img src="images/leadIcon.png" ng-model="custLeadIcon" class="labelImg"/> -->
+                    <p class="readInput" id="leadId"></p>
+                </div>
+                <h3 class="subHeadingForm oppDetails">Opportunity Details</h3>
+                <div class="form-group labelInput clearfix">
+                    <img src="images/custSegIcon.png" ng-model="segIcon" class="labelImg"/>
+                    <select id="custSeg" ng-model="custSeg" class="form-control">
+                        <option value="">Customer Segment</option>
+                        <option value="firstTimeUser">First Time User</option>
+                        <option value="subRetail">Sub-Retail</option>
+                        <option value="retail">Retail</option>
+                        <option value="strategic">Strategic</option>
+                        <option value="supStrategic">Super Strategic</option>
+                        <option value="personal">Personal</option>
+                        <option value="retailCaptive">Retail Captive</option>
+                        <option value="strategicCaptive">Strategic Captive</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+                <div class="form-group labelInput textArea clearfix" ng-class="{ 'has-error' : (oppForm.assetVal.$invalid && submitted  && !assetValfocused)}">
+                    <img src="images/assetIcon.png" ng-model="custAddrIcon" class="labelImg"/>
+                    <input type="number" name="assetVal" ng-model="assetVal" placeholder="Asset Value" class="form-control col-xs-5 col-sm-5 col-md-5" required ng-focus="assetValfocused=true" ng-blur="assetValfocused=false"/>
+                    <p ng-show="oppForm.assetVal.$error.required && submitted && !assetValfocused" class="help-block error move-left">Please enter Asset Value.</p>
+                </div>
+
+                <div class="form-group labelInput clearfix" ng-class="{ 'has-error' : (oppForm.loanAmtVal.$invalid && submitted  && !loanAmtValfocused || (submitted && loanAmtSmaller && !loanAmtValfocused))}">
+                    <img src="images/loanAmtIcon.png" ng-model="custCityIcon" class="labelImg"/>
+                    <input type="number" name="loanAmtVal" ng-model="loanAmtVal" placeholder="Loan Amount" class="form-control col-xs-5 col-sm-5 col-md-5" required ng-focus="loanAmtValfocused=true" ng-blur="loanAmtValfocused=false; isAssetAmtSmaller();"/>
+                    <p ng-show="oppForm.loanAmtVal.$error.required && submitted && !loanAmtValfocused" class="help-block error move-left">Please enter Loan Amount.</p>
+                    <p ng-show="loanAmtSmaller && submitted && !loanAmtValfocused && !oppForm.loanAmtVal.$error.required" class="help-block error move-left">Loan Amount should be smaller than Asset Value.</p>
+                </div>
+
+                <!-- <div class="form-group labelInput clearfix irr-wrapper">
+                    <img src="images/irrIcon.png" ng-model="irrIcon" class="labelImg"/>
+                    <div class="slider">
+                      <label>IRR (in percentage)</label>
+                      <input type = "range" min="10" max="30" step="1" value="12" oninput="irr.value=value"/>
+                      <output id="irr">12</output>
+                    </div>
+                    <p class="error validationError" ng-show="oppForm.custIrr.$invalid">You must fill out the IRR.</p>
+                </div> -->
+                <div class="form-group labelInput clearfix irr-wrapper" ng-class="{ 'has-error' : (oppForm.irrVal.$invalid && submitted  && !irrValfocused || (submitted && !irrCorrectValue && !irrValfocused))}">
+                    <img src="images/irrIcon.png" ng-model="irrIcon" class="labelImg"/>
+                    <input type="number" name="irrVal" ng-model="irrVal" placeholder="IRR (in percentage)" class="form-control col-xs-5 col-sm-5 col-md-5" required ng-focus="irrValfocused=true" ng-blur="irrValfocused=false; irrValueStatus();"/>
+                    <p ng-show="oppForm.irrVal.$error.required && submitted && !irrValfocused" class="help-block error move-left">Please enter IRR.</p>
+                    <p ng-show="!irrCorrectValue && submitted && !irrValfocused && !oppForm.irrVal.$error.required" class="help-block error move-left">IRR should be between 10 and 20.</p>
+                </div>
+
+                <div class="form-group labelInput clearfix tenure-wrapper">
+                    <img src="images/tenureIcon.png" ng-model="tenureIcon" class="labelImg"/>
+                    <div class="slider">
+                      <label>Tenure(in Months)</label>
+                      <input type = "range" min="12" max="60" value="12" oninput="tenure.value=value" ng-model="loanTenure"/>
+                      <output id="tenure">12</output>
+                    </div>
+                </div>
+                <div class="photos-list">
+                    
+                </div>
+                <div class="selected-photos-main-wrapper">
+                </div>
+                <div class="add-document-button" ng-click="addDocument()">Add Document</div>
+                <div class="opp-btn-wrapper">
+                <button type="submit" id="opportunitySubmit" class="btn btn-primary">Create Opportunity</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

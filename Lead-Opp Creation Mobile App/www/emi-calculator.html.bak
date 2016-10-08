@@ -1,0 +1,41 @@
+<div ng-include="'side-menu.html'"></div>
+<div ng-controller="emiCalController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <div class="emi-cal-wrapper">
+        <form name="emiForm" novalidate class="emi-cal-form" ng-submit="calculateEmi(emiForm.$valid)">
+          <h3 class="subHeadingForm">Calculate Your Monthly Installment</h3>
+
+          <div class="form-group labelInput clearfix" ng-class="{ 'has-error' : (emiForm.loanAmtVal.$invalid && submitted  && !loanAmtValfocused)}">
+             <img src="images/loanAmtIcon.png" ng-model="custCityIcon" class="labelImg"/>
+             <input type="number" name="loanAmtVal" ng-model="loanAmtVal" placeholder="Loan Amount" class="form-control col-xs-5 col-sm-5 col-md-5" required ng-focus="loanAmtValfocused=true" ng-blur="loanAmtValfocused=false"/>
+             <p ng-show="emiForm.loanAmtVal.$error.required && submitted && !loanAmtValfocused" class="help-block error move-left">Please enter Loan Amount.</p>
+          </div>
+
+                <div class="form-group labelInput textArea clearfix" ng-class="{ 'has-error' : (emiForm.loanTerm.$invalid && submitted  && !loanTermfocused)}">
+                    <img src="images/loan-term.png" class="labelImg"/>
+                    <input type="number" name="loanTerm" ng-model="loanTerm" placeholder="Loan Tenure in months" class="form-control col-xs-5 col-sm-5 col-md-5" required ng-focus="loanTermfocused=true" ng-blur="loanTermfocused=false"/>
+                    <p ng-show="emiForm.loanTerm.$error.required && submitted && !loanTermfocused" class="help-block error move-left">Please enter Tenure.</p>
+                </div>
+
+                <div class="form-group labelInput clearfix irr-wrapper">
+                    <img src="images/irrIcon.png" ng-model="irrIcon" class="labelImg"/>
+                    <input type="text" name="irrVal" ng-model="irrVal" class="form-control col-xs-5 col-sm-5 col-md-5" />
+                </div>
+                <div class="opp-btn-wrapper">
+                <button type="submit" class="btn btn-primary">Calculate</button>
+                </div>
+            </form>
+
+            <div class="emi-value-wrapper clearfix">
+                <h3 class="subHeadingForm">Monthly Installment (In Rs.)</h3>
+                <input type="text" disabled ng-model="calculatedValue" class="form-control col-xs-5 col-sm-5 col-md-5" ng-required="true"/>
+            </div>
+
+            <div class="emi-disclaimer">
+                <p class="heading">Disclamier</p>
+                <p class="text">
+                    The calculation performed by this EMI Calculator is based on the information you entered and is for illustrative purposes only This calculation reflects amounts in Indian Rupee rounded to the nearest whole figure. Actual EMI may differ marginally due to interest for broken period based on actual due dates for loan. Actual payments may vary depending on conditions applicable at the time of signing the contract. Estimated monthly payments DO NOT include Insurance Provision amount.
+                </p>
+            </div>
+    </div>
+</div>

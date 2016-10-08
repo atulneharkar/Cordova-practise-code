@@ -1,0 +1,76 @@
+<div ng-controller="landingController" class="home main-page landing-page">
+<loading></loading>
+  <header>
+    <div class="home-header clearfix row">
+      <div class="col-xs-9 col-md-9">
+        <a href="" class="tatamotors-dashboard-logo"></a>
+        <p class="title">{{title}}</p>
+      </div>
+      <div class="col-xs-3 col-md-3">
+        <a href="" ng-click="sync()" class="sync-icon"></a>
+        <a href="" ng-click="logout()" class="logout-icon"></a>
+      </div>
+    </div>
+  </header>
+  <loading></loading>
+  <div class="home-content clearfix">
+
+    <!-- <div class="survey-landing-img">
+      <img src="images/landing-bg.jpg" />
+    </div> -->
+    <p class="survey-text">
+      Have you filled your survey? 
+    </p>
+    
+    <p class="no-survey-message" ng-show="reloadCount">No New Survey Assigned.</p>
+
+    <div class="survey-list-outer-wrapper">
+      <div class="survey-main-wrapper clearfix" ng-repeat="data in surveyData">
+        <div class="survey-inner-wrapper clearfix">
+          <a href="" ng-click="surveyMainPage(data.surveyId)">
+            <img class="survey-img" src="images/survey-img.png" />
+            <p class="survey-description">{{data.surveyName}}</p>
+            <p class="validity-info">
+            Valid from <span ng-bind="data.surveyStart | setDay"></span><sup ng-bind="data.surveyStart | setSuper"></sup> <span ng-bind="data.surveyStart | setMonthYear"></span> - <span ng-bind="data.surveyEnd | setDay"></span><sup ng-bind="data.surveyStart | setSuper"></sup> <span ng-bind="data.surveyEnd | setMonthYear"></span>
+            </p>
+          </a>
+          <div class="survey-status-img">
+            <div class="survey-status-wrapper">
+              <img ng-src="images/{{data.surveyId | changeStatus}}.png" />
+              <span ng-bind="data.surveyId | changeStatus"></span>
+              <span class="score" ng-if="(data.surveyId | setScore) != 0">Your Score: {{data.surveyId | setScore}}%</span>
+            </div>
+          </div>
+        </div>
+        <div class="survey-sync-status">
+          <p class="not-sync" ng-if="data.syncStatus == 'N'">Status: <span>Pending to be Updated on server</span> (Please click sync button to Update)</p>
+          <p class="sync" ng-if="data.syncStatus == 'Y'">Status: <span>Updated</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="login-page-tag-line tag-line landing-page">
+    <img src="images/tmf-tag-line.png" width="200" />
+  </div>
+  
+</div>
+
+<script>
+  $( document ).ready(function() {
+    setTimeout(function() {
+      setHeight();
+    }, 50);
+  });
+
+  window.onresize = function() {
+    setHeight();
+  }
+
+  function setHeight() {
+        var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+        var calculatedHeight = (height - $('.home-header').outerHeight(true) - $('.no-survey-message').outerHeight(true) - 75);
+        $('.survey-list-outer-wrapper').css('height', calculatedHeight);
+        
+      }
+</script>

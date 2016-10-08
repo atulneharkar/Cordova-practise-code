@@ -1,0 +1,33 @@
+<!-- header -->
+<header>
+    <div class="row" ng-controller="headerController">
+        <div class="col-xs-4 col-md-4 hamburger">
+            <span class="toggle-menu"></span>
+            <a href="#/home" class="tata-dashboard-img"></a>
+          </div>
+          <div class="col-xs-6 col-md-6 header-title-wrapper">
+            <h1 class="header-title">{{title}}</h1>
+        </div>
+        <div class="col-xs-2 col-md-2 sync" ng-click="submitData()">
+            <span></span>
+        </div>
+        <loading></loading>
+    </div>
+    
+</header>
+
+          <script>
+      $('document').ready(function() {
+        $('header .toggle-menu, .lateral-slide-menu-overlay').on('click', function() {
+            $('.lateral-slide-menu').toggleClass('lateral-slide-menu-open');
+            $('.lateral-slide-menu-overlay').fadeToggle();
+            if($('body').css('overflow') == 'visible') {
+              $('body').scrollTop(0);
+              $('body').css('overflow', 'hidden');
+            } else {
+              $('body').css('overflow', 'visible');
+            }
+            
+        });
+      });
+    </script>

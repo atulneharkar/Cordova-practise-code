@@ -1,0 +1,84 @@
+<!-- side menus -->
+<div class="lateral-slide-menu" ng-controller="loginController" >
+    <div>
+        <nav>
+            <div class="lateral-slide-menu-scrollable-container">
+                <div class="welcome-wrapper clearfix">
+                    <img src="images/default-user.png" width="40" height="40" class="user-icon" />
+                    <div class="name-wrapper">
+                        <p class="owner-name">{{dispName}}</p>
+                        <p class="owner-id">{{userId}}</p>
+                    </div>
+                </div>
+
+                <ul class="ng-scope">
+                    <li class="my-worklist"><a href="#/home"><img src="images/lead-monitoring.png" width="30" height="30" /><span class="menu-text">My Worklist</span></a></li>
+                    <li class="lead-creation"><a href="#/lead"><img src="images/create-lead-icon.png" width="30" height="30"/><span class="menu-text">Lead Creation</span></a></li>
+                    <li class="opportunity-creation"><a href="#/direct-opp"><img src="images/create-opp-icon.png" width="30" height="30"/><span class="menu-text">Opportunity Creation</span></a></li>
+                    <li class="reports"><a href="#/reports"><img src="images/reports.jpg" width="30" height="30"/><span class="menu-text">Reports</span></a></li>
+                    <li class="emi-calculator"><a href="#/calculate-emi"><img src="images/calculator.png" width="30" height="30"/><span class="menu-text">EMI Calculator</span></a></li>
+                    <li class="pocket-guide"><a href="#/pocket-guide"><img src="images/pocket-guide.png" width="30" height="30"/><span class="menu-text">Pocket Guide</span></a></li>
+                    <li class="my-profile"><a href="#/my-profile"><img src="images/my-profile.png" width="30" height="30"/><span class="menu-text">My Profile</span></a></li>
+                    <li class="documents"><a href=""><img src="images/documents.png" width="30" height="30" /><span class="menu-text">Documents Capture</span></a></li>
+                    <li class="comming-soon">Coming Soon</li>
+                    <li><a href=""><img src="images/dashboard.png" width="30" height="30" /><span class="menu-text">Sales Dashboard</span></a></li>
+                    <li><a href="" class="" data-toggle="modal" data-target="#feedbackModal"><img src="images/logout.png" width="30" height="30" /><span class="menu-text">Logout</span></a></li>
+                </ul>
+
+            </div>
+            <p class="menu-version-text">Version 1.0</p>
+        </nav>
+    </div>
+</div>
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalLabel"  ng-controller="loginController">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="rating clearfix">
+                    <h3>Hi {{dispName}}, please rate us!</h3>
+                    <input type="radio" id="star5" name="rating" value="5" title="You Rock!"/><label for="star5" ></label>
+                    <input type="radio" id="star4" name="rating" value="4" title="Pretty good. Thanks."/><label for="star4" ></label>
+                    <input type="radio" id="star3" name="rating" value="3" title="Meh"/><label for="star3" ></label>
+                    <input type="radio" id="star2" name="rating" value="2" title="Please leave a suggestion.."/><label for="star2" ></label>
+                    <input type="radio" id="star1" name="rating" value="1" title="Okay that's just mean!"/><label for="star1" ></label>
+                </div>
+                <div class="titleRating"></div>
+                <div class="feedbackSuggest">
+                    <input type="text" id="suggestFeed" class="form-control" value="" placeholder="Suggestions (Optional)"/>
+                </div>
+                <div class="feed-button-wrapper clearfix">
+                    <button type="submit" class="btn btn-primary">Rate Now</button>
+                    <button type="reset" class="btn btn-primary">Maybe Later</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="lateral-slide-menu-overlay">
+</div>
+
+
+<script>
+    $(document).ready(function() {
+        var hash = window.location.hash;
+        if(hash.indexOf('home') > -1) {
+            $('.lateral-slide-menu .my-worklist').addClass('selected');
+        } else if(hash.indexOf('lead') > -1) {
+            $('.lateral-slide-menu .lead-creation').addClass('selected');
+        }  else if(hash.indexOf('direct-opp') > -1) {
+            $('.lateral-slide-menu .opportunity-creation').addClass('selected');
+        } else if(hash.indexOf('reports') > -1) {
+            $('.lateral-slide-menu .reports').addClass('selected');
+        } else if(hash.indexOf('calculate-emi') > -1) {
+            $('.lateral-slide-menu .emi-calculator').addClass('selected');
+        } else if(hash.indexOf('pocket-guide') > -1) {
+            $('.lateral-slide-menu .pocket-guide').addClass('selected');
+        } else if(hash.indexOf('my-profile') > -1) {
+            $('.lateral-slide-menu .my-profile').addClass('selected');
+        }
+
+        $('body').css('overflow', 'visible');
+    });
+</script>
+

@@ -1,0 +1,58 @@
+<div ng-include="'side-menu.html'"></div>
+
+<div ng-controller="scheduleController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header schedule-header"></div>
+
+<div class="reschedule-wrapper">
+  <div class="row heading">Customer Details</div>
+  
+  <div class="row">
+    <div class="col-xs-2 col-md-2 share-icon-wrapper">
+      <a href="" class="share-icon" ng-click="socialShare()"></a>
+    </div>
+    <div class="col-xs-8 col-md-8 name-wrapper">
+      <p>{{scheduleData.FName}} {{scheduleData.LName}}</p>
+    </div>
+  </div>
+  
+  <div class="row" ng-show="{{scheduleData.MobileNo}}">
+    <div class="col-xs-2 col-md-2 phone-icon-wrapper">
+      <a href="tel:{{scheduleData.MobileNo}}" class="phone-icon"></a>
+    </div>
+    <div class="col-xs-8 col-md-8 mb-no-wrapper">
+      <p>{{scheduleData.MobileNo}}</p>
+    </div>
+    <div class="col-xs-2 col-md-2">
+      <a class="hangout-icon"  ng-click="smsPop(scheduleData.MobileNo)"></a>
+    </div>
+  </div>
+  
+  <form name="scheduleForm" novalidate ng-submit="rescheduleMeeting(scheduleForm.$valid)">
+  <div class="form-group clearfix" ng-class="{ 'has-error' : (scheduleForm.meetingLocation.$invalid && submitted && !meetingLocationfocused)}">
+    <label for="meetingLocation">Location of Meeting</label>
+    <textarea class="form-control" id="meetingLocation" ng-model="meetingLocation" placeholder="Meeting Location" name="meetingLocation" required ng-focus="meetingLocationfocused=true" ng-blur="meetingLocationfocused=false"></textarea>
+    <p ng-show="scheduleForm.meetingLocation.$error.required && submitted && !meetingLocationfocused" class="help-block error">Please enter Location.</p>
+  </div>
+  <div class="form-group clearfix" ng-class="{ 'has-error' : (!meetDateStatus && submitted && !meetingDatefocused)}">
+    <label for="date">Date of Meeting</label>
+      <input ng-model="meetingDate" class="form-control" type="date" id="date" placeholder="dd-mm-yyyy" name="meetingDate" ng-focus="meetingDatefocused=true" ng-blur="meetingDatefocused=false; checkDateEmpty();" min=""/>
+      <p ng-show="!meetDateStatus && submitted && !mettingDatefocused" class="help-block error">Please select Date.</p>
+  </div>
+  <div class="form-group clearfix" ng-class="{ 'has-error' : (!meetTimeStatus && submitted && !meetingTimefocused)}">
+    <label for="time">Time of Meeting</label>
+    <input type="time" id="meetingTime" ng-model="meetingTime" class="form-control" name="meetingTime" ng-focus="meetingTimefocused=true" ng-blur="meetingTimefocused=false; checkTimeEmpty();">
+    <p ng-show="!meetTimeStatus && submitted && !meetingTimefocused" class="help-block error">Please select Time.</p>
+  </div>
+  <div class="form-group clearfix" ng-class="{ 'has-error' : (scheduleForm.meetingRemarks.$invalid && submitted && !meetingRemarksfocused)}">
+    <label for="remarks">Remarks</label>
+    <textarea class="form-control" id="remarks" ng-model="meetingRemarks" placeholder="Remarks" name="meetingRemarks" required ng-focus="meetingRemarksfocused=true" ng-blur="meetingRemarksfocused=false"></textarea>
+    <p ng-show="scheduleForm.meetingRemarks.$error.required && submitted && !meetingRemarksfocused" class="help-block error">Please enter Remark.</p>
+  </div>
+  <div class="btn-wrapper">
+    <a href="#/home" class="btn btn-default cancel-btn">Cancel</a>
+    <button type="submit" class="btn btn-default reschedule-btn">Update</button>
+  </div>
+</form>
+</div>
+
+</div>

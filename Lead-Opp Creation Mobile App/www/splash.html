@@ -1,0 +1,31 @@
+<div class="splashScr">
+
+
+    <!-- <div class="splash-screen-title">
+        <p class="main-heading">Tata Motors Finance</p>
+        <p class="sub-heading">Driven by Trust</p>
+    </div> -->
+
+    <div class="SplashLogo">
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        setHeight();
+        window.setTimeout(function () {
+            $(".splashScr").fadeOut("1000");
+            window.location.href = '#/login';
+        }, 3000);
+    });
+
+    window.onresize = function(event) {
+        setHeight();
+    }
+
+    function setHeight() {
+        var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+
+        $('.splashScr').height(height);
+    }
+</script>

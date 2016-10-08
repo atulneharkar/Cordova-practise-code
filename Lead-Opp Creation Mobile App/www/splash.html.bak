@@ -1,0 +1,17 @@
+<div ng-controller="loginController" class="splashScr">
+    <div class="jumbotron loginpage loginbg">
+        <div class="col-sm-6 col-sm-offset-3 loginBox">
+            <div class="loginLogo splashLogo">
+                <img src="images/app-logo-2.png" width="250"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        window.setTimeout(function () {
+            $(".splashScr").fadeOut("1000");
+            window.location.href = '#/login';
+        }, 3000);
+    });
+</script>

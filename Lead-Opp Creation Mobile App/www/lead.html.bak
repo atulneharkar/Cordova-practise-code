@@ -1,0 +1,136 @@
+<div ng-include="'side-menu.html'"></div>
+<div ng-controller="leadController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <div class="page row">
+        <div class="col-sm-6 col-sm-offset-3 lead-wrapper">
+            <form name="leadForm" novalidate ng-submit="leadSubmit('', leadForm.$valid)">
+                <div>
+                    <h3 class="subHeadingForm">Product Details</h3>
+                </div>
+                <div class="form-group clearfix">
+                    <!--<input type="checkbox" checked data-toggle="toggle" data-on="Ind" data-off="Org" class="indToggle"/>
+                       Auto nw-->
+
+                    <!-- <input type="text" name="searchProd" id="searchProd" ng-model="searchProd" placeholder="Products..." list="prodResults"  ng-change="autoFire()" autocomplete="off" class="search-box form-control searchProd" ng-required="true">-->
+                    
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox ind-org" checked="checked" id="myonoffswitch" ng-model="leadType">
+                        <label class="onoffswitch-label" for="myonoffswitch">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+
+                    <div class="onoffswitch1">
+                        <input type="checkbox" name="onoffswitch1" class="onoffswitch-checkbox1 new-used" id="myonoffswitch1" ng-model="financialType">
+                        <label class="onoffswitch-label1" for="myonoffswitch1">
+                            <span class="onoffswitch-inner1"></span>
+                            <span class="onoffswitch-switch1"></span>
+                        </label>
+                    </div>
+
+                </div>
+                <div class="clearfix autocomplete-wrapper">
+                    <!--<input type="checkbox" checked data-toggle="toggle" data-on="New" data-off="Used" class="newToggle"/>-->
+                    <!-- <input name="searchChan" id="searchChan" ng-model="searchChan" placeholder="Channel..." class="search-box form-control searchChan" ng-required="true"/>-->
+
+                    <div class="form-group  product-autoComplete clearfix" ng-class="{ 'has-error' : (leadForm.searchProd.$invalid && submitted && !searchProdfocused)}">
+                        <input class="search-box form-control searchProd" type="text" autocomplete="false" ng-model="searchProd" placeholder="Product" typeahead="products" typeahead-callback="callback" name="searchProd" required ng-focus="searchProdfocused=true" ng-blur="searchProdfocused=false; checkValid($event)"/>
+                        <p ng-show="leadForm.searchProd.$error.required && submitted && !searchProdfocused" class="help-block error">Please select Product.</p>
+                    </div>
+
+                    <!--<div class="form-group channel-autoComplete clearfix" ng-class="{ 'has-error' : (leadForm.searchChan.$invalid && submitted && !searchChanfocused)}">
+                         <input class="search-box form-control searchChan" type="text" autocomplete="false" ng-model="searchChan" placeholder="Channel" typeahead="channels" typeahead-callback="callback" name="searchChan" required ng-focus="searchChanfocused=true" ng-blur="searchChanfocused=false" />
+                         <p ng-show="leadForm.searchChan.$error.required && submitted && !searchChanfocused" class="help-block error">Please select Channel.</p>
+                     </div>-->
+                    <div class="form-group channel-autoComplete clearfix" ng-class="{ 'has-error' : (!channelSelectedStatus && submitted)}">
+                        <select ng-model="searchChan" class="search-box form-control searchChan" ng-change="channelSelected()">
+                            <option value="">Select Channel</option>
+                            <option value="CallCenter">Call Center</option>
+                            <option value="CIBILLead">CIBIL Lead</option>
+                            <option value="CollectionLead">Collection Lead</option>
+                            <option value="Database">Database</option>
+                            <option value="Dealer">Dealer</option>
+                            <option value="DealerDSA">Dealer DSA</option>
+                            <option value="Direct">Direct</option>
+                            <option value="DSA">DSA</option>
+                            <option value="E-Mail">E-Mail</option>
+                            <option value="Magazine">Magazine</option>
+                            <option value="MCTW">MCTW</option>
+                            <option value="MissedCall">Missed Call</option>
+                            <option value="MLM">MLM</option>
+                            <option value="Pre-ApprovedLoan">Pre-ApprovedLoan</option>
+                            <option value="SMS">SMS</option>
+                            <option value="SMSBDM">SMS BDM</option>
+                            <option value="SMSDSE">SMS DSE</option>
+                            <option value="TMF_Universe_Lead">TMF Universe Lead</option>
+                        </select>
+                        <p ng-show="!channelSelectedStatus && submitted" class="help-block error">Please select Channel.</p>
+                    </div>
+                </div>
+                <h3 class="subHeadingForm">Customer Details</h3>
+                <img src="images/userIcon.png" ng-model="custNameIcon" class="labelImg name-img"/>
+                <div class="name-wrapper">
+                    <div class="form-group clearfix" ng-class="{ 'has-error' : (leadForm.custFName.$invalid && submitted && !fnamefocused)}">
+                        <!-- <img src="images/userIcon.png" ng-model="custNameIcon" class="labelImg"/> -->
+                        <input name="custFName" ng-model="custFName" placeholder="First Name" class="form-control custFName col-xs-5 col-sm-5 col-md-5" ng-pattern="/^[a-zA-Z\s]+$/" required ng-focus="fnamefocused=true" ng-blur="fnamefocused=false"/>
+                        <p ng-show="leadForm.custFName.$error.required && submitted && !fnamefocused" class="help-block error">Please enter First Name.</p>
+                        <p ng-show="leadForm.custFName.$error.pattern && submitted && !fnamefocused" class="help-block error">Please enter valid First Name.</p>
+                    </div>
+                    <div class="form-group clearfix" ng-class="{ 'has-error' : (leadForm.custLName.$invalid && submitted && !lnamefocused)}">
+                        <input name="custLName" ng-model="custLName" placeholder="Last Name" class="form-control custLName col-xs-5 col-sm-5 col-md-5" ng-pattern="/^[a-zA-Z\s]+$/" required ng-focus="lnamefocused=true" ng-blur="lnamefocused=false"/>
+                        <p ng-show="leadForm.custLName.$error.required && submitted && !lnamefocused" class="help-block error">Please enter Last Name.</p>
+                        <p ng-show="leadForm.custLName.$error.pattern && submitted && !lnamefocused" class="help-block error">Please enter valid Last Name.</p>
+                    </div>
+                </div>
+                <div class="form-group labelInput clearfix" ng-class="{ 'has-error' : (leadForm.mobNumber.$invalid && submitted && !mbnofocused)}">
+                    <img src="images/mobNoIcon.png" ng-model="mobNoIcon" class="labelImg"/>
+                    <input type="number" name="mobNumber" ng-model="mobNumber" placeholder="Mobile Number (10 digits)" class="form-control" ng-pattern="/^[1-9][0-9]*/" md-maxlength="10" force-maxlength="" ng-maxlength="10" ng-minlength="10" required ng-focus="mbnofocused=true" ng-blur="mbnofocused=false" maxlength="10"/>
+                    <p ng-show="leadForm.mobNumber.$error.required && submitted && !mbnofocused" class="help-block error move-left">Please enter Mobile Number.</p>
+                    <p ng-show="leadForm.mobNumber.$error.pattern && submitted && !mbnofocused && !leadForm.mobNumber.$error.required" class="help-block error move-left">Please enter valid Mobile Number.</p>
+                    <p ng-show="submitted && !mbnofocused && (leadForm.mobNumber.$error.minlength || leadForm.mobNumber.$error.maxlength) && !leadForm.mobNumber.$error.required && !leadForm.mobNumber.$error.pattern" class="help-block error move-left">Mobile Number should be 10 digits.</p>
+                </div>
+                <div class="form-group labelInput textArea clearfix" ng-class="{ 'has-error' : (leadForm.custAddr.$invalid && submitted  && !custAddrfocused)}">
+                    <img src="images/addressIcon.png" ng-model="custAddrIcon" class="labelImg"/>
+                    <textarea name="custAddr" ng-model="custAddr" placeholder="Customer Address" class="form-control" required ng-focus="custAddrfocused=true" ng-blur="custAddrfocused=false"></textarea>
+                    <p ng-show="leadForm.custAddr.$error.required && submitted && !custAddrfocused" class="help-block error move-left">Please enter Address.</p>
+                </div>
+
+                <div class="form-group labelInput clearfix">
+                    <img src="images/cityIcon.png" ng-model="custCityIcon" class="labelImg"/>
+                    <!-- <input name="cityInput" ng-model="cityInput" placeholder="City..." class="form-control cityInput col-xs-5 col-sm-5 col-md-5" ng-required="true"/>-->
+                    <div class="cityInput" ng-class="{ 'has-error' : (leadForm.cityInput.$invalid && submitted && !cityInputfocused)}">
+                        <input class="form-control cityInput col-xs-5 col-sm-5 col-md-5" type="text" autocomplete="false" ng-model="cityInput" placeholder="city" typeahead="cities" typeahead-callback="callback" name="cityInput" required ng-focus="cityInputfocused=true" ng-blur="cityInputfocused=false; checkValid($event)"/>
+                        <input hidden class="searchCityVal" ng-model="cityInputVal" value="{{cities.value}}"/>
+                        <p ng-show="leadForm.cityInput.$error.required && submitted && !cityInputfocused" class="help-block error move-left">Please select City.</p>
+                    </div>
+                </div>
+                <h3 class="subHeadingForm meetDetails">Set Reminder</h3>
+                <div class="form-group labelInput clearfix lead-date-wrapper" ng-class="{ 'has-error' : (!meetDateStatus && submitted && !mettingDatefocused)}">
+                    <img src="images/dateIcon.png" ng-model="meetDateIcon" class="labelImg"/>
+                      <input ng-model="mettingDate" class="form-control" type="date" id="date" placeholder="dd-mm-yyyy" name="mettingDate" ng-focus="mettingDatefocused=true" ng-blur="mettingDatefocused=false; checkDateEmpty();" min=""/>
+                    <p ng-show="!meetDateStatus && submitted && !mettingDatefocused" class="help-block error move-left">Please select Date.</p>
+                </div>
+                <div class="form-group labelInput clearfix" ng-class="{ 'has-error' : (!meetTimeStatus && submitted && !meetTimefocused)}">
+                    <img src="images/timeIcon.png" ng-model="meetTimeIcon" class="labelImg"/>
+                    <input type="time" name="meetTime" ng-model="meetTime" placeholder="Meeting Time" class="form-control" name="meetTime" ng-focus="meetTimefocused=true" ng-blur="meetTimefocused=false; checkTimeEmpty();" id="meetTime"/>
+                    <p ng-show="!meetTimeStatus && submitted && !meetTimefocused" class="help-block error move-left">Please select Time.</p>
+                </div>
+				 <div  class="form-group labelInput clearfix">
+                    <img src="images/locationIcon.png" ng-model="meetLocIcon" class="labelImg"/>
+                    <textarea name="meetLoc" ng-model="meetLoc" placeholder="Meeting Location" class="form-control" name="meetLoc" ng-focus="meetLocfocused=true" ng-blur="meetLocfocused=false"/></textarea>
+                </div>
+                <input type="hidden" ng-model="sync_status">
+                <div class="btn-wrapper lead-btns">
+                <button type="submit" id="leadSubmit" class="btn btn-primary" ng-disabled="!leadForm.$dirty && particularLeadData.TransactionData.MetaData.Mobile_PK">Submit</button><!-- 
+                <a ng-show="{{particularLeadData.TransactionData.MetaData.Mobile_PK}}" href="#/opp/{{particularLeadData.TransactionData.MetaData.Mobile_PK}}" id="oppLink" class="btn btn-primary">Opportunity</a> -->
+                <a href="" ng-click="leadSubmit('directOpp', leadForm.$valid)" ng-if="particularLeadData.TransactionData.MetaData.Mobile_PK" id="oppLink" class="btn btn-primary">Opportunity</a>
+                </div>
+
+                <div class="btn-wrapper direct-opp-btn">
+                <a href="" ng-click="leadSubmit('directOpp', leadForm.$valid)" id="oppLink" class="btn btn-primary">Save & Continue</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

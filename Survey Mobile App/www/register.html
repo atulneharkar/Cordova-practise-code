@@ -1,0 +1,33 @@
+<div class="register-main-wrapper">
+    <div class="register-header clearfix">
+      <a href="#/login" class="back-btn"></a>
+      <span class="header-title">{{title}}</span>
+    </div>
+            <div class="register-form-wrapper">
+                <form name="" novalidate ng-submit="">
+                <div class="name-wrapper">
+                    <div class="form-group clearfix" ng-class="{ 'has-error' : (leadForm.custFName.$invalid && submitted && !fnamefocused)}">
+                        <!-- <img src="images/userIcon.png" ng-model="custNameIcon" class="labelImg"/> -->
+                        <input name="custFName" ng-model="custFName" placeholder="First Name" class="form-control custFName col-xs-5 col-sm-5 col-md-5" ng-pattern="/^[a-zA-Z\s]+$/" required ng-focus="fnamefocused=true" ng-blur="fnamefocused=false"/>
+                        <p ng-show="leadForm.custFName.$error.required && submitted && !fnamefocused" class="help-block error">Please enter First Name.</p>
+                        <p ng-show="leadForm.custFName.$error.pattern && submitted && !fnamefocused" class="help-block error">Please enter valid First Name.</p>
+                    </div>
+                    <div class="form-group clearfix" ng-class="{ 'has-error' : (leadForm.custLName.$invalid && submitted && !lnamefocused)}">
+                        <input name="custLName" ng-model="custLName" placeholder="Last Name" class="form-control custLName col-xs-5 col-sm-5 col-md-5" ng-pattern="/^[a-zA-Z\s]+$/" required ng-focus="lnamefocused=true" ng-blur="lnamefocused=false"/>
+                        <p ng-show="leadForm.custLName.$error.required && submitted && !lnamefocused" class="help-block error">Please enter Last Name.</p>
+                        <p ng-show="leadForm.custLName.$error.pattern && submitted && !lnamefocused" class="help-block error">Please enter valid Last Name.</p>
+                    </div>
+                </div>
+
+                <div class="form-group labelInput clearfix" ng-class="{ 'has-error' : (leadForm.mobNumber.$invalid && submitted && !mbnofocused)}">
+                    <input type="number" name="mobNumber" ng-model="mobNumber" placeholder="Mobile Number (10 digits)" class="form-control" ng-pattern="/^[1-9][0-9]*/" md-maxlength="10" force-maxlength="" ng-maxlength="10" ng-minlength="10" required ng-focus="mbnofocused=true" ng-blur="mbnofocused=false" maxlength="10"/>
+                    <p ng-show="leadForm.mobNumber.$error.required && submitted && !mbnofocused" class="help-block error move-left">Please enter Mobile Number.</p>
+                    <p ng-show="leadForm.mobNumber.$error.pattern && submitted && !mbnofocused && !leadForm.mobNumber.$error.required" class="help-block error move-left">Please enter valid Mobile Number.</p>
+                    <p ng-show="submitted && !mbnofocused && (leadForm.mobNumber.$error.minlength || leadForm.mobNumber.$error.maxlength) && !leadForm.mobNumber.$error.required && !leadForm.mobNumber.$error.pattern" class="help-block error move-left">Mobile Number should be 10 digits.</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+
+                </form>
+    </div>
+</div>

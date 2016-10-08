@@ -1,0 +1,666 @@
+<div ng-controller="surveyController" class="home survey-main-page main-page">
+
+  <header>
+    <div class="home-header clearfix row">
+      <div class="col-xs-10 col-md-10">
+        <!-- <a href="javascript:history.back()" class="back-btn" ></a> -->
+        <a href="" ng-click="getToPreviousPage()" class="back-btn" ></a>
+        <a href="" class="survey-page-logo tatamotors-dashboard-logo"></a>
+        <p class="title survey-title">{{title}}</p>
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <a href="" ng-click="logout()" class="logout-icon"></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <loading></loading>
+    <div class="questions-main-wrapper">
+
+      <div class="progress-page-navigation-wrapper">
+
+        <ul id="myTabs" role="tablist" class="page-number-wrapper"> 
+          <li role="presentation" class="active" ng-show="questionCount > 0">
+            <a href="#form1" id="form1-tab" role="tab" data-toggle="tab" aria-controls="form1" aria-expanded="true">1</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 5">
+            <a href="#form2" role="tab" id="form2-tab" data-toggle="tab" aria-controls="form2" aria-expanded="false">2</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 10">
+            <a href="#form3" role="tab" id="form3-tab" data-toggle="tab" aria-controls="form3" aria-expanded="false">3</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 15">
+            <a href="#form4" role="tab" id="form4-tab" data-toggle="tab" aria-controls="form4" aria-expanded="false">4</a>
+          </li>
+          <li role="presentation" class="" ng-show="questionCount > 20">
+            <a href="#form5" role="tab" id="form5-tab" data-toggle="tab" aria-controls="form5" aria-expanded="false">5</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 25">
+            <a href="#form6" role="tab" id="form6-tab" data-toggle="tab" aria-controls="form6" aria-expanded="false">6</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 30">
+            <a href="#form7" role="tab" id="form7-tab" data-toggle="tab" aria-controls="form7" aria-expanded="false">7</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 35">
+            <a href="#form8" role="tab" id="form8-tab" data-toggle="tab" aria-controls="form8" aria-expanded="false">8</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 40">
+            <a href="#form9" role="tab" id="form9-tab" data-toggle="tab" aria-controls="form9" aria-expanded="false">9</a>
+          </li> 
+          <li role="presentation" class="" ng-show="questionCount > 45">
+            <a href="#form10" role="tab" id="form10-tab" data-toggle="tab" aria-controls="form10" aria-expanded="false">10</a>
+          </li> 
+        </ul>
+
+        <div class="progress">
+          <div class="progress-bar survey-progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" id="survey-progress">
+            
+          </div>
+        </div>
+        <p class="no-data-message" ng-show="reloadCount">Unable to Fetch the Data. Please try again.</p>
+      </div>
+
+      <form novalidate ng-submit="submitSurvey(ans, '')">
+
+      <div ng-repeat="data in surveyData" ng-if="surveyId == data.surveyId">
+        <div class="tab-content">
+
+          <div  role="tabpanel" class="tab-pane active" id="form1">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index<5">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]">
+                <span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 5">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="2" form-id="form2" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="2" form-id="form2">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 6">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form2">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>4 && $index<10">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 10">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="3" form-id="form3" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="3" form-id="form3">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 11">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form3">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>9 && $index<15">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                   <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 15">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="4" form-id="form4" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="4" form-id="form4">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 16">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form4">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>14 && $index<20">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 20">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="5" form-id="form5" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="5" form-id="form5">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 21">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form5">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>19 && $index<25">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 25">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="6" form-id="form6" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="6" form-id="form6">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 26">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form6">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>24 && $index<30">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 30">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="7" form-id="form7" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="7" form-id="form7">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 31">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form7">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>29 && $index<35">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 35">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="8" form-id="form8" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="8" form-id="form8">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 36">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form8">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>34 && $index<40">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 40">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="9" form-id="form9" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="9" form-id="form9">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 41">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form9">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>39 && $index<45">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount > 45">
+              <span ng-if="(answerCount != questionCount) || data.syncStatus == 'N'" class="btn btn-primary submit-survey-btn" form-number="10" form-id="form10" ng-click="openNextForm($event, ans)">Save & Next</span>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled" form-number="10" form-id="form10">Save & Next</span>
+            </div>
+
+            <div class="save-and-next-btn" ng-if="questionCount < 46">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+          <div  role="tabpanel" class="tab-pane" id="form10">
+            <div class="question-wrapper" ng-repeat="dat in data.questionList track by $index" ng-if="$index>44 && $index<50">
+              <p class="question">{{dat.question}}<span class="required" ng-if="dat.type == 'Free Text'">*</span></p>
+              <div class="not-applicable-btn-wrapper clearfix" ng-click="clickNonApplicable($event);" ng-if="dat.type == 'Radio'">
+                <label for"not-applicable"><input type="checkbox" id="notapplicable{{dat.questionId}}" ng-model="ans[dat.questionId]"><span>Not Applicable</span></label>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Free Text'">
+                <textarea name="question{{dat.questionId}}" class="free-text form-control" ng-model="ans[dat.questionId]" ng-blur="checkOption($event, ans)" ng-keyup="checkOption($event, ans)" id="textarea{{dat.questionId}}"></textarea>
+              </div>
+              <div class="options-wrapper emoticons clearfix" ng-if="dat.type == 'Radio'">
+                <div class="option" ng-click="ans[dat.questionId] = '1'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="1" id="q{{dat.questionId}}-opt1" />
+                  <label for="q{{dat.questionId}}-opt1" class="opt1">Option 1</label>
+                  <span class="state-name">Strongly DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '2'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="2" id="q{{dat.questionId}}-opt2" />
+                  <label for="q{{dat.questionId}}-opt2" class="opt2">Option 2</label>
+                  <span class="state-name">DisAgree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '3'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="3" id="q{{dat.questionId}}-opt3" />
+                  <label for="q{{dat.questionId}}-opt3" class="opt3">Option 3</label>
+                  <span class="state-name">Neutral</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '4'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="4" id="q{{dat.questionId}}-opt4" />
+                  <label for="q{{dat.questionId}}-opt4" class="opt4">Option 4</label>
+                  <span class="state-name">Agree</span>
+                </div>
+                <div class="option" ng-click="ans[dat.questionId] = '5'; checkOption($event, ans)">
+                  <input type="radio" name="question{{dat.questionId}}" class="radio" ng-model="ans[dat.questionId]" value="5" id="q{{dat.questionId}}-opt5" />
+                  <label for="q{{dat.questionId}}-opt5" class="opt5">Option 5</label>
+                  <span class="state-name">Strongly Agree</span>
+                </div>
+              </div>
+
+              <div class="remarks-textbox-wrapper">
+                <span class="required">*</span>
+                <textarea class="remarks-textbox form-control" ng-blur="triggerClick($event); checkOption()" ng-keyup="triggerClick($event); checkOption()" id="remarks-textarea{{dat.questionId}}" placeholder="Please enter your remarks."></textarea>
+              </div>
+
+            </div>
+
+            <div class="save-and-next-btn">
+              <button ng-if="(answerCount != questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn" disabled="disabled">Submit</button>
+              <button ng-if="(answerCount == questionCount) && data.syncStatus == 'N'" type="submit" class="btn btn-primary submit-survey-btn">Submit</button>
+              <span ng-if="(answerCount == questionCount) && data.syncStatus == 'Y'" class="btn btn-primary submit-survey-btn disabled">Submit</span>
+              <a href="" ng-click="submitSurvey(ans, 'reports')" ng-if="answerCount == questionCount" class="btn btn-primary submit-survey-btn">Report</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      </form>
+
+      <div class="login-page-tag-line tag-line">
+        <img src="images/tmf-tag-line.png" width="200" />
+      </div>
+
+  </div>
+
+</div>
+
+<script>
+      $( document ).ready(function() {
+        setHeight();
+       });
+
+
+      window.onresize = function(event) {
+        setHeight();
+      }
+
+      function setHeight() {
+        var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+        var calculatedHeight = (height - ($('.home-header').outerHeight(true)) - $('.no-data-message').outerHeight(true) - ($('.progress-page-navigation-wrapper').outerHeight(true)));
+
+        $('.home .tab-content').css('height', (calculatedHeight - 40) + "px");
+        
+      }
+
+  </script>

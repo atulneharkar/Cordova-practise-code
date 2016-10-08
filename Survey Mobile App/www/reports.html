@@ -1,0 +1,63 @@
+<div ng-controller="reportsController" class="reports">
+<header>
+    <div class="report-header clearfix row">
+      <div class="col-xs-10 col-md-10">
+        <a href="" ng-click="getToPreviousPage()" class="back-btn" ></a>
+        <a href="" class="tatamotors-dashboard-logo"></a>
+        <p class="title">{{title}}</p>
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <a href="" ng-click="logout()" class="logout-icon"></a>
+      </div>
+    </div>
+  </header>
+    <script src="Chart.js"></script>
+    <div class="reports-wrapper">
+
+        <div id="myTabContent" class="tab-content"> 
+            <div role="tabpanel" class="tab-pane fade active in" id="stage" aria-labelledby="stage-tab">
+
+            <div class="select-box-wrapper">
+                <!-- <select ng-change="toggleDataDisplay('stage')" ng-model="selectedStageType" class="form-control">
+                    <option value="">Count</option>
+                    <option value="show-stage-percentage">Percentage</option>
+                </select> -->
+                <span class="score">Your Score: {{myScore}}%</span>
+            </div>
+            
+                <div id="canvas-holder">
+                    <canvas id="chart-area1" width="100" height="100"/>
+                </div>
+
+                <div id="graph-legend">
+                	<ul class="pie-legend show-stage-count">
+                      <li ng-repeat="data in graphData">
+                        <span class="pie-legend-icon"></span>
+                        <p class="pie-legend-text">{{data.label}} <span class="bold">({{data.value}})</span></p>
+                      </li>
+                    </ul>
+
+                    <ul class="pie-legend show-stage-percentage">
+                      <li ng-repeat="data in graphData">
+                        <span class="pie-legend-icon"></span>
+                        <p class="pie-legend-text">{{data.label}} <span class="bold">({{data.percentage}}%)</span></p>
+                      </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+	<script>
+
+		
+
+	</script>
+</div>
+
+<div class="login-page-tag-line tag-line">
+        <img src="images/tmf-tag-line.png" width="200" />
+      </div>
+

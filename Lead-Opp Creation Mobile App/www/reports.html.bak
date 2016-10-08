@@ -1,0 +1,77 @@
+<div ng-include="'side-menu.html'"></div>
+<div ng-controller="reportsController" class=" main-page lateral-slide-menu-main-page">
+    <div ng-include="'header.html'" class="fixed-header"></div>
+    <script src="Chart.js"></script>
+    <div class="reports-wrapper">
+        <ul id="myTabs" class="nav nav-tabs row" role="tablist"> 
+            <li role="presentation" class="active col-xs-6 col-md-6">
+                <a href="#stage" id="stage-tab" role="tab" data-toggle="tab" aria-controls="stage" aria-expanded="true" ng-click="toggleReports($event)">Stage</a>
+            </li>
+            <li role="presentation" class="col-xs-6 col-md-6">
+                <a href="#product" role="tab" id="product-tab" data-toggle="tab" aria-controls="product" aria-expanded="false" ng-click="toggleReports($event)">Product</a>
+            </li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content"> 
+            <div role="tabpanel" class="tab-pane fade active in" id="stage" aria-labelledby="stage-tab">
+                <div id="stagechart"></div>
+                <div id="canvas-holder">
+                    <canvas id="chart-area" width="100" height="100"/>
+                </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="product" aria-labelledby="product-tab">
+                <div id="productchart"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+		var pieData = [
+				{
+					value: 10,
+					color:"#0099C6",
+					highlight: "#0099C6",
+					label: "ACE"
+				},
+				{
+					value: 5,
+					color: "#DC3912",
+					highlight: "#DC3912",
+					label: "INDIGO"
+				},
+				{
+					value: 2,
+					color: "#FF9900",
+					highlight: "#FF9900",
+					label: "NANO"
+				},
+				{
+					value: 14,
+					color: "#109618",
+					highlight: "#109618",
+					label: "207"
+				},
+				{
+					value: 12,
+					color: "#990099",
+					highlight: "#990099",
+					label: "ZEST"
+				},
+				{
+					value: 1,
+					color: "#990099",
+					highlight: "#990099",
+					label: "TIAGO"
+				}
+
+			];
+
+			window.onload = function(){
+				var ctx = document.getElementById("chart-area").getContext("2d");
+				window.myPie = new Chart(ctx).Pie(pieData);
+			};
+
+	</script>

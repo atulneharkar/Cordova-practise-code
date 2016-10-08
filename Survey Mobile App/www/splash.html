@@ -1,0 +1,30 @@
+<div class="splash-wrapper">
+    <div class="splash-logo">
+      <img src="images/survey-logo.png" width="200"/>
+    </div>
+
+    <div class="login-page-tag-line tag-line">
+        <span class="copyright-text">Copyright @ 2016</span>
+        <img src="images/tmf-tag-line.png" width="200" />
+    </div>
+</div>
+
+<script>
+     $(document).ready(function () {
+            setHeight();
+        window.setTimeout(function () {
+            $(".splashScr").fadeOut("1000");
+          window.location.href = '#/login';
+         }, 3000);
+     });
+
+     window.onresize = function(event) {
+        setHeight();
+     }
+
+     function setHeight() {
+        var height = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight);
+
+        $('.splash-wrapper').height(height);
+     }
+</script>
